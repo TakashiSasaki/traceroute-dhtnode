@@ -9,17 +9,17 @@ import socket
 import time
 
 ADDRESS_FAMILY = socket.AF_INET6 # for IPv6
-ADDRESS_FAMILY = socket.AF_INET # for IPv4
 PROTOCOL_NUMBER_ICMP = socket.getprotobyname("ipv6-icmp") # for IPv4
 
 
 class UdpSocket:
+    ADDRESS_FAMILY = socket.AF_INET # for IPv4
     PROTOCOL_NUMBER_UDP = socket.getprotobyname("udp") 
     def __init__(self, dest, ttl):
         self.port = 33434
         self.dest = dest
         self.ttl = ttl
-        self.socket = socket.socket(ADDRESS_FAMILY, socket.SOCK_DGRAM, UdpSocket.PROTOCOL_NUMBER_UDP)
+        self.socket = socket.socket(UdpSocket.ADDRESS_FAMILY, socket.SOCK_DGRAM, UdpSocket.PROTOCOL_NUMBER_UDP)
         self.socket.setsockopt(socket.SOL_IP, socket.IP_TTL, ttl)
         self.buffer = bytes(512)
 
@@ -33,9 +33,10 @@ class UdpSocket:
         self.socket.close()
 
 class IcmpSocket:
+    ADDRESS_FAMILY = socket.AF_INET # for IPv4
     PROTOCOL_NUMBER_ICMP = socket.getprotobyname("icmp") # for IPv4
     def __init__(self):
-        self.socket = socket.socket(ADDRESS_FAMILY, socket.SOCK_RAW, IcmpSocket.PROTOCOL_NUMBER_ICMP)
+        self.socket = socket.socket(IcmpSocket.ADDRESS_FAMILY, socket.SOCK_RAW, IcmpSocket.PROTOCOL_NUMBER_ICMP)
 
     def receive(self):
         print("Receiving ICMP .. ", end="", flush=True)
@@ -60,7 +61,7 @@ class IcmpSocket:
         self.socket.close()
 
 def traceroute(dest):
-    max_hops = 30
+    MAX_TTL = 30
     #IPv6はgetaddrinfoでIPアドレスを取得する
     #dest_addr = socket.getaddrinfo(dest_name, None)
 
@@ -69,32 +70,13 @@ def traceroute(dest):
     ttl = 1
 
     while True:
-        udpSocket = UdpSocket(dest, ttl)
         icmpSocket = IcmpSocket()
-        #recv_socket = socket.socket(ADDRESS_FAMILY, socket.SOCK_RAW, PROTOCOL_NUMBER_ICMP)
-
-        #recv_socket.bind(("", 33434))
-
+        udpSocket = UdpSocket(dest, ttl)
         udpSocket.send()
 
-        curr_addr = None
-        curr_name = None
-
-
         try:
-            print("Receiving ICMP .. ", end="", flush=True)
             icmpSocket.receive()
-            #received_bytes, received_address = recv_socket.recvfrom(512)
-            endTime = time.time()
-
-            #icmp_type = int(received_bytes[20])
-            #icmp_code = int(received_bytes[21])
-            #icmp_data = received_bytes[24:]
-            #print(len(received_bytes),"bytes received from ", received_address[0], 
-            #        ", ICMP type = ", icmp_type, ", ICMP code = ", icmp_code)
-            #print("ICMP payload = ", bytes.hex(icmp_data))
             print("RTT = ", (icmpSocket.receivedTime - udpSocket.sentTime) * 1000, " ms")
-
 
             try:
                 print("FQDN = ", socket.gethostbyaddr(icmpSocket.receivedAddress[0]))
@@ -110,13 +92,9 @@ def traceroute(dest):
 
         ttl += 1
 
-        if icmpSocket.receivedAddress[0] == dest or ttl > max_hops:
+        if icmpSocket.receivedAddress[0] == dest or ttl > MAX_TTL:
             print("reached final destination.")
             break
 
 if __name__ == "__main__":
-    if len(sys.argv) == 4:
-        traceroute(str(sys.argv[1]))
-    else:
-        traceroute("133.71.200.55")
-
+    traceroute(str(sys.argv[1]))
