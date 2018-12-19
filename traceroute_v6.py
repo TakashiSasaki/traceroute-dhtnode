@@ -47,25 +47,15 @@ def traceroute(dest_name, port, max_hops):
         udpSocket = UdpSocket(dest_name, port, ttl)
         recv_socket = socket.socket(ADDRESS_FAMILY, socket.SOCK_RAW, PROTOCOL_NUMBER_ICMP)
 
-        #send_socket = socket.socket(ADDRESS_FAMILY, socket.SOCK_DGRAM, PROTOCOL_NUMBER_UDP)
-
-        #send_socket.setsockopt(socket.SOL_IP, socket.IP_TTL, ttl)
-
         recv_socket.bind(("", port))
 
-        #print("Sending UDP to ", dest_addr, " with TTL = ", ttl, end="")
         udpSocket.send()
-        #send_socket.sendto(bytes(512), (dest_addr, port))
-        #print(" done")
-
-        #startTime = time.time()
 
         curr_addr = None
         curr_name = None
 
 
         try:
-            #curr_name, curr_addr = recv_socket.recvfrom(512)
             print("Receiving ICMP .. ", end="", flush=True)
             received_bytes, received_address = recv_socket.recvfrom(512)
             endTime = time.time()
@@ -76,7 +66,6 @@ def traceroute(dest_name, port, max_hops):
             print(len(received_bytes),"bytes received from ", received_address[0], 
                     ", ICMP type = ", icmp_type, ", ICMP code = ", icmp_code)
             print("ICMP payload = ", bytes.hex(icmp_data))
-            #print("RTT = ", (endTime - startTime) * 1000, " ms")
             print("RTT = ", (endTime - udpSocket.sendTime) * 1000, " ms")
 
             if icmp_type == 3 and icmp_code == 1:
@@ -98,7 +87,6 @@ def traceroute(dest_name, port, max_hops):
 
         finally:
             udpSocket.close()
-            #send_socket.close()
             recv_socket.close()
 
         ttl += 1
