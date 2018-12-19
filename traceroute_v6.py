@@ -16,9 +16,9 @@ PROTOCOL_NUMBER_ICMP = socket.getprotobyname("icmp") # for IPv4
 
 class UdpSocket:
     PROTOCOL_NUMBER_UDP = socket.getprotobyname("udp") 
-    def __init__(self, dest, port, ttl):
+    def __init__(self, dest, ttl):
+        self.port = 33434
         self.dest = dest
-        self.port = port
         self.ttl = ttl
         self.socket = socket.socket(ADDRESS_FAMILY, socket.SOCK_DGRAM, UdpSocket.PROTOCOL_NUMBER_UDP)
         self.socket.setsockopt(socket.SOL_IP, socket.IP_TTL, ttl)
@@ -33,7 +33,8 @@ class UdpSocket:
     def close(self):
         self.socket.close()
 
-def traceroute(dest_name, port, max_hops):
+def traceroute(dest_name):
+    max_hops = 30
     #IPv6はgetaddrinfoでIPアドレスを取得する
     #dest_addr = socket.getaddrinfo(dest_name, None)
     dest_addr = dest_name
@@ -44,10 +45,10 @@ def traceroute(dest_name, port, max_hops):
     ttl = 1
 
     while True:
-        udpSocket = UdpSocket(dest_name, port, ttl)
+        udpSocket = UdpSocket(dest_name, ttl)
         recv_socket = socket.socket(ADDRESS_FAMILY, socket.SOCK_RAW, PROTOCOL_NUMBER_ICMP)
 
-        recv_socket.bind(("", port))
+        recv_socket.bind(("", 33434))
 
         udpSocket.send()
 
@@ -97,7 +98,7 @@ def traceroute(dest_name, port, max_hops):
 
 if __name__ == "__main__":
     if len(sys.argv) == 4:
-        traceroute(str(sys.argv[1]), int(sys.argv[2]), int(sys.argv[3]))
+        traceroute(str(sys.argv[1]))
     else:
-        traceroute("133.71.200.55", 1000, 20)
+        traceroute("133.71.200.55")
 
