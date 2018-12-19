@@ -12,7 +12,26 @@ ADDRESS_FAMILY = socket.AF_INET6 # for IPv6
 ADDRESS_FAMILY = socket.AF_INET # for IPv4
 PROTOCOL_NUMBER_ICMP = socket.getprotobyname("ipv6-icmp") # for IPv4
 PROTOCOL_NUMBER_ICMP = socket.getprotobyname("icmp") # for IPv4
-PROTOCOL_NUMBER_UDP = socket.getprotobyname("udp") 
+
+
+class UdpSocket:
+    PROTOCOL_NUMBER_UDP = socket.getprotobyname("udp") 
+    def __init__(self, dest, port, ttl):
+        self.dest = dest
+        self.port = port
+        self.ttl = ttl
+        self.socket = socket.socket(ADDRESS_FAMILY, socket.SOCK_DGRAM, UdpSocket.PROTOCOL_NUMBER_UDP)
+        self.socket.setsockopt(socket.SOL_IP, socket.IP_TTL, ttl)
+        self.buffer = bytes(512)
+
+    def send(self):
+        print("Sending UDP to ", self.dest, " with TTL = ", self.ttl, end="")
+        self.socket.sendto(self.buffer, (self.dest, self.port))
+        self.sendTime = time.time()
+        print(" done")
+
+    def close(self):
+        self.socket.close()
 
 def traceroute(dest_name, port, max_hops):
     #IPv6はgetaddrinfoでIPアドレスを取得する
@@ -25,19 +44,21 @@ def traceroute(dest_name, port, max_hops):
     ttl = 1
 
     while True:
+        udpSocket = UdpSocket(dest_name, port, ttl)
         recv_socket = socket.socket(ADDRESS_FAMILY, socket.SOCK_RAW, PROTOCOL_NUMBER_ICMP)
 
-        send_socket = socket.socket(ADDRESS_FAMILY, socket.SOCK_DGRAM, PROTOCOL_NUMBER_UDP)
+        #send_socket = socket.socket(ADDRESS_FAMILY, socket.SOCK_DGRAM, PROTOCOL_NUMBER_UDP)
 
-        send_socket.setsockopt(socket.SOL_IP, socket.IP_TTL, ttl)
+        #send_socket.setsockopt(socket.SOL_IP, socket.IP_TTL, ttl)
 
         recv_socket.bind(("", port))
 
-        print("Sending UDP to ", dest_addr, " with TTL = ", ttl, end="")
-        send_socket.sendto(bytes(512), (dest_addr, port))
-        print(" done")
+        #print("Sending UDP to ", dest_addr, " with TTL = ", ttl, end="")
+        udpSocket.send()
+        #send_socket.sendto(bytes(512), (dest_addr, port))
+        #print(" done")
 
-        startTime = time.time()
+        #startTime = time.time()
 
         curr_addr = None
         curr_name = None
@@ -55,7 +76,8 @@ def traceroute(dest_name, port, max_hops):
             print(len(received_bytes),"bytes received from ", received_address[0], 
                     ", ICMP type = ", icmp_type, ", ICMP code = ", icmp_code)
             print("ICMP payload = ", bytes.hex(icmp_data))
-            print("RTT = ", (endTime - startTime) * 1000, " ms")
+            #print("RTT = ", (endTime - startTime) * 1000, " ms")
+            print("RTT = ", (endTime - udpSocket.sendTime) * 1000, " ms")
 
             if icmp_type == 3 and icmp_code == 1:
                 print("ICMP : Host unreachable")
@@ -75,7 +97,8 @@ def traceroute(dest_name, port, max_hops):
             print (" timeout")
 
         finally:
-            send_socket.close()
+            udpSocket.close()
+            #send_socket.close()
             recv_socket.close()
 
         ttl += 1
