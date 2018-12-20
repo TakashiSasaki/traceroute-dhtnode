@@ -13,13 +13,12 @@ ADDRESS_FAMILY = socket.AF_INET6 # for IPv6
 PROTOCOL_NUMBER_ICMP = socket.getprotobyname("ipv6-icmp") # for IPv4
 TRACEROUTE_PORT = 33434
 
-class UdpSocket:
-    ADDRESS_FAMILY = socket.AF_INET # for IPv4
+class UdpSendingSocket4:
     PROTOCOL_NUMBER_UDP = socket.getprotobyname("udp") 
     def __init__(self, dest, ttl):
         self.dest = dest
         self.ttl = ttl
-        self.socket = socket.socket(UdpSocket.ADDRESS_FAMILY, socket.SOCK_DGRAM, UdpSocket.PROTOCOL_NUMBER_UDP)
+        self.socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM, UdpSendingSocket4.PROTOCOL_NUMBER_UDP)
         self.socket.setsockopt(socket.SOL_IP, socket.IP_TTL, ttl)
         self.buffer = bytes(512)
 
@@ -71,7 +70,7 @@ def traceroute(dest):
 
     while True:
         icmpSocket = IcmpSocket()
-        udpSocket = UdpSocket(dest, ttl)
+        udpSocket = UdpSendingSocket4(dest, ttl)
         udpSocket.send()
 
         try:
