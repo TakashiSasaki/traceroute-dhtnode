@@ -10,13 +10,12 @@ import time
 
 ADDRESS_FAMILY = socket.AF_INET6 # for IPv6
 PROTOCOL_NUMBER_ICMP = socket.getprotobyname("ipv6-icmp") # for IPv4
-
+TRACEROUTE_PORT = 33434
 
 class UdpSocket:
     ADDRESS_FAMILY = socket.AF_INET # for IPv4
     PROTOCOL_NUMBER_UDP = socket.getprotobyname("udp") 
     def __init__(self, dest, ttl):
-        self.port = 33434
         self.dest = dest
         self.ttl = ttl
         self.socket = socket.socket(UdpSocket.ADDRESS_FAMILY, socket.SOCK_DGRAM, UdpSocket.PROTOCOL_NUMBER_UDP)
@@ -25,7 +24,7 @@ class UdpSocket:
 
     def send(self):
         print("Sending UDP to ", self.dest, " with TTL = ", self.ttl, end="", flush=True, file=sys.stderr)
-        self.socket.sendto(self.buffer, (self.dest, self.port))
+        self.socket.sendto(self.buffer, (self.dest, TRACEROUTE_PORT))
         self.sentTime = time.time()
         print(" done", flush=True, file=sys.stderr)
 
