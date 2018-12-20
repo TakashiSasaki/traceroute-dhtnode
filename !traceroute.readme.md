@@ -1,4 +1,4 @@
-Reeimplementing traceroute for IPv4 and IPv6 to have good understanding of ICMPv6.
+Reeimplementing traceroute for IPv4 and IPv6 by Python to have good understanding of ICMPv6.
 
 Many thanks to the following pages.
 
