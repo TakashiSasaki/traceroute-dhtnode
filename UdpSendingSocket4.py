@@ -1,12 +1,12 @@
 import socket,sys,time
 TRACEROUTE_PORT = 33434
+PROTOCOL_NUMBER= socket.getprotobyname("udp") 
 
 class UdpSendingSocket4:
-    PROTOCOL_NUMBER_UDP = socket.getprotobyname("udp") 
     def __init__(self, dest, ttl):
         self.dest = dest
         self.ttl = ttl
-        self.socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM, UdpSendingSocket4.PROTOCOL_NUMBER_UDP)
+        self.socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM, PROTOCOL_NUMBER)
         self.socket.setsockopt(socket.SOL_IP, socket.IP_TTL, ttl)
         self.buffer = bytes(512)
 

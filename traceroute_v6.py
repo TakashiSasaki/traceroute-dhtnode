@@ -10,6 +10,7 @@ import select
 import time
 from UdpSendingSocket4 import UdpSendingSocket4
 from IcmpReceivingSocket4 import IcmpReceivingSocket4
+from UdpReceivingSocket4 import UdpReceivingSocket4
 
 ADDRESS_FAMILY = socket.AF_INET6 # for IPv6
 PROTOCOL_NUMBER_ICMP = socket.getprotobyname("ipv6-icmp") # for IPv4
@@ -24,30 +25,36 @@ def traceroute(dest):
     ttl = 1
 
     while True:
-        icmpSocket = IcmpReceivingSocket4()
-        udpSocket = UdpSendingSocket4(dest, ttl)
-        udpSocket.send()
+        irs4 = IcmpReceivingSocket4()
+        urs4 = UdpReceivingSocket4()
+        uss4 = UdpSendingSocket4(dest, ttl)
+        uss4.send()
 
         try:
-            readable_sockets, writable_sockets, error_sockets = select.select([icmpSocket.socket],[],[],15)
+            readable_sockets, writable_sockets, error_sockets = select.select([irs4.socket, urs4.socket],[],[], 15)
             if len(readable_sockets) == 0:
                 raise "no readable socket"
 
-            if readable_sockets[0] == icmpSocket.socket:
-                icmpSocket.receive()
+            if readable_sockets[0] == irs4.socket:
+                irs4.receive()
+                print("RTT = ", (irs4.receivedTime - uss4.sentTime) * 1000, " ms", flush=True, file=sys.stderr)
 
-            print("RTT = ", (icmpSocket.receivedTime - udpSocket.sentTime) * 1000, " ms", flush=True, file=sys.stderr)
+            if readable_sockets[0] == urs4.socket:
+                urs4.receive()
+                print("RTT = ", (urs4.receivedTime - uss4.sentTime) * 1000, " ms", flush=True, file=sys.stderr)
+
 
         except socket.error:
             print (" timeout", flush=True, file=sys.stderr)
 
         finally:
-            udpSocket.close()
-            icmpSocket.close()
+            uss4.close()
+            irs4.close()
+            urs4.close()
 
         ttl += 1
 
-        if icmpSocket.receivedAddress[0] == dest or ttl > MAX_TTL:
+        if irs4.receivedAddress[0] == dest or ttl > MAX_TTL:
             print("reached final destination.", flush=True, file=sys.stderr)
             break
 
