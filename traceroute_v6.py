@@ -6,6 +6,7 @@
 
 import sys
 import socket
+import select
 import time
 
 ADDRESS_FAMILY = socket.AF_INET6 # for IPv6
@@ -74,13 +75,14 @@ def traceroute(dest):
         udpSocket.send()
 
         try:
-            icmpSocket.receive()
-            print("RTT = ", (icmpSocket.receivedTime - udpSocket.sentTime) * 1000, " ms", flush=True, file=sys.stderr)
+            readable_sockets, writable_sockets, error_sockets = select.select([icmpSocket.socket],[],[],15)
+            if len(readable_sockets) == 0:
+                raise "no readable socket"
 
-            try:
-                print("FQDN = ", socket.gethostbyaddr(icmpSocket.receivedAddress[0]), flush=True, file=sys.stderr)
-            except socket.error:
-                pass
+            if readable_sockets[0] == icmpSocket.socket:
+                icmpSocket.receive()
+
+            print("RTT = ", (icmpSocket.receivedTime - udpSocket.sentTime) * 1000, " ms", flush=True, file=sys.stderr)
 
         except socket.error:
             print (" timeout", flush=True, file=sys.stderr)
