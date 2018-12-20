@@ -9,38 +9,10 @@ import socket
 import select
 import time
 from UdpSendingSocket4 import UdpSendingSocket4
+from IcmpReceivingSocket4 import IcmpReceivingSocket4
 
 ADDRESS_FAMILY = socket.AF_INET6 # for IPv6
 PROTOCOL_NUMBER_ICMP = socket.getprotobyname("ipv6-icmp") # for IPv4
-TRACEROUTE_PORT = 33434
-
-class IcmpSocket:
-    ADDRESS_FAMILY = socket.AF_INET # for IPv4
-    PROTOCOL_NUMBER_ICMP = socket.getprotobyname("icmp") # for IPv4
-    def __init__(self):
-        self.socket = socket.socket(IcmpSocket.ADDRESS_FAMILY, socket.SOCK_RAW, IcmpSocket.PROTOCOL_NUMBER_ICMP)
-
-    def receive(self):
-        print("Receiving ICMP .. ", end="", flush=True, file=sys.stderr)
-        self.receivedBytes, self.receivedAddress = self.socket.recvfrom(512)
-        self.receivedTime = time.time()
-        self.type = int(self.receivedBytes[20])
-        self.code = int(self.receivedBytes[21])
-        self.data = self.receivedBytes[24:]
-        print(len(self.receivedBytes),"bytes received from ", self.receivedAddress[0], 
-                ", ICMP type = ", self.type, ", ICMP code = ", self.code, flush=True, file=sys.stderr)
-        print("ICMP payload = ", bytes.hex(self.data), flush=True, file=sys.stderr)
-        if self.type == 3 and self.code == 1:
-            print("ICMP : Host unreachable", flush=True, file=sys.stderr)
-        elif self.type == 3 and self.code == 3:
-            print("ICMP : Port unreachable", flush=True, file=sys.stderr)
-        elif self.type == 11 and self.code == 0:
-            print("ICMP : TTL equals 0 during transit", flush=True, file=sys.stderr)
-        else:
-            print("ICMP : other reason", flush=True, file=sys.stderr)
-
-    def close(self):
-        self.socket.close()
 
 def traceroute(dest):
     MAX_TTL = 30
@@ -52,7 +24,7 @@ def traceroute(dest):
     ttl = 1
 
     while True:
-        icmpSocket = IcmpSocket()
+        icmpSocket = IcmpReceivingSocket4()
         udpSocket = UdpSendingSocket4(dest, ttl)
         udpSocket.send()
 
