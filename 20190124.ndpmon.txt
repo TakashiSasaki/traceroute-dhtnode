@@ -1,0 +1,37 @@
+----- Initialization -----
+Debug mode on
+interface: eth0 
+Interface: eth0
+Net: 133.71.3.0
+Mask: 255.255.255.0
+
+Reading configuration file: "/etc/ndpmon/config_ndpmon.xml" ...
+    Done.
+Routers' List Parsed:
+Neighbors' List Parsed:
+Neighbor (4c:cc:6a:1:39:8c,fe80:0:0:0:3953:9778:3a8c:3456,1548231170):
+
+Neighbor (b8:27:eb:46:0:9d,fe80:0:0:0:0:0:0:62,1548234589):
+
+Neighbor (c4:9d:ed:90:27:1c[픳fe80:0:0:0:6c5f:38b6:fae4:893e,fe80:0:0:0:6c5f:38b6:fae4:893e,1548235452):
+
+Neighbor (20:cf:30:3a:66:7b[픳fe80:0:0:0:7950:97a5:daa2:593a,fe80:0:0:0:7950:97a5:daa2:593a,1548234680):
+
+Neighbor (e4:f0:42:11:35:62[픳fe80:0:0:0:e6f0:42ff:fe11:3562,fe80:0:0:0:e6f0:42ff:fe11:3562,1548263285):
+
+Neighbor (a8:60:b6:2b:b5:5d[픳fe80:0:0:0:102b:9e51:dbc8:f7f9,fe80:0:0:0:102b:9e51:dbc8:f7f9,1548302860):
+
+Neighbor (40:8d:5c:bf:79:a6[픳fe80:0:0:0:7095:590f:e119:87a3,fe80:0:0:0:7095:590f:e119:87a3,1548304002):
+
+Neighbor (40:8d:5c:b8:e0:90[픳fe80:0:0:0:6c14:81f3:81a5:5eb5,fe80:0:0:0:6c14:81f3:81a5:5eb5,1548307812):
+
+Neighbor (40:8d:5c:bf:37:d9[픳fe80:0:0:0:cd67:9fb6:ce1c:1616,fe80:0:0:0:cd67:9fb6:ce1c:1616,1548308170):
+
+Neighbor (80:38:96:39:a:ad,fe80:0:0:0:8238:96ff:fe39:aad,1548316527):
+
+Neighbor (a0:b:ba:d4:a8:7c,fe80:0:0:0:a20b:baff:fed4:a87c,1548313433):
+
+Neighbor (40:8d:5c:bc:83:22[픳fe80:0:0:0:e99f:749e:93aa:f3d9,fe80:0:0:0:e99f:749e:93aa:f3d9,1548317622):
+
+------------------
+

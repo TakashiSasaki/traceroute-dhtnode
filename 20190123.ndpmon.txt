@@ -1,0 +1,959 @@
+----- Initialization -----
+Debug mode on
+interface: eth0 
+Interface: eth0
+Net: 133.71.3.0
+Mask: 255.255.255.0
+
+Reading configuration file: "/etc/ndpmon/config_ndpmon.xml" ...
+    Done.
+Routers' List Parsed:
+Neighbors' List Parsed:
+Neighbor (4c:cc:6a:1:39:8c,fe80:0:0:0:3953:9778:3a8c:3456,1548231170):
+
+Neighbor (b8:27:eb:46:0:9d,fe80:0:0:0:0:0:0:62,1548234589):
+
+------------------
+
+length of this packet: 78
+Received at: Wed Jan 23 18:11:12 2019
+Source mac address: c4:9d:ed:90:27:1c 
+Destination mac address: 33:33:ff:e4:89:3e 
+Ethernet type hex:86dd dec: it's an IPv6 packet
+Source ipv6 address: 0:0:0:0:0:0:0:0
+Destination ipv6 address: ff02:0:0:0:0:1:ffe4:893e
+Next header type: 58
+IP type: 58, it's an ICMPv6 packet
+ND type: 135
+----- ND_NEIGHBOR_SOLICIT -----
+Neighbor Solicitation: 
+Target Address: fe80:0:0:0:6c5f:38b6:fae4:893e 
+Setting LAST DAD ADDR
+------------------
+
+length of this packet: 62
+Received at: Wed Jan 23 18:11:12 2019
+Source mac address: c4:9d:ed:90:27:1c 
+Destination mac address: 33:33:0:0:0:2 
+Ethernet type hex:86dd dec: it's an IPv6 packet
+Source ipv6 address: fe80:0:0:0:6c5f:38b6:fae4:893e
+Destination ipv6 address: ff02:0:0:0:0:0:0:2
+Next header type: 58
+IP type: 58, it's an ICMPv6 packet
+ND type: 133
+----- ND_ROUTER_SOLICIT -----
+Router Solicitation 
+New Ethernet 1 -> found_mac: 0 found_lla: 0 found_ip: 0
+------------------
+
+length of this packet: 86
+Received at: Wed Jan 23 18:11:13 2019
+Source mac address: c4:9d:ed:90:27:1c 
+Destination mac address: 33:33:0:0:0:1 
+Ethernet type hex:86dd dec: it's an IPv6 packet
+Source ipv6 address: fe80:0:0:0:6c5f:38b6:fae4:893e
+Destination ipv6 address: ff02:0:0:0:0:0:0:1
+Next header type: 58
+IP type: 58, it's an ICMPv6 packet
+ND type: 136
+----- ND_NEIGHBOR_ADVERT -----
+Neighbor Advertisement: 
+Target Address: fe80:0:0:0:6c5f:38b6:fae4:893e 
+New Ethernet 0 -> found_mac: 1 found_lla: 1 found_ip: 0
+Reset timer for c4:9d:ed:90:27:1c fe80:0:0:0:6c5f:38b6:fae4:893e
+Option type: 2
+Option length: 1
+------------------
+
+length of this packet: 70
+Received at: Wed Jan 23 18:11:13 2019
+Source mac address: c4:9d:ed:90:27:1c 
+Destination mac address: 33:33:0:0:0:2 
+Ethernet type hex:86dd dec: it's an IPv6 packet
+Source ipv6 address: fe80:0:0:0:6c5f:38b6:fae4:893e
+Destination ipv6 address: ff02:0:0:0:0:0:0:2
+Next header type: 58
+IP type: 58, it's an ICMPv6 packet
+ND type: 133
+----- ND_ROUTER_SOLICIT -----
+Router Solicitation 
+New Ethernet 0 -> found_mac: 1 found_lla: 1 found_ip: 0
+Reset timer for c4:9d:ed:90:27:1c fe80:0:0:0:6c5f:38b6:fae4:893e
+Option type: 1
+Option length: 1
+------------------
+
+length of this packet: 70
+Received at: Wed Jan 23 18:11:14 2019
+Source mac address: c4:9d:ed:90:27:1c 
+Destination mac address: 33:33:0:0:0:2 
+Ethernet type hex:86dd dec: it's an IPv6 packet
+Source ipv6 address: fe80:0:0:0:6c5f:38b6:fae4:893e
+Destination ipv6 address: ff02:0:0:0:0:0:0:2
+Next header type: 58
+IP type: 58, it's an ICMPv6 packet
+ND type: 133
+----- ND_ROUTER_SOLICIT -----
+Router Solicitation 
+New Ethernet 0 -> found_mac: 1 found_lla: 1 found_ip: 0
+Reset timer for c4:9d:ed:90:27:1c fe80:0:0:0:6c5f:38b6:fae4:893e
+Option type: 1
+Option length: 1
+------------------
+
+length of this packet: 86
+Received at: Wed Jan 23 18:11:15 2019
+Source mac address: c4:9d:ed:90:27:1c 
+Destination mac address: 33:33:ff:f5:da:97 
+Ethernet type hex:86dd dec: it's an IPv6 packet
+Source ipv6 address: fe80:0:0:0:6c5f:38b6:fae4:893e
+Destination ipv6 address: ff02:0:0:0:0:1:fff5:da97
+Next header type: 58
+IP type: 58, it's an ICMPv6 packet
+ND type: 135
+----- ND_NEIGHBOR_SOLICIT -----
+Neighbor Solicitation: 
+Target Address: fe80:0:0:0:f47d:52ac:f2f5:da97 
+New Ethernet 0 -> found_mac: 1 found_lla: 1 found_ip: 0
+Reset timer for c4:9d:ed:90:27:1c fe80:0:0:0:6c5f:38b6:fae4:893e
+Option type: 1
+Option length: 1
+------------------
+
+length of this packet: 86
+Received at: Wed Jan 23 18:11:19 2019
+Source mac address: 20:cf:30:3a:66:7b 
+Destination mac address: 33:33:ff:e4:89:3e 
+Ethernet type hex:86dd dec: it's an IPv6 packet
+Source ipv6 address: fe80:0:0:0:7950:97a5:daa2:593a
+Destination ipv6 address: ff02:0:0:0:0:1:ffe4:893e
+Next header type: 58
+IP type: 58, it's an ICMPv6 packet
+ND type: 135
+----- ND_NEIGHBOR_SOLICIT -----
+Neighbor Solicitation: 
+Target Address: fe80:0:0:0:6c5f:38b6:fae4:893e 
+New Ethernet 1 -> found_mac: 0 found_lla: 0 found_ip: 0
+Option type: 1
+Option length: 1
+------------------
+
+length of this packet: 78
+Received at: Wed Jan 23 18:24:10 2019
+Source mac address: c4:9d:ed:90:27:1c 
+Destination mac address: 33:33:ff:e4:89:3e 
+Ethernet type hex:86dd dec: it's an IPv6 packet
+Source ipv6 address: 0:0:0:0:0:0:0:0
+Destination ipv6 address: ff02:0:0:0:0:1:ffe4:893e
+Next header type: 58
+IP type: 58, it's an ICMPv6 packet
+ND type: 135
+----- ND_NEIGHBOR_SOLICIT -----
+Neighbor Solicitation: 
+Target Address: fe80:0:0:0:6c5f:38b6:fae4:893e 
+Setting LAST DAD ADDR
+------------------
+
+length of this packet: 62
+Received at: Wed Jan 23 18:24:10 2019
+Source mac address: c4:9d:ed:90:27:1c 
+Destination mac address: 33:33:0:0:0:2 
+Ethernet type hex:86dd dec: it's an IPv6 packet
+Source ipv6 address: fe80:0:0:0:6c5f:38b6:fae4:893e
+Destination ipv6 address: ff02:0:0:0:0:0:0:2
+Next header type: 58
+IP type: 58, it's an ICMPv6 packet
+ND type: 133
+----- ND_ROUTER_SOLICIT -----
+Router Solicitation 
+New Ethernet 0 -> found_mac: 1 found_lla: 1 found_ip: 0
+Reset timer for c4:9d:ed:90:27:1c fe80:0:0:0:6c5f:38b6:fae4:893e
+------------------
+
+length of this packet: 86
+Received at: Wed Jan 23 18:24:11 2019
+Source mac address: c4:9d:ed:90:27:1c 
+Destination mac address: 33:33:0:0:0:1 
+Ethernet type hex:86dd dec: it's an IPv6 packet
+Source ipv6 address: fe80:0:0:0:6c5f:38b6:fae4:893e
+Destination ipv6 address: ff02:0:0:0:0:0:0:1
+Next header type: 58
+IP type: 58, it's an ICMPv6 packet
+ND type: 136
+----- ND_NEIGHBOR_ADVERT -----
+Neighbor Advertisement: 
+Target Address: fe80:0:0:0:6c5f:38b6:fae4:893e 
+New Ethernet 0 -> found_mac: 1 found_lla: 1 found_ip: 0
+Reset timer for c4:9d:ed:90:27:1c fe80:0:0:0:6c5f:38b6:fae4:893e
+Option type: 2
+Option length: 1
+------------------
+
+length of this packet: 70
+Received at: Wed Jan 23 18:24:11 2019
+Source mac address: c4:9d:ed:90:27:1c 
+Destination mac address: 33:33:0:0:0:2 
+Ethernet type hex:86dd dec: it's an IPv6 packet
+Source ipv6 address: fe80:0:0:0:6c5f:38b6:fae4:893e
+Destination ipv6 address: ff02:0:0:0:0:0:0:2
+Next header type: 58
+IP type: 58, it's an ICMPv6 packet
+ND type: 133
+----- ND_ROUTER_SOLICIT -----
+Router Solicitation 
+New Ethernet 0 -> found_mac: 1 found_lla: 1 found_ip: 0
+Reset timer for c4:9d:ed:90:27:1c fe80:0:0:0:6c5f:38b6:fae4:893e
+Option type: 1
+Option length: 1
+------------------
+
+length of this packet: 70
+Received at: Wed Jan 23 18:24:12 2019
+Source mac address: c4:9d:ed:90:27:1c 
+Destination mac address: 33:33:0:0:0:2 
+Ethernet type hex:86dd dec: it's an IPv6 packet
+Source ipv6 address: fe80:0:0:0:6c5f:38b6:fae4:893e
+Destination ipv6 address: ff02:0:0:0:0:0:0:2
+Next header type: 58
+IP type: 58, it's an ICMPv6 packet
+ND type: 133
+----- ND_ROUTER_SOLICIT -----
+Router Solicitation 
+New Ethernet 0 -> found_mac: 1 found_lla: 1 found_ip: 0
+Reset timer for c4:9d:ed:90:27:1c fe80:0:0:0:6c5f:38b6:fae4:893e
+Option type: 1
+Option length: 1
+------------------
+
+length of this packet: 86
+Received at: Wed Jan 23 18:24:12 2019
+Source mac address: c4:9d:ed:90:27:1c 
+Destination mac address: 33:33:ff:f5:da:97 
+Ethernet type hex:86dd dec: it's an IPv6 packet
+Source ipv6 address: fe80:0:0:0:6c5f:38b6:fae4:893e
+Destination ipv6 address: ff02:0:0:0:0:1:fff5:da97
+Next header type: 58
+IP type: 58, it's an ICMPv6 packet
+ND type: 135
+----- ND_NEIGHBOR_SOLICIT -----
+Neighbor Solicitation: 
+Target Address: fe80:0:0:0:f47d:52ac:f2f5:da97 
+New Ethernet 0 -> found_mac: 1 found_lla: 1 found_ip: 0
+Reset timer for c4:9d:ed:90:27:1c fe80:0:0:0:6c5f:38b6:fae4:893e
+Option type: 1
+Option length: 1
+------------------
+
+length of this packet: 78
+Received at: Thu Jan 24 02:07:57 2019
+Source mac address: e4:f0:42:11:35:62 
+Destination mac address: 33:33:ff:11:35:62 
+Ethernet type hex:86dd dec: it's an IPv6 packet
+Source ipv6 address: 0:0:0:0:0:0:0:0
+Destination ipv6 address: ff02:0:0:0:0:1:ff11:3562
+Next header type: 58
+IP type: 58, it's an ICMPv6 packet
+ND type: 135
+----- ND_NEIGHBOR_SOLICIT -----
+Neighbor Solicitation: 
+Target Address: fe80:0:0:0:e6f0:42ff:fe11:3562 
+Setting LAST DAD ADDR
+------------------
+
+length of this packet: 70
+Received at: Thu Jan 24 02:07:57 2019
+Source mac address: e4:f0:42:11:35:62 
+Destination mac address: 33:33:0:0:0:2 
+Ethernet type hex:86dd dec: it's an IPv6 packet
+Source ipv6 address: fe80:0:0:0:e6f0:42ff:fe11:3562
+Destination ipv6 address: ff02:0:0:0:0:0:0:2
+Next header type: 58
+IP type: 58, it's an ICMPv6 packet
+ND type: 133
+----- ND_ROUTER_SOLICIT -----
+Router Solicitation 
+New Ethernet 1 -> found_mac: 0 found_lla: 0 found_ip: 0
+Option type: 1
+Option length: 1
+------------------
+
+length of this packet: 70
+Received at: Thu Jan 24 02:08:01 2019
+Source mac address: e4:f0:42:11:35:62 
+Destination mac address: 33:33:0:0:0:2 
+Ethernet type hex:86dd dec: it's an IPv6 packet
+Source ipv6 address: fe80:0:0:0:e6f0:42ff:fe11:3562
+Destination ipv6 address: ff02:0:0:0:0:0:0:2
+Next header type: 58
+IP type: 58, it's an ICMPv6 packet
+ND type: 133
+----- ND_ROUTER_SOLICIT -----
+Router Solicitation 
+New Ethernet 0 -> found_mac: 1 found_lla: 1 found_ip: 0
+Reset timer for e4:f0:42:11:35:62 fe80:0:0:0:e6f0:42ff:fe11:3562
+Option type: 1
+Option length: 1
+------------------
+
+length of this packet: 70
+Received at: Thu Jan 24 02:08:05 2019
+Source mac address: e4:f0:42:11:35:62 
+Destination mac address: 33:33:0:0:0:2 
+Ethernet type hex:86dd dec: it's an IPv6 packet
+Source ipv6 address: fe80:0:0:0:e6f0:42ff:fe11:3562
+Destination ipv6 address: ff02:0:0:0:0:0:0:2
+Next header type: 58
+IP type: 58, it's an ICMPv6 packet
+ND type: 133
+----- ND_ROUTER_SOLICIT -----
+Router Solicitation 
+New Ethernet 0 -> found_mac: 1 found_lla: 1 found_ip: 0
+Reset timer for e4:f0:42:11:35:62 fe80:0:0:0:e6f0:42ff:fe11:3562
+Option type: 1
+Option length: 1
+------------------
+
+length of this packet: 86
+Received at: Thu Jan 24 13:07:30 2019
+Source mac address: a8:60:b6:2b:b5:5d 
+Destination mac address: 33:33:ff:c8:f7:f9 
+Ethernet type hex:86dd dec: it's an IPv6 packet
+Source ipv6 address: 0:0:0:0:0:0:0:0
+Destination ipv6 address: ff02:0:0:0:0:1:ffc8:f7f9
+Next header type: 58
+IP type: 58, it's an ICMPv6 packet
+ND type: 135
+----- ND_NEIGHBOR_SOLICIT -----
+Neighbor Solicitation: 
+Target Address: fe80:0:0:0:102b:9e51:dbc8:f7f9 
+Setting LAST DAD ADDR
+Option type: 14
+Option length: 1
+------------------
+
+length of this packet: 62
+Received at: Thu Jan 24 13:07:30 2019
+Source mac address: a8:60:b6:2b:b5:5d 
+Destination mac address: 33:33:0:0:0:2 
+Ethernet type hex:86dd dec: it's an IPv6 packet
+Source ipv6 address: fe80:0:0:0:102b:9e51:dbc8:f7f9
+Destination ipv6 address: ff02:0:0:0:0:0:0:2
+Next header type: 58
+IP type: 58, it's an ICMPv6 packet
+ND type: 133
+----- ND_ROUTER_SOLICIT -----
+Router Solicitation 
+New Ethernet 1 -> found_mac: 0 found_lla: 0 found_ip: 0
+------------------
+
+length of this packet: 70
+Received at: Thu Jan 24 13:07:35 2019
+Source mac address: a8:60:b6:2b:b5:5d 
+Destination mac address: 33:33:0:0:0:2 
+Ethernet type hex:86dd dec: it's an IPv6 packet
+Source ipv6 address: fe80:0:0:0:102b:9e51:dbc8:f7f9
+Destination ipv6 address: ff02:0:0:0:0:0:0:2
+Next header type: 58
+IP type: 58, it's an ICMPv6 packet
+ND type: 133
+----- ND_ROUTER_SOLICIT -----
+Router Solicitation 
+New Ethernet 0 -> found_mac: 1 found_lla: 1 found_ip: 0
+Reset timer for a8:60:b6:2b:b5:5d fe80:0:0:0:102b:9e51:dbc8:f7f9
+Option type: 1
+Option length: 1
+------------------
+
+length of this packet: 70
+Received at: Thu Jan 24 13:07:40 2019
+Source mac address: a8:60:b6:2b:b5:5d 
+Destination mac address: 33:33:0:0:0:2 
+Ethernet type hex:86dd dec: it's an IPv6 packet
+Source ipv6 address: fe80:0:0:0:102b:9e51:dbc8:f7f9
+Destination ipv6 address: ff02:0:0:0:0:0:0:2
+Next header type: 58
+IP type: 58, it's an ICMPv6 packet
+ND type: 133
+----- ND_ROUTER_SOLICIT -----
+Router Solicitation 
+New Ethernet 0 -> found_mac: 1 found_lla: 1 found_ip: 0
+Reset timer for a8:60:b6:2b:b5:5d fe80:0:0:0:102b:9e51:dbc8:f7f9
+Option type: 1
+Option length: 1
+------------------
+
+length of this packet: 78
+Received at: Thu Jan 24 13:26:34 2019
+Source mac address: 40:8d:5c:bf:79:a6 
+Destination mac address: 33:33:ff:19:87:a3 
+Ethernet type hex:86dd dec: it's an IPv6 packet
+Source ipv6 address: 0:0:0:0:0:0:0:0
+Destination ipv6 address: ff02:0:0:0:0:1:ff19:87a3
+Next header type: 58
+IP type: 58, it's an ICMPv6 packet
+ND type: 135
+----- ND_NEIGHBOR_SOLICIT -----
+Neighbor Solicitation: 
+Target Address: fe80:0:0:0:7095:590f:e119:87a3 
+Setting LAST DAD ADDR
+------------------
+
+length of this packet: 62
+Received at: Thu Jan 24 13:26:34 2019
+Source mac address: 40:8d:5c:bf:79:a6 
+Destination mac address: 33:33:0:0:0:2 
+Ethernet type hex:86dd dec: it's an IPv6 packet
+Source ipv6 address: fe80:0:0:0:7095:590f:e119:87a3
+Destination ipv6 address: ff02:0:0:0:0:0:0:2
+Next header type: 58
+IP type: 58, it's an ICMPv6 packet
+ND type: 133
+----- ND_ROUTER_SOLICIT -----
+Router Solicitation 
+New Ethernet 1 -> found_mac: 0 found_lla: 0 found_ip: 0
+------------------
+
+length of this packet: 86
+Received at: Thu Jan 24 13:26:35 2019
+Source mac address: 40:8d:5c:bf:79:a6 
+Destination mac address: 33:33:0:0:0:1 
+Ethernet type hex:86dd dec: it's an IPv6 packet
+Source ipv6 address: fe80:0:0:0:7095:590f:e119:87a3
+Destination ipv6 address: ff02:0:0:0:0:0:0:1
+Next header type: 58
+IP type: 58, it's an ICMPv6 packet
+ND type: 136
+----- ND_NEIGHBOR_ADVERT -----
+Neighbor Advertisement: 
+Target Address: fe80:0:0:0:7095:590f:e119:87a3 
+New Ethernet 0 -> found_mac: 1 found_lla: 1 found_ip: 0
+Reset timer for 40:8d:5c:bf:79:a6 fe80:0:0:0:7095:590f:e119:87a3
+Option type: 2
+Option length: 1
+------------------
+
+length of this packet: 70
+Received at: Thu Jan 24 13:26:38 2019
+Source mac address: 40:8d:5c:bf:79:a6 
+Destination mac address: 33:33:0:0:0:2 
+Ethernet type hex:86dd dec: it's an IPv6 packet
+Source ipv6 address: fe80:0:0:0:7095:590f:e119:87a3
+Destination ipv6 address: ff02:0:0:0:0:0:0:2
+Next header type: 58
+IP type: 58, it's an ICMPv6 packet
+ND type: 133
+----- ND_ROUTER_SOLICIT -----
+Router Solicitation 
+New Ethernet 0 -> found_mac: 1 found_lla: 1 found_ip: 0
+Reset timer for 40:8d:5c:bf:79:a6 fe80:0:0:0:7095:590f:e119:87a3
+Option type: 1
+Option length: 1
+------------------
+
+length of this packet: 70
+Received at: Thu Jan 24 13:26:42 2019
+Source mac address: 40:8d:5c:bf:79:a6 
+Destination mac address: 33:33:0:0:0:2 
+Ethernet type hex:86dd dec: it's an IPv6 packet
+Source ipv6 address: fe80:0:0:0:7095:590f:e119:87a3
+Destination ipv6 address: ff02:0:0:0:0:0:0:2
+Next header type: 58
+IP type: 58, it's an ICMPv6 packet
+ND type: 133
+----- ND_ROUTER_SOLICIT -----
+Router Solicitation 
+New Ethernet 0 -> found_mac: 1 found_lla: 1 found_ip: 0
+Reset timer for 40:8d:5c:bf:79:a6 fe80:0:0:0:7095:590f:e119:87a3
+Option type: 1
+Option length: 1
+------------------
+
+length of this packet: 86
+Received at: Thu Jan 24 14:30:04 2019
+Source mac address: 40:8d:5c:b8:e0:90 
+Destination mac address: 33:33:0:0:0:1 
+Ethernet type hex:86dd dec: it's an IPv6 packet
+Source ipv6 address: fe80:0:0:0:6c14:81f3:81a5:5eb5
+Destination ipv6 address: ff02:0:0:0:0:0:0:1
+Next header type: 58
+IP type: 58, it's an ICMPv6 packet
+ND type: 136
+----- ND_NEIGHBOR_ADVERT -----
+Neighbor Advertisement: 
+Target Address: fe80:0:0:0:6c14:81f3:81a5:5eb5 
+New Ethernet 1 -> found_mac: 0 found_lla: 0 found_ip: 0
+Option type: 2
+Option length: 1
+------------------
+
+length of this packet: 70
+Received at: Thu Jan 24 14:30:07 2019
+Source mac address: 40:8d:5c:b8:e0:90 
+Destination mac address: 33:33:0:0:0:2 
+Ethernet type hex:86dd dec: it's an IPv6 packet
+Source ipv6 address: fe80:0:0:0:6c14:81f3:81a5:5eb5
+Destination ipv6 address: ff02:0:0:0:0:0:0:2
+Next header type: 58
+IP type: 58, it's an ICMPv6 packet
+ND type: 133
+----- ND_ROUTER_SOLICIT -----
+Router Solicitation 
+New Ethernet 0 -> found_mac: 1 found_lla: 1 found_ip: 0
+Reset timer for 40:8d:5c:b8:e0:90 fe80:0:0:0:6c14:81f3:81a5:5eb5
+Option type: 1
+Option length: 1
+------------------
+
+length of this packet: 70
+Received at: Thu Jan 24 14:30:11 2019
+Source mac address: 40:8d:5c:b8:e0:90 
+Destination mac address: 33:33:0:0:0:2 
+Ethernet type hex:86dd dec: it's an IPv6 packet
+Source ipv6 address: fe80:0:0:0:6c14:81f3:81a5:5eb5
+Destination ipv6 address: ff02:0:0:0:0:0:0:2
+Next header type: 58
+IP type: 58, it's an ICMPv6 packet
+ND type: 133
+----- ND_ROUTER_SOLICIT -----
+Router Solicitation 
+New Ethernet 0 -> found_mac: 1 found_lla: 1 found_ip: 0
+Reset timer for 40:8d:5c:b8:e0:90 fe80:0:0:0:6c14:81f3:81a5:5eb5
+Option type: 1
+Option length: 1
+------------------
+
+length of this packet: 86
+Received at: Thu Jan 24 14:36:03 2019
+Source mac address: 40:8d:5c:bf:37:d9 
+Destination mac address: 33:33:0:0:0:1 
+Ethernet type hex:86dd dec: it's an IPv6 packet
+Source ipv6 address: fe80:0:0:0:cd67:9fb6:ce1c:1616
+Destination ipv6 address: ff02:0:0:0:0:0:0:1
+Next header type: 58
+IP type: 58, it's an ICMPv6 packet
+ND type: 136
+----- ND_NEIGHBOR_ADVERT -----
+Neighbor Advertisement: 
+Target Address: fe80:0:0:0:cd67:9fb6:ce1c:1616 
+New Ethernet 1 -> found_mac: 0 found_lla: 0 found_ip: 0
+Option type: 2
+Option length: 1
+------------------
+
+length of this packet: 70
+Received at: Thu Jan 24 14:36:06 2019
+Source mac address: 40:8d:5c:bf:37:d9 
+Destination mac address: 33:33:0:0:0:2 
+Ethernet type hex:86dd dec: it's an IPv6 packet
+Source ipv6 address: fe80:0:0:0:cd67:9fb6:ce1c:1616
+Destination ipv6 address: ff02:0:0:0:0:0:0:2
+Next header type: 58
+IP type: 58, it's an ICMPv6 packet
+ND type: 133
+----- ND_ROUTER_SOLICIT -----
+Router Solicitation 
+New Ethernet 0 -> found_mac: 1 found_lla: 1 found_ip: 0
+Reset timer for 40:8d:5c:bf:37:d9 fe80:0:0:0:cd67:9fb6:ce1c:1616
+Option type: 1
+Option length: 1
+------------------
+
+length of this packet: 70
+Received at: Thu Jan 24 14:36:10 2019
+Source mac address: 40:8d:5c:bf:37:d9 
+Destination mac address: 33:33:0:0:0:2 
+Ethernet type hex:86dd dec: it's an IPv6 packet
+Source ipv6 address: fe80:0:0:0:cd67:9fb6:ce1c:1616
+Destination ipv6 address: ff02:0:0:0:0:0:0:2
+Next header type: 58
+IP type: 58, it's an ICMPv6 packet
+ND type: 133
+----- ND_ROUTER_SOLICIT -----
+Router Solicitation 
+New Ethernet 0 -> found_mac: 1 found_lla: 1 found_ip: 0
+Reset timer for 40:8d:5c:bf:37:d9 fe80:0:0:0:cd67:9fb6:ce1c:1616
+Option type: 1
+Option length: 1
+------------------
+
+length of this packet: 78
+Received at: Thu Jan 24 15:45:44 2019
+Source mac address: 80:38:96:39:a:ad 
+Destination mac address: 33:33:ff:39:a:ad 
+Ethernet type hex:86dd dec: it's an IPv6 packet
+Source ipv6 address: 0:0:0:0:0:0:0:0
+Destination ipv6 address: ff02:0:0:0:0:1:ff39:aad
+Next header type: 58
+IP type: 58, it's an ICMPv6 packet
+ND type: 135
+----- ND_NEIGHBOR_SOLICIT -----
+Neighbor Solicitation: 
+Target Address: fe80:0:0:0:8238:96ff:fe39:aad 
+Setting LAST DAD ADDR
+------------------
+
+length of this packet: 70
+Received at: Thu Jan 24 15:45:56 2019
+Source mac address: 80:38:96:39:a:ad 
+Destination mac address: 33:33:0:0:0:2 
+Ethernet type hex:86dd dec: it's an IPv6 packet
+Source ipv6 address: fe80:0:0:0:8238:96ff:fe39:aad
+Destination ipv6 address: ff02:0:0:0:0:0:0:2
+Next header type: 58
+IP type: 58, it's an ICMPv6 packet
+ND type: 133
+----- ND_ROUTER_SOLICIT -----
+Router Solicitation 
+New Ethernet 1 -> found_mac: 0 found_lla: 0 found_ip: 0
+Option type: 1
+Option length: 1
+------------------
+
+length of this packet: 70
+Received at: Thu Jan 24 15:46:25 2019
+Source mac address: 80:38:96:39:a:ad 
+Destination mac address: 33:33:0:0:0:2 
+Ethernet type hex:86dd dec: it's an IPv6 packet
+Source ipv6 address: fe80:0:0:0:8238:96ff:fe39:aad
+Destination ipv6 address: ff02:0:0:0:0:0:0:2
+Next header type: 58
+IP type: 58, it's an ICMPv6 packet
+ND type: 133
+----- ND_ROUTER_SOLICIT -----
+Router Solicitation 
+New Ethernet 0 -> found_mac: 1 found_lla: 1 found_ip: 0
+Reset timer for 80:38:96:39:a:ad fe80:0:0:0:8238:96ff:fe39:aad
+Option type: 1
+Option length: 1
+------------------
+
+length of this packet: 70
+Received at: Thu Jan 24 15:47:01 2019
+Source mac address: 80:38:96:39:a:ad 
+Destination mac address: 33:33:0:0:0:2 
+Ethernet type hex:86dd dec: it's an IPv6 packet
+Source ipv6 address: fe80:0:0:0:8238:96ff:fe39:aad
+Destination ipv6 address: ff02:0:0:0:0:0:0:2
+Next header type: 58
+IP type: 58, it's an ICMPv6 packet
+ND type: 133
+----- ND_ROUTER_SOLICIT -----
+Router Solicitation 
+New Ethernet 0 -> found_mac: 1 found_lla: 1 found_ip: 0
+Reset timer for 80:38:96:39:a:ad fe80:0:0:0:8238:96ff:fe39:aad
+Option type: 1
+Option length: 1
+------------------
+
+length of this packet: 78
+Received at: Thu Jan 24 16:03:43 2019
+Source mac address: a0:b:ba:d4:a8:7c 
+Destination mac address: 33:33:ff:d4:a8:7c 
+Ethernet type hex:86dd dec: it's an IPv6 packet
+Source ipv6 address: 0:0:0:0:0:0:0:0
+Destination ipv6 address: ff02:0:0:0:0:1:ffd4:a87c
+Next header type: 58
+IP type: 58, it's an ICMPv6 packet
+ND type: 135
+----- ND_NEIGHBOR_SOLICIT -----
+Neighbor Solicitation: 
+Target Address: fe80:0:0:0:a20b:baff:fed4:a87c 
+Setting LAST DAD ADDR
+------------------
+
+length of this packet: 70
+Received at: Thu Jan 24 16:03:44 2019
+Source mac address: a0:b:ba:d4:a8:7c 
+Destination mac address: 33:33:0:0:0:2 
+Ethernet type hex:86dd dec: it's an IPv6 packet
+Source ipv6 address: fe80:0:0:0:a20b:baff:fed4:a87c
+Destination ipv6 address: ff02:0:0:0:0:0:0:2
+Next header type: 58
+IP type: 58, it's an ICMPv6 packet
+ND type: 133
+----- ND_ROUTER_SOLICIT -----
+Router Solicitation 
+New Ethernet 1 -> found_mac: 0 found_lla: 0 found_ip: 0
+Option type: 1
+Option length: 1
+------------------
+
+length of this packet: 70
+Received at: Thu Jan 24 16:03:48 2019
+Source mac address: a0:b:ba:d4:a8:7c 
+Destination mac address: 33:33:0:0:0:2 
+Ethernet type hex:86dd dec: it's an IPv6 packet
+Source ipv6 address: fe80:0:0:0:a20b:baff:fed4:a87c
+Destination ipv6 address: ff02:0:0:0:0:0:0:2
+Next header type: 58
+IP type: 58, it's an ICMPv6 packet
+ND type: 133
+----- ND_ROUTER_SOLICIT -----
+Router Solicitation 
+New Ethernet 0 -> found_mac: 1 found_lla: 1 found_ip: 0
+Reset timer for a0:b:ba:d4:a8:7c fe80:0:0:0:a20b:baff:fed4:a87c
+Option type: 1
+Option length: 1
+------------------
+
+length of this packet: 70
+Received at: Thu Jan 24 16:03:52 2019
+Source mac address: a0:b:ba:d4:a8:7c 
+Destination mac address: 33:33:0:0:0:2 
+Ethernet type hex:86dd dec: it's an IPv6 packet
+Source ipv6 address: fe80:0:0:0:a20b:baff:fed4:a87c
+Destination ipv6 address: ff02:0:0:0:0:0:0:2
+Next header type: 58
+IP type: 58, it's an ICMPv6 packet
+ND type: 133
+----- ND_ROUTER_SOLICIT -----
+Router Solicitation 
+New Ethernet 0 -> found_mac: 1 found_lla: 1 found_ip: 0
+Reset timer for a0:b:ba:d4:a8:7c fe80:0:0:0:a20b:baff:fed4:a87c
+Option type: 1
+Option length: 1
+------------------
+
+length of this packet: 78
+Received at: Thu Jan 24 16:55:08 2019
+Source mac address: 80:38:96:39:a:ad 
+Destination mac address: 33:33:ff:39:a:ad 
+Ethernet type hex:86dd dec: it's an IPv6 packet
+Source ipv6 address: 0:0:0:0:0:0:0:0
+Destination ipv6 address: ff02:0:0:0:0:1:ff39:aad
+Next header type: 58
+IP type: 58, it's an ICMPv6 packet
+ND type: 135
+----- ND_NEIGHBOR_SOLICIT -----
+Neighbor Solicitation: 
+Target Address: fe80:0:0:0:8238:96ff:fe39:aad 
+Setting LAST DAD ADDR
+------------------
+
+length of this packet: 70
+Received at: Thu Jan 24 16:55:18 2019
+Source mac address: 80:38:96:39:a:ad 
+Destination mac address: 33:33:0:0:0:2 
+Ethernet type hex:86dd dec: it's an IPv6 packet
+Source ipv6 address: fe80:0:0:0:8238:96ff:fe39:aad
+Destination ipv6 address: ff02:0:0:0:0:0:0:2
+Next header type: 58
+IP type: 58, it's an ICMPv6 packet
+ND type: 133
+----- ND_ROUTER_SOLICIT -----
+Router Solicitation 
+New Ethernet 0 -> found_mac: 1 found_lla: 1 found_ip: 0
+Reset timer for 80:38:96:39:a:ad fe80:0:0:0:8238:96ff:fe39:aad
+Option type: 1
+Option length: 1
+------------------
+
+length of this packet: 70
+Received at: Thu Jan 24 16:55:22 2019
+Source mac address: 80:38:96:39:a:ad 
+Destination mac address: 33:33:0:0:0:2 
+Ethernet type hex:86dd dec: it's an IPv6 packet
+Source ipv6 address: fe80:0:0:0:8238:96ff:fe39:aad
+Destination ipv6 address: ff02:0:0:0:0:0:0:2
+Next header type: 58
+IP type: 58, it's an ICMPv6 packet
+ND type: 133
+----- ND_ROUTER_SOLICIT -----
+Router Solicitation 
+New Ethernet 0 -> found_mac: 1 found_lla: 1 found_ip: 0
+Reset timer for 80:38:96:39:a:ad fe80:0:0:0:8238:96ff:fe39:aad
+Option type: 1
+Option length: 1
+------------------
+
+length of this packet: 70
+Received at: Thu Jan 24 16:55:26 2019
+Source mac address: 80:38:96:39:a:ad 
+Destination mac address: 33:33:0:0:0:2 
+Ethernet type hex:86dd dec: it's an IPv6 packet
+Source ipv6 address: fe80:0:0:0:8238:96ff:fe39:aad
+Destination ipv6 address: ff02:0:0:0:0:0:0:2
+Next header type: 58
+IP type: 58, it's an ICMPv6 packet
+ND type: 133
+----- ND_ROUTER_SOLICIT -----
+Router Solicitation 
+New Ethernet 0 -> found_mac: 1 found_lla: 1 found_ip: 0
+Reset timer for 80:38:96:39:a:ad fe80:0:0:0:8238:96ff:fe39:aad
+Option type: 1
+Option length: 1
+------------------
+
+length of this packet: 78
+Received at: Thu Jan 24 17:01:13 2019
+Source mac address: 40:8d:5c:bc:83:22 
+Destination mac address: 33:33:ff:aa:f3:d9 
+Ethernet type hex:86dd dec: it's an IPv6 packet
+Source ipv6 address: 0:0:0:0:0:0:0:0
+Destination ipv6 address: ff02:0:0:0:0:1:ffaa:f3d9
+Next header type: 58
+IP type: 58, it's an ICMPv6 packet
+ND type: 135
+----- ND_NEIGHBOR_SOLICIT -----
+Neighbor Solicitation: 
+Target Address: fe80:0:0:0:e99f:749e:93aa:f3d9 
+Setting LAST DAD ADDR
+------------------
+
+length of this packet: 62
+Received at: Thu Jan 24 17:01:13 2019
+Source mac address: 40:8d:5c:bc:83:22 
+Destination mac address: 33:33:0:0:0:2 
+Ethernet type hex:86dd dec: it's an IPv6 packet
+Source ipv6 address: fe80:0:0:0:e99f:749e:93aa:f3d9
+Destination ipv6 address: ff02:0:0:0:0:0:0:2
+Next header type: 58
+IP type: 58, it's an ICMPv6 packet
+ND type: 133
+----- ND_ROUTER_SOLICIT -----
+Router Solicitation 
+New Ethernet 1 -> found_mac: 0 found_lla: 0 found_ip: 0
+------------------
+
+length of this packet: 86
+Received at: Thu Jan 24 17:01:14 2019
+Source mac address: 40:8d:5c:bc:83:22 
+Destination mac address: 33:33:0:0:0:1 
+Ethernet type hex:86dd dec: it's an IPv6 packet
+Source ipv6 address: fe80:0:0:0:e99f:749e:93aa:f3d9
+Destination ipv6 address: ff02:0:0:0:0:0:0:1
+Next header type: 58
+IP type: 58, it's an ICMPv6 packet
+ND type: 136
+----- ND_NEIGHBOR_ADVERT -----
+Neighbor Advertisement: 
+Target Address: fe80:0:0:0:e99f:749e:93aa:f3d9 
+New Ethernet 0 -> found_mac: 1 found_lla: 1 found_ip: 0
+Reset timer for 40:8d:5c:bc:83:22 fe80:0:0:0:e99f:749e:93aa:f3d9
+Option type: 2
+Option length: 1
+------------------
+
+length of this packet: 70
+Received at: Thu Jan 24 17:01:17 2019
+Source mac address: 40:8d:5c:bc:83:22 
+Destination mac address: 33:33:0:0:0:2 
+Ethernet type hex:86dd dec: it's an IPv6 packet
+Source ipv6 address: fe80:0:0:0:e99f:749e:93aa:f3d9
+Destination ipv6 address: ff02:0:0:0:0:0:0:2
+Next header type: 58
+IP type: 58, it's an ICMPv6 packet
+ND type: 133
+----- ND_ROUTER_SOLICIT -----
+Router Solicitation 
+New Ethernet 0 -> found_mac: 1 found_lla: 1 found_ip: 0
+Reset timer for 40:8d:5c:bc:83:22 fe80:0:0:0:e99f:749e:93aa:f3d9
+Option type: 1
+Option length: 1
+------------------
+
+length of this packet: 70
+Received at: Thu Jan 24 17:01:21 2019
+Source mac address: 40:8d:5c:bc:83:22 
+Destination mac address: 33:33:0:0:0:2 
+Ethernet type hex:86dd dec: it's an IPv6 packet
+Source ipv6 address: fe80:0:0:0:e99f:749e:93aa:f3d9
+Destination ipv6 address: ff02:0:0:0:0:0:0:2
+Next header type: 58
+IP type: 58, it's an ICMPv6 packet
+ND type: 133
+----- ND_ROUTER_SOLICIT -----
+Router Solicitation 
+New Ethernet 0 -> found_mac: 1 found_lla: 1 found_ip: 0
+Reset timer for 40:8d:5c:bc:83:22 fe80:0:0:0:e99f:749e:93aa:f3d9
+Option type: 1
+Option length: 1
+------------------
+
+length of this packet: 78
+Received at: Thu Jan 24 17:13:34 2019
+Source mac address: 40:8d:5c:bc:83:22 
+Destination mac address: 33:33:ff:aa:f3:d9 
+Ethernet type hex:86dd dec: it's an IPv6 packet
+Source ipv6 address: 0:0:0:0:0:0:0:0
+Destination ipv6 address: ff02:0:0:0:0:1:ffaa:f3d9
+Next header type: 58
+IP type: 58, it's an ICMPv6 packet
+ND type: 135
+----- ND_NEIGHBOR_SOLICIT -----
+Neighbor Solicitation: 
+Target Address: fe80:0:0:0:e99f:749e:93aa:f3d9 
+Setting LAST DAD ADDR
+------------------
+
+length of this packet: 62
+Received at: Thu Jan 24 17:13:34 2019
+Source mac address: 40:8d:5c:bc:83:22 
+Destination mac address: 33:33:0:0:0:2 
+Ethernet type hex:86dd dec: it's an IPv6 packet
+Source ipv6 address: fe80:0:0:0:e99f:749e:93aa:f3d9
+Destination ipv6 address: ff02:0:0:0:0:0:0:2
+Next header type: 58
+IP type: 58, it's an ICMPv6 packet
+ND type: 133
+----- ND_ROUTER_SOLICIT -----
+Router Solicitation 
+New Ethernet 0 -> found_mac: 1 found_lla: 1 found_ip: 0
+Reset timer for 40:8d:5c:bc:83:22 fe80:0:0:0:e99f:749e:93aa:f3d9
+------------------
+
+length of this packet: 86
+Received at: Thu Jan 24 17:13:35 2019
+Source mac address: 40:8d:5c:bc:83:22 
+Destination mac address: 33:33:0:0:0:1 
+Ethernet type hex:86dd dec: it's an IPv6 packet
+Source ipv6 address: fe80:0:0:0:e99f:749e:93aa:f3d9
+Destination ipv6 address: ff02:0:0:0:0:0:0:1
+Next header type: 58
+IP type: 58, it's an ICMPv6 packet
+ND type: 136
+----- ND_NEIGHBOR_ADVERT -----
+Neighbor Advertisement: 
+Target Address: fe80:0:0:0:e99f:749e:93aa:f3d9 
+New Ethernet 0 -> found_mac: 1 found_lla: 1 found_ip: 0
+Reset timer for 40:8d:5c:bc:83:22 fe80:0:0:0:e99f:749e:93aa:f3d9
+Option type: 2
+Option length: 1
+------------------
+
+length of this packet: 70
+Received at: Thu Jan 24 17:13:38 2019
+Source mac address: 40:8d:5c:bc:83:22 
+Destination mac address: 33:33:0:0:0:2 
+Ethernet type hex:86dd dec: it's an IPv6 packet
+Source ipv6 address: fe80:0:0:0:e99f:749e:93aa:f3d9
+Destination ipv6 address: ff02:0:0:0:0:0:0:2
+Next header type: 58
+IP type: 58, it's an ICMPv6 packet
+ND type: 133
+----- ND_ROUTER_SOLICIT -----
+Router Solicitation 
+New Ethernet 0 -> found_mac: 1 found_lla: 1 found_ip: 0
+Reset timer for 40:8d:5c:bc:83:22 fe80:0:0:0:e99f:749e:93aa:f3d9
+Option type: 1
+Option length: 1
+------------------
+
+length of this packet: 70
+Received at: Thu Jan 24 17:13:42 2019
+Source mac address: 40:8d:5c:bc:83:22 
+Destination mac address: 33:33:0:0:0:2 
+Ethernet type hex:86dd dec: it's an IPv6 packet
+Source ipv6 address: fe80:0:0:0:e99f:749e:93aa:f3d9
+Destination ipv6 address: ff02:0:0:0:0:0:0:2
+Next header type: 58
+IP type: 58, it's an ICMPv6 packet
+ND type: 133
+----- ND_ROUTER_SOLICIT -----
+Router Solicitation 
+New Ethernet 0 -> found_mac: 1 found_lla: 1 found_ip: 0
+Reset timer for 40:8d:5c:bc:83:22 fe80:0:0:0:e99f:749e:93aa:f3d9
+Option type: 1
+Option length: 1
+------------------
+
