@@ -1,0 +1,6 @@
+fe80::62 dev eth0  FAILED
+fe80::e161:8c95:1055:550e dev eth0 lladdr 40:8d:5c:be:c4:eb REACHABLE
+fe80::6f88:c6a6:d8e2:3fe6 dev wlan0  FAILED
+fe80::6c5f:38b6:fae4:893e dev eth0 lladdr c4:9d:ed:90:27:1c STALE
+fe80::da25:ff8d:69e4:d06c dev eth0 lladdr b8:27:eb:8b:88:11 STALE
+fe80::cd67:9fb6:ce1c:1616 dev eth0 lladdr 40:8d:5c:bf:37:d9 STALE
