@@ -1,3 +1,4 @@
+#!/usr/bin/python3 
 import opendht as dht
 import time
 import datetime
@@ -5,8 +6,8 @@ import datetime
 node = dht.DhtRunner()
 node.run()
 
-Range = 121
-Sleep = 600
+Range = 3
+Sleep = 60
 
 node.bootstrap("bootstrap.ring.cx", "4222")
 
@@ -15,7 +16,7 @@ for i in range(Range):
 
     now = datetime.datetime.now()
 
-    fileName = "/home/pi/python/exp/OpenDHT/v4/{0:%Y%m%d_%H%M%S}".format(now) + ".txt"
+    fileName = "{0:%Y%m%d_%H%M%S}".format(now) + ".dhtnode-routing-table-v4"
 
     with open(fileName, "w") as f:
        f.writelines(list + "\n")
