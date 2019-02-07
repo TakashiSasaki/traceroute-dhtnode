@@ -16,7 +16,7 @@ for i in range(Range):
 
     now = datetime.datetime.now()
 
-    fileName = "v4/{0:%Y%m%d_%H%M%S}".format(now) + ".dhtnode-routing-table-v4"
+    fileName = "{0:%Y%m%d_%H%M%S}".format(now) + ".dhtnode-routing-table-v4"
 
     with open(fileName, "w") as f:
        f.writelines(list + "\n")
