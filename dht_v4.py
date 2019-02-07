@@ -6,7 +6,7 @@ import datetime
 node = dht.DhtRunner()
 node.run()
 
-Range = 3
+Range = 10
 Sleep = 60
 
 node.bootstrap("bootstrap.ring.cx", "4222")
@@ -16,7 +16,7 @@ for i in range(Range):
 
     now = datetime.datetime.now()
 
-    fileName = "{0:%Y%m%d_%H%M%S}".format(now) + ".dhtnode-routing-table-v4"
+    fileName = "v4/{0:%Y%m%d_%H%M%S}".format(now) + ".dhtnode-routing-table-v4"
 
     with open(fileName, "w") as f:
        f.writelines(list + "\n")
