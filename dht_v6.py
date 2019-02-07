@@ -6,7 +6,7 @@ import datetime
 node = dht.DhtRunner()
 node.run()
 
-Range = 24
+Range = 10
 Sleep = 60
 
 node.bootstrap("bootstrap.ring.cx", "4222")

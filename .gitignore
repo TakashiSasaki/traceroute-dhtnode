@@ -3,3 +3,5 @@
 __pycache__/
 *.dhtnode-routing-table-v4
 *.dhtnode-routing-table-v6
+*.ipv5-addresses
+*.ipv6-addresses
