@@ -20,3 +20,16 @@ test-ipv6:
 
 all.ipv6-addresses: $(addsuffix .ipv6-addresses,$(basename $(wildcard *.dhtnode-routing-table-v6)))
 	cat $^ | sort -u | tee $@
+
+.PHONY: ipv6-address
+ipv6-address: all.ipv6-addresses
+	cat $< | while read line; do\
+		x=`echo -n $${line} | md5sum | sed -n -r -e "s/^([0-9a-f]+) .*$$/\1/p"` ;\
+		echo $${line} >$${x}.ipv6-address;\
+	done
+
+%.ipv6-ping: %.ipv6-address
+	ping6 -c 5 $(shell cat $<) | tee -a $@
+
+.PHONY: ipv6-ping
+ipv6-ping: $(addsuffix .ipv6-ping,$(basename $(wildcard *.ipv6-address)))
