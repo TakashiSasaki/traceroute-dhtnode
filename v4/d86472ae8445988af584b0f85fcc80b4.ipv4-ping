@@ -1,0 +1,19 @@
+PING 88.207.145.62 (88.207.145.62) 56(84) bytes of data.
+64 bytes from 88.207.145.62: icmp_seq=1 ttl=43 time=299 ms
+64 bytes from 88.207.145.62: icmp_seq=2 ttl=43 time=298 ms
+64 bytes from 88.207.145.62: icmp_seq=3 ttl=43 time=298 ms
+64 bytes from 88.207.145.62: icmp_seq=4 ttl=43 time=297 ms
+64 bytes from 88.207.145.62: icmp_seq=5 ttl=43 time=298 ms
+
+--- 88.207.145.62 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4004ms
+rtt min/avg/max/mdev = 297.762/298.203/299.083/0.827 ms
+PING 88.207.145.62 (88.207.145.62) 56(84) bytes of data.
+64 bytes from 88.207.145.62: icmp_seq=1 ttl=40 time=338 ms
+64 bytes from 88.207.145.62: icmp_seq=2 ttl=40 time=342 ms
+64 bytes from 88.207.145.62: icmp_seq=3 ttl=40 time=337 ms
+64 bytes from 88.207.145.62: icmp_seq=4 ttl=40 time=346 ms
+
+--- 88.207.145.62 ping statistics ---
+5 packets transmitted, 4 received, 20% packet loss, time 4004ms
+rtt min/avg/max/mdev = 337.656/341.106/346.190/3.367 ms

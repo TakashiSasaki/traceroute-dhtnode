@@ -1,0 +1,20 @@
+PING 208.88.110.46 (208.88.110.46) 56(84) bytes of data.
+64 bytes from 208.88.110.46: icmp_seq=1 ttl=45 time=201 ms
+64 bytes from 208.88.110.46: icmp_seq=2 ttl=45 time=198 ms
+64 bytes from 208.88.110.46: icmp_seq=3 ttl=45 time=198 ms
+64 bytes from 208.88.110.46: icmp_seq=4 ttl=45 time=198 ms
+64 bytes from 208.88.110.46: icmp_seq=5 ttl=45 time=197 ms
+
+--- 208.88.110.46 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4004ms
+rtt min/avg/max/mdev = 197.443/198.945/201.899/1.601 ms
+PING 208.88.110.46 (208.88.110.46) 56(84) bytes of data.
+64 bytes from 208.88.110.46: icmp_seq=1 ttl=45 time=199 ms
+64 bytes from 208.88.110.46: icmp_seq=2 ttl=45 time=197 ms
+64 bytes from 208.88.110.46: icmp_seq=3 ttl=45 time=197 ms
+64 bytes from 208.88.110.46: icmp_seq=4 ttl=45 time=197 ms
+64 bytes from 208.88.110.46: icmp_seq=5 ttl=45 time=198 ms
+
+--- 208.88.110.46 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4004ms
+rtt min/avg/max/mdev = 197.691/198.312/199.821/0.797 ms

@@ -1,0 +1,10 @@
+PING 81.25.226.195 (81.25.226.195) 56(84) bytes of data.
+64 bytes from 81.25.226.195: icmp_seq=1 ttl=41 time=287 ms
+64 bytes from 81.25.226.195: icmp_seq=2 ttl=41 time=285 ms
+64 bytes from 81.25.226.195: icmp_seq=3 ttl=41 time=284 ms
+64 bytes from 81.25.226.195: icmp_seq=4 ttl=41 time=280 ms
+64 bytes from 81.25.226.195: icmp_seq=5 ttl=41 time=276 ms
+
+--- 81.25.226.195 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4005ms
+rtt min/avg/max/mdev = 276.165/282.882/287.866/4.142 ms

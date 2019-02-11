@@ -1,0 +1,20 @@
+PING 73.59.12.114 (73.59.12.114) 56(84) bytes of data.
+64 bytes from 73.59.12.114: icmp_seq=1 ttl=46 time=161 ms
+64 bytes from 73.59.12.114: icmp_seq=2 ttl=46 time=166 ms
+64 bytes from 73.59.12.114: icmp_seq=3 ttl=46 time=165 ms
+64 bytes from 73.59.12.114: icmp_seq=4 ttl=46 time=163 ms
+64 bytes from 73.59.12.114: icmp_seq=5 ttl=46 time=160 ms
+
+--- 73.59.12.114 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4005ms
+rtt min/avg/max/mdev = 160.381/163.509/166.581/2.356 ms
+PING 73.59.12.114 (73.59.12.114) 56(84) bytes of data.
+64 bytes from 73.59.12.114: icmp_seq=1 ttl=46 time=151 ms
+64 bytes from 73.59.12.114: icmp_seq=2 ttl=46 time=158 ms
+64 bytes from 73.59.12.114: icmp_seq=3 ttl=46 time=159 ms
+64 bytes from 73.59.12.114: icmp_seq=4 ttl=46 time=151 ms
+64 bytes from 73.59.12.114: icmp_seq=5 ttl=46 time=153 ms
+
+--- 73.59.12.114 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4005ms
+rtt min/avg/max/mdev = 151.732/155.057/159.378/3.246 ms

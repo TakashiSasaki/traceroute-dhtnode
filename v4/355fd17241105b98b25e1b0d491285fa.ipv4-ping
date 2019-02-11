@@ -1,0 +1,19 @@
+PING 92.194.51.221 (92.194.51.221) 56(84) bytes of data.
+64 bytes from 92.194.51.221: icmp_seq=1 ttl=42 time=306 ms
+64 bytes from 92.194.51.221: icmp_seq=2 ttl=42 time=305 ms
+64 bytes from 92.194.51.221: icmp_seq=3 ttl=42 time=305 ms
+64 bytes from 92.194.51.221: icmp_seq=4 ttl=42 time=304 ms
+64 bytes from 92.194.51.221: icmp_seq=5 ttl=42 time=305 ms
+
+--- 92.194.51.221 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4004ms
+rtt min/avg/max/mdev = 304.788/305.588/306.560/0.924 ms
+PING 92.194.51.221 (92.194.51.221) 56(84) bytes of data.
+64 bytes from 92.194.51.221: icmp_seq=2 ttl=39 time=299 ms
+64 bytes from 92.194.51.221: icmp_seq=3 ttl=39 time=299 ms
+64 bytes from 92.194.51.221: icmp_seq=4 ttl=39 time=299 ms
+64 bytes from 92.194.51.221: icmp_seq=5 ttl=39 time=298 ms
+
+--- 92.194.51.221 ping statistics ---
+5 packets transmitted, 4 received, 20% packet loss, time 4073ms
+rtt min/avg/max/mdev = 298.909/299.359/299.580/0.720 ms

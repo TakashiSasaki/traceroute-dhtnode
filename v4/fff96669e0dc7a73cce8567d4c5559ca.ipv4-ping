@@ -1,0 +1,10 @@
+PING 12.70.165.244 (12.70.165.244) 56(84) bytes of data.
+64 bytes from 12.70.165.244: icmp_seq=1 ttl=47 time=164 ms
+64 bytes from 12.70.165.244: icmp_seq=2 ttl=47 time=162 ms
+64 bytes from 12.70.165.244: icmp_seq=3 ttl=47 time=163 ms
+64 bytes from 12.70.165.244: icmp_seq=4 ttl=47 time=163 ms
+64 bytes from 12.70.165.244: icmp_seq=5 ttl=47 time=163 ms
+
+--- 12.70.165.244 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4006ms
+rtt min/avg/max/mdev = 162.791/163.476/164.395/0.535 ms

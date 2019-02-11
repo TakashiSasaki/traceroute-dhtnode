@@ -1,0 +1,20 @@
+PING 83.137.250.24 (83.137.250.24) 56(84) bytes of data.
+64 bytes from 83.137.250.24: icmp_seq=1 ttl=47 time=263 ms
+64 bytes from 83.137.250.24: icmp_seq=2 ttl=47 time=260 ms
+64 bytes from 83.137.250.24: icmp_seq=3 ttl=47 time=260 ms
+64 bytes from 83.137.250.24: icmp_seq=4 ttl=47 time=260 ms
+64 bytes from 83.137.250.24: icmp_seq=5 ttl=47 time=260 ms
+
+--- 83.137.250.24 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4005ms
+rtt min/avg/max/mdev = 260.290/260.976/263.380/1.286 ms
+PING 83.137.250.24 (83.137.250.24) 56(84) bytes of data.
+64 bytes from 83.137.250.24: icmp_seq=1 ttl=47 time=265 ms
+64 bytes from 83.137.250.24: icmp_seq=2 ttl=47 time=261 ms
+64 bytes from 83.137.250.24: icmp_seq=3 ttl=47 time=260 ms
+64 bytes from 83.137.250.24: icmp_seq=4 ttl=47 time=260 ms
+64 bytes from 83.137.250.24: icmp_seq=5 ttl=47 time=263 ms
+
+--- 83.137.250.24 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4004ms
+rtt min/avg/max/mdev = 260.942/262.327/265.022/1.749 ms

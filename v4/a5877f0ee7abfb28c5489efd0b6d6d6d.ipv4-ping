@@ -1,0 +1,9 @@
+PING 193.180.164.58 (193.180.164.58) 56(84) bytes of data.
+64 bytes from 193.180.164.58: icmp_seq=1 ttl=47 time=302 ms
+64 bytes from 193.180.164.58: icmp_seq=2 ttl=47 time=300 ms
+64 bytes from 193.180.164.58: icmp_seq=3 ttl=47 time=301 ms
+64 bytes from 193.180.164.58: icmp_seq=4 ttl=47 time=301 ms
+
+--- 193.180.164.58 ping statistics ---
+5 packets transmitted, 4 received, 20% packet loss, time 4006ms
+rtt min/avg/max/mdev = 300.403/301.528/302.346/0.973 ms

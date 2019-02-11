@@ -1,0 +1,30 @@
+PING 151.127.48.81 (151.127.48.81) 56(84) bytes of data.
+64 bytes from 151.127.48.81: icmp_seq=1 ttl=52 time=315 ms
+64 bytes from 151.127.48.81: icmp_seq=2 ttl=52 time=314 ms
+64 bytes from 151.127.48.81: icmp_seq=3 ttl=52 time=314 ms
+64 bytes from 151.127.48.81: icmp_seq=4 ttl=52 time=314 ms
+64 bytes from 151.127.48.81: icmp_seq=5 ttl=52 time=313 ms
+
+--- 151.127.48.81 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4001ms
+rtt min/avg/max/mdev = 313.540/314.512/315.517/0.959 ms
+PING 151.127.48.81 (151.127.48.81) 56(84) bytes of data.
+64 bytes from 151.127.48.81: icmp_seq=1 ttl=52 time=315 ms
+64 bytes from 151.127.48.81: icmp_seq=2 ttl=52 time=314 ms
+64 bytes from 151.127.48.81: icmp_seq=3 ttl=52 time=323 ms
+64 bytes from 151.127.48.81: icmp_seq=4 ttl=52 time=323 ms
+64 bytes from 151.127.48.81: icmp_seq=5 ttl=52 time=321 ms
+
+--- 151.127.48.81 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4005ms
+rtt min/avg/max/mdev = 314.735/319.792/323.412/3.877 ms
+PING 151.127.48.81 (151.127.48.81) 56(84) bytes of data.
+64 bytes from 151.127.48.81: icmp_seq=1 ttl=52 time=317 ms
+64 bytes from 151.127.48.81: icmp_seq=2 ttl=52 time=314 ms
+64 bytes from 151.127.48.81: icmp_seq=3 ttl=52 time=315 ms
+64 bytes from 151.127.48.81: icmp_seq=4 ttl=52 time=313 ms
+64 bytes from 151.127.48.81: icmp_seq=5 ttl=52 time=314 ms
+
+--- 151.127.48.81 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4004ms
+rtt min/avg/max/mdev = 313.139/315.067/317.650/1.488 ms

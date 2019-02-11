@@ -1,0 +1,20 @@
+PING 109.92.139.178 (109.92.139.178) 56(84) bytes of data.
+64 bytes from 109.92.139.178: icmp_seq=1 ttl=52 time=297 ms
+64 bytes from 109.92.139.178: icmp_seq=2 ttl=52 time=295 ms
+64 bytes from 109.92.139.178: icmp_seq=3 ttl=52 time=295 ms
+64 bytes from 109.92.139.178: icmp_seq=4 ttl=52 time=296 ms
+64 bytes from 109.92.139.178: icmp_seq=5 ttl=52 time=295 ms
+
+--- 109.92.139.178 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4000ms
+rtt min/avg/max/mdev = 295.724/296.236/297.605/0.773 ms
+PING 109.92.139.178 (109.92.139.178) 56(84) bytes of data.
+64 bytes from 109.92.139.178: icmp_seq=1 ttl=52 time=296 ms
+64 bytes from 109.92.139.178: icmp_seq=2 ttl=52 time=296 ms
+64 bytes from 109.92.139.178: icmp_seq=3 ttl=52 time=297 ms
+64 bytes from 109.92.139.178: icmp_seq=4 ttl=52 time=296 ms
+64 bytes from 109.92.139.178: icmp_seq=5 ttl=52 time=295 ms
+
+--- 109.92.139.178 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4003ms
+rtt min/avg/max/mdev = 295.854/296.430/297.631/0.948 ms

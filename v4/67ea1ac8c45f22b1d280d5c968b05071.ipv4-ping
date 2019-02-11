@@ -1,0 +1,10 @@
+PING 185.169.255.92 (185.169.255.92) 56(84) bytes of data.
+64 bytes from 185.169.255.92: icmp_seq=1 ttl=44 time=265 ms
+64 bytes from 185.169.255.92: icmp_seq=2 ttl=44 time=267 ms
+64 bytes from 185.169.255.92: icmp_seq=3 ttl=44 time=263 ms
+64 bytes from 185.169.255.92: icmp_seq=4 ttl=44 time=265 ms
+64 bytes from 185.169.255.92: icmp_seq=5 ttl=44 time=264 ms
+
+--- 185.169.255.92 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4005ms
+rtt min/avg/max/mdev = 263.950/265.322/267.472/1.255 ms

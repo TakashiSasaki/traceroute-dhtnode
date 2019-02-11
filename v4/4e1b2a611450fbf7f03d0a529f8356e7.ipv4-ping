@@ -1,0 +1,20 @@
+PING 94.5.107.70 (94.5.107.70) 56(84) bytes of data.
+64 bytes from 94.5.107.70: icmp_seq=1 ttl=49 time=265 ms
+64 bytes from 94.5.107.70: icmp_seq=2 ttl=49 time=264 ms
+64 bytes from 94.5.107.70: icmp_seq=3 ttl=49 time=267 ms
+64 bytes from 94.5.107.70: icmp_seq=4 ttl=49 time=264 ms
+64 bytes from 94.5.107.70: icmp_seq=5 ttl=49 time=264 ms
+
+--- 94.5.107.70 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4005ms
+rtt min/avg/max/mdev = 264.208/265.187/267.138/1.157 ms
+PING 94.5.107.70 (94.5.107.70) 56(84) bytes of data.
+64 bytes from 94.5.107.70: icmp_seq=1 ttl=49 time=287 ms
+64 bytes from 94.5.107.70: icmp_seq=2 ttl=49 time=271 ms
+64 bytes from 94.5.107.70: icmp_seq=3 ttl=49 time=268 ms
+64 bytes from 94.5.107.70: icmp_seq=4 ttl=49 time=269 ms
+64 bytes from 94.5.107.70: icmp_seq=5 ttl=49 time=268 ms
+
+--- 94.5.107.70 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4005ms
+rtt min/avg/max/mdev = 268.589/273.274/287.350/7.129 ms

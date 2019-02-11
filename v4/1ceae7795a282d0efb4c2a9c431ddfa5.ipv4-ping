@@ -1,0 +1,10 @@
+PING 96.22.100.98 (96.22.100.98) 56(84) bytes of data.
+
+--- 96.22.100.98 ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4049ms
+
+PING 96.22.100.98 (96.22.100.98) 56(84) bytes of data.
+
+--- 96.22.100.98 ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4140ms
+

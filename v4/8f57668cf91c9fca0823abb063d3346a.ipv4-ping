@@ -1,0 +1,9 @@
+PING 67.201.172.145 (67.201.172.145) 56(84) bytes of data.
+64 bytes from 67.201.172.145: icmp_seq=1 ttl=47 time=767 ms
+64 bytes from 67.201.172.145: icmp_seq=2 ttl=47 time=762 ms
+64 bytes from 67.201.172.145: icmp_seq=3 ttl=47 time=762 ms
+64 bytes from 67.201.172.145: icmp_seq=5 ttl=47 time=783 ms
+
+--- 67.201.172.145 ping statistics ---
+5 packets transmitted, 4 received, 20% packet loss, time 4057ms
+rtt min/avg/max/mdev = 762.061/768.861/783.840/8.886 ms

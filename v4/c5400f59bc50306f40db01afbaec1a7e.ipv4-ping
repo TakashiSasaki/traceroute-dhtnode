@@ -1,0 +1,20 @@
+PING 81.44.225.194 (81.44.225.194) 56(84) bytes of data.
+64 bytes from 81.44.225.194: icmp_seq=1 ttl=43 time=300 ms
+64 bytes from 81.44.225.194: icmp_seq=2 ttl=43 time=299 ms
+64 bytes from 81.44.225.194: icmp_seq=3 ttl=43 time=301 ms
+64 bytes from 81.44.225.194: icmp_seq=4 ttl=43 time=300 ms
+64 bytes from 81.44.225.194: icmp_seq=5 ttl=43 time=300 ms
+
+--- 81.44.225.194 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4005ms
+rtt min/avg/max/mdev = 299.968/300.542/301.321/0.665 ms
+PING 81.44.225.194 (81.44.225.194) 56(84) bytes of data.
+64 bytes from 81.44.225.194: icmp_seq=1 ttl=43 time=302 ms
+64 bytes from 81.44.225.194: icmp_seq=2 ttl=43 time=299 ms
+64 bytes from 81.44.225.194: icmp_seq=3 ttl=43 time=298 ms
+64 bytes from 81.44.225.194: icmp_seq=4 ttl=43 time=298 ms
+64 bytes from 81.44.225.194: icmp_seq=5 ttl=43 time=299 ms
+
+--- 81.44.225.194 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4004ms
+rtt min/avg/max/mdev = 298.851/299.827/302.387/1.310 ms

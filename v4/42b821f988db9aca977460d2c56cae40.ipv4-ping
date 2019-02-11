@@ -1,0 +1,20 @@
+PING 81.156.190.15 (81.156.190.15) 56(84) bytes of data.
+64 bytes from 81.156.190.15: icmp_seq=1 ttl=43 time=270 ms
+64 bytes from 81.156.190.15: icmp_seq=2 ttl=43 time=267 ms
+64 bytes from 81.156.190.15: icmp_seq=3 ttl=43 time=267 ms
+64 bytes from 81.156.190.15: icmp_seq=4 ttl=43 time=267 ms
+64 bytes from 81.156.190.15: icmp_seq=5 ttl=43 time=267 ms
+
+--- 81.156.190.15 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4005ms
+rtt min/avg/max/mdev = 267.150/267.999/270.394/1.292 ms
+PING 81.156.190.15 (81.156.190.15) 56(84) bytes of data.
+64 bytes from 81.156.190.15: icmp_seq=1 ttl=43 time=268 ms
+64 bytes from 81.156.190.15: icmp_seq=2 ttl=43 time=270 ms
+64 bytes from 81.156.190.15: icmp_seq=3 ttl=43 time=268 ms
+64 bytes from 81.156.190.15: icmp_seq=4 ttl=43 time=267 ms
+64 bytes from 81.156.190.15: icmp_seq=5 ttl=43 time=267 ms
+
+--- 81.156.190.15 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4000ms
+rtt min/avg/max/mdev = 267.046/268.279/270.370/1.237 ms

@@ -1,0 +1,10 @@
+PING 24.99.18.120 (24.99.18.120) 56(84) bytes of data.
+64 bytes from 24.99.18.120: icmp_seq=1 ttl=45 time=188 ms
+64 bytes from 24.99.18.120: icmp_seq=2 ttl=45 time=186 ms
+64 bytes from 24.99.18.120: icmp_seq=3 ttl=45 time=185 ms
+64 bytes from 24.99.18.120: icmp_seq=4 ttl=45 time=184 ms
+64 bytes from 24.99.18.120: icmp_seq=5 ttl=45 time=187 ms
+
+--- 24.99.18.120 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4005ms
+rtt min/avg/max/mdev = 184.795/186.443/188.528/1.512 ms

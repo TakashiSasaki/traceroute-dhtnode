@@ -1,0 +1,10 @@
+PING 74.243.106.189 (74.243.106.189) 56(84) bytes of data.
+64 bytes from 74.243.106.189: icmp_seq=1 ttl=41 time=192 ms
+64 bytes from 74.243.106.189: icmp_seq=2 ttl=41 time=190 ms
+64 bytes from 74.243.106.189: icmp_seq=3 ttl=41 time=190 ms
+64 bytes from 74.243.106.189: icmp_seq=4 ttl=41 time=191 ms
+64 bytes from 74.243.106.189: icmp_seq=5 ttl=41 time=191 ms
+
+--- 74.243.106.189 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4006ms
+rtt min/avg/max/mdev = 190.642/191.294/192.216/0.796 ms

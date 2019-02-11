@@ -1,0 +1,10 @@
+PING 98.151.64.8 (98.151.64.8) 56(84) bytes of data.
+
+--- 98.151.64.8 ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4146ms
+
+PING 98.151.64.8 (98.151.64.8) 56(84) bytes of data.
+
+--- 98.151.64.8 ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4189ms
+

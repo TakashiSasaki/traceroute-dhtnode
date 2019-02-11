@@ -1,0 +1,20 @@
+PING 35.136.225.85 (35.136.225.85) 56(84) bytes of data.
+64 bytes from 35.136.225.85: icmp_seq=1 ttl=43 time=207 ms
+64 bytes from 35.136.225.85: icmp_seq=2 ttl=43 time=206 ms
+64 bytes from 35.136.225.85: icmp_seq=3 ttl=43 time=208 ms
+64 bytes from 35.136.225.85: icmp_seq=4 ttl=43 time=207 ms
+64 bytes from 35.136.225.85: icmp_seq=5 ttl=43 time=207 ms
+
+--- 35.136.225.85 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4004ms
+rtt min/avg/max/mdev = 206.190/207.654/208.903/0.917 ms
+PING 35.136.225.85 (35.136.225.85) 56(84) bytes of data.
+64 bytes from 35.136.225.85: icmp_seq=1 ttl=43 time=211 ms
+64 bytes from 35.136.225.85: icmp_seq=2 ttl=43 time=208 ms
+64 bytes from 35.136.225.85: icmp_seq=3 ttl=43 time=206 ms
+64 bytes from 35.136.225.85: icmp_seq=4 ttl=43 time=209 ms
+64 bytes from 35.136.225.85: icmp_seq=5 ttl=43 time=208 ms
+
+--- 35.136.225.85 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4004ms
+rtt min/avg/max/mdev = 206.780/208.878/211.277/1.465 ms

@@ -1,0 +1,10 @@
+PING 213.100.210.124 (213.100.210.124) 56(84) bytes of data.
+64 bytes from 213.100.210.124: icmp_seq=1 ttl=46 time=300 ms
+64 bytes from 213.100.210.124: icmp_seq=2 ttl=46 time=299 ms
+64 bytes from 213.100.210.124: icmp_seq=3 ttl=46 time=298 ms
+64 bytes from 213.100.210.124: icmp_seq=4 ttl=46 time=298 ms
+64 bytes from 213.100.210.124: icmp_seq=5 ttl=46 time=298 ms
+
+--- 213.100.210.124 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4004ms
+rtt min/avg/max/mdev = 298.047/299.105/300.630/1.048 ms

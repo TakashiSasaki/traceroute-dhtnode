@@ -1,0 +1,10 @@
+PING 99.238.170.7 (99.238.170.7) 56(84) bytes of data.
+64 bytes from 99.238.170.7: icmp_seq=1 ttl=236 time=208 ms
+64 bytes from 99.238.170.7: icmp_seq=2 ttl=236 time=204 ms
+64 bytes from 99.238.170.7: icmp_seq=3 ttl=236 time=202 ms
+64 bytes from 99.238.170.7: icmp_seq=4 ttl=236 time=203 ms
+64 bytes from 99.238.170.7: icmp_seq=5 ttl=236 time=210 ms
+
+--- 99.238.170.7 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4004ms
+rtt min/avg/max/mdev = 202.224/205.811/210.530/3.100 ms

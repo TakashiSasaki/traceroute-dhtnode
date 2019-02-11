@@ -1,0 +1,10 @@
+PING 184.162.226.99 (184.162.226.99) 56(84) bytes of data.
+64 bytes from 184.162.226.99: icmp_seq=1 ttl=46 time=209 ms
+64 bytes from 184.162.226.99: icmp_seq=2 ttl=46 time=217 ms
+64 bytes from 184.162.226.99: icmp_seq=3 ttl=46 time=226 ms
+64 bytes from 184.162.226.99: icmp_seq=4 ttl=46 time=215 ms
+64 bytes from 184.162.226.99: icmp_seq=5 ttl=46 time=214 ms
+
+--- 184.162.226.99 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4005ms
+rtt min/avg/max/mdev = 209.429/216.642/226.037/5.423 ms

@@ -1,0 +1,20 @@
+PING 186.4.222.111 (186.4.222.111) 56(84) bytes of data.
+64 bytes from 186.4.222.111: icmp_seq=1 ttl=47 time=255 ms
+64 bytes from 186.4.222.111: icmp_seq=2 ttl=47 time=253 ms
+64 bytes from 186.4.222.111: icmp_seq=3 ttl=47 time=253 ms
+64 bytes from 186.4.222.111: icmp_seq=4 ttl=47 time=252 ms
+64 bytes from 186.4.222.111: icmp_seq=5 ttl=47 time=253 ms
+
+--- 186.4.222.111 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4004ms
+rtt min/avg/max/mdev = 252.967/253.738/255.779/1.137 ms
+PING 186.4.222.111 (186.4.222.111) 56(84) bytes of data.
+64 bytes from 186.4.222.111: icmp_seq=1 ttl=47 time=292 ms
+64 bytes from 186.4.222.111: icmp_seq=2 ttl=47 time=285 ms
+64 bytes from 186.4.222.111: icmp_seq=3 ttl=47 time=294 ms
+64 bytes from 186.4.222.111: icmp_seq=4 ttl=47 time=292 ms
+64 bytes from 186.4.222.111: icmp_seq=5 ttl=47 time=293 ms
+
+--- 186.4.222.111 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4000ms
+rtt min/avg/max/mdev = 285.493/291.771/294.151/3.212 ms

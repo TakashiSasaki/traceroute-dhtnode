@@ -1,0 +1,10 @@
+PING 173.178.138.249 (173.178.138.249) 56(84) bytes of data.
+64 bytes from 173.178.138.249: icmp_seq=1 ttl=44 time=217 ms
+64 bytes from 173.178.138.249: icmp_seq=2 ttl=44 time=214 ms
+64 bytes from 173.178.138.249: icmp_seq=3 ttl=44 time=213 ms
+64 bytes from 173.178.138.249: icmp_seq=4 ttl=44 time=214 ms
+64 bytes from 173.178.138.249: icmp_seq=5 ttl=44 time=223 ms
+
+--- 173.178.138.249 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4005ms
+rtt min/avg/max/mdev = 213.188/216.571/223.647/3.816 ms

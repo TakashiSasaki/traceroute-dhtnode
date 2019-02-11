@@ -1,0 +1,10 @@
+PING 85.201.191.171 (85.201.191.171) 56(84) bytes of data.
+64 bytes from 85.201.191.171: icmp_seq=1 ttl=50 time=278 ms
+64 bytes from 85.201.191.171: icmp_seq=2 ttl=50 time=276 ms
+64 bytes from 85.201.191.171: icmp_seq=3 ttl=50 time=275 ms
+64 bytes from 85.201.191.171: icmp_seq=4 ttl=50 time=276 ms
+64 bytes from 85.201.191.171: icmp_seq=5 ttl=50 time=279 ms
+
+--- 85.201.191.171 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4001ms
+rtt min/avg/max/mdev = 275.773/277.211/279.207/1.352 ms

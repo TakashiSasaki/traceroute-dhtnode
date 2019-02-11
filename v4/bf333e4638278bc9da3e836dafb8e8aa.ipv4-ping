@@ -1,0 +1,20 @@
+PING 188.193.24.17 (188.193.24.17) 56(84) bytes of data.
+64 bytes from 188.193.24.17: icmp_seq=1 ttl=38 time=300 ms
+64 bytes from 188.193.24.17: icmp_seq=2 ttl=38 time=299 ms
+64 bytes from 188.193.24.17: icmp_seq=3 ttl=38 time=296 ms
+64 bytes from 188.193.24.17: icmp_seq=4 ttl=38 time=298 ms
+64 bytes from 188.193.24.17: icmp_seq=5 ttl=38 time=300 ms
+
+--- 188.193.24.17 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4001ms
+rtt min/avg/max/mdev = 296.520/299.025/300.508/1.630 ms
+PING 188.193.24.17 (188.193.24.17) 56(84) bytes of data.
+64 bytes from 188.193.24.17: icmp_seq=1 ttl=37 time=314 ms
+64 bytes from 188.193.24.17: icmp_seq=2 ttl=37 time=313 ms
+64 bytes from 188.193.24.17: icmp_seq=3 ttl=37 time=312 ms
+64 bytes from 188.193.24.17: icmp_seq=4 ttl=37 time=309 ms
+64 bytes from 188.193.24.17: icmp_seq=5 ttl=37 time=320 ms
+
+--- 188.193.24.17 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4004ms
+rtt min/avg/max/mdev = 309.802/314.232/320.116/3.431 ms

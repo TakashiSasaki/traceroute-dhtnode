@@ -1,0 +1,20 @@
+PING 51.254.39.157 (51.254.39.157) 56(84) bytes of data.
+64 bytes from 51.254.39.157: icmp_seq=1 ttl=48 time=267 ms
+64 bytes from 51.254.39.157: icmp_seq=2 ttl=48 time=265 ms
+64 bytes from 51.254.39.157: icmp_seq=3 ttl=48 time=265 ms
+64 bytes from 51.254.39.157: icmp_seq=4 ttl=48 time=265 ms
+64 bytes from 51.254.39.157: icmp_seq=5 ttl=48 time=264 ms
+
+--- 51.254.39.157 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4005ms
+rtt min/avg/max/mdev = 264.558/265.547/267.360/0.954 ms
+PING 51.254.39.157 (51.254.39.157) 56(84) bytes of data.
+64 bytes from 51.254.39.157: icmp_seq=1 ttl=48 time=268 ms
+64 bytes from 51.254.39.157: icmp_seq=2 ttl=48 time=268 ms
+64 bytes from 51.254.39.157: icmp_seq=3 ttl=48 time=264 ms
+64 bytes from 51.254.39.157: icmp_seq=4 ttl=48 time=264 ms
+64 bytes from 51.254.39.157: icmp_seq=5 ttl=48 time=264 ms
+
+--- 51.254.39.157 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4005ms
+rtt min/avg/max/mdev = 264.676/266.117/268.226/1.759 ms

@@ -1,0 +1,10 @@
+PING 69.181.17.80 (69.181.17.80) 56(84) bytes of data.
+64 bytes from 69.181.17.80: icmp_seq=1 ttl=48 time=145 ms
+64 bytes from 69.181.17.80: icmp_seq=2 ttl=48 time=145 ms
+64 bytes from 69.181.17.80: icmp_seq=3 ttl=48 time=143 ms
+64 bytes from 69.181.17.80: icmp_seq=4 ttl=48 time=141 ms
+64 bytes from 69.181.17.80: icmp_seq=5 ttl=48 time=140 ms
+
+--- 69.181.17.80 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4006ms
+rtt min/avg/max/mdev = 140.220/143.079/145.509/2.208 ms

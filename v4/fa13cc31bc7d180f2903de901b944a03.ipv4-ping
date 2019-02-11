@@ -1,0 +1,10 @@
+PING 67.218.153.214 (67.218.153.214) 56(84) bytes of data.
+64 bytes from 67.218.153.214: icmp_seq=1 ttl=50 time=118 ms
+64 bytes from 67.218.153.214: icmp_seq=2 ttl=50 time=119 ms
+64 bytes from 67.218.153.214: icmp_seq=3 ttl=50 time=119 ms
+64 bytes from 67.218.153.214: icmp_seq=4 ttl=50 time=119 ms
+64 bytes from 67.218.153.214: icmp_seq=5 ttl=50 time=119 ms
+
+--- 67.218.153.214 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4004ms
+rtt min/avg/max/mdev = 118.896/119.349/119.978/0.376 ms

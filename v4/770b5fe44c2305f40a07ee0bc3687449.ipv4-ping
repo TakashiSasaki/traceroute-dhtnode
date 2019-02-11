@@ -1,0 +1,10 @@
+PING 92.206.3.152 (92.206.3.152) 56(84) bytes of data.
+64 bytes from 92.206.3.152: icmp_seq=1 ttl=42 time=294 ms
+64 bytes from 92.206.3.152: icmp_seq=2 ttl=42 time=293 ms
+64 bytes from 92.206.3.152: icmp_seq=3 ttl=42 time=299 ms
+64 bytes from 92.206.3.152: icmp_seq=4 ttl=42 time=297 ms
+64 bytes from 92.206.3.152: icmp_seq=5 ttl=42 time=294 ms
+
+--- 92.206.3.152 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4004ms
+rtt min/avg/max/mdev = 293.894/295.765/299.107/2.190 ms

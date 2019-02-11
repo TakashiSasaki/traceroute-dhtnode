@@ -1,0 +1,20 @@
+PING 162.211.216.100 (162.211.216.100) 56(84) bytes of data.
+64 bytes from 162.211.216.100: icmp_seq=1 ttl=45 time=151 ms
+64 bytes from 162.211.216.100: icmp_seq=2 ttl=45 time=149 ms
+64 bytes from 162.211.216.100: icmp_seq=3 ttl=45 time=149 ms
+64 bytes from 162.211.216.100: icmp_seq=4 ttl=45 time=152 ms
+64 bytes from 162.211.216.100: icmp_seq=5 ttl=45 time=149 ms
+
+--- 162.211.216.100 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4005ms
+rtt min/avg/max/mdev = 149.139/150.486/152.319/1.401 ms
+PING 162.211.216.100 (162.211.216.100) 56(84) bytes of data.
+64 bytes from 162.211.216.100: icmp_seq=1 ttl=45 time=152 ms
+64 bytes from 162.211.216.100: icmp_seq=2 ttl=45 time=150 ms
+64 bytes from 162.211.216.100: icmp_seq=3 ttl=45 time=158 ms
+64 bytes from 162.211.216.100: icmp_seq=4 ttl=45 time=149 ms
+64 bytes from 162.211.216.100: icmp_seq=5 ttl=45 time=153 ms
+
+--- 162.211.216.100 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4005ms
+rtt min/avg/max/mdev = 149.925/152.949/158.833/3.239 ms

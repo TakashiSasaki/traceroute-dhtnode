@@ -1,0 +1,10 @@
+PING 78.199.152.122 (78.199.152.122) 56(84) bytes of data.
+64 bytes from 78.199.152.122: icmp_seq=1 ttl=45 time=289 ms
+64 bytes from 78.199.152.122: icmp_seq=2 ttl=45 time=286 ms
+64 bytes from 78.199.152.122: icmp_seq=3 ttl=45 time=286 ms
+64 bytes from 78.199.152.122: icmp_seq=4 ttl=45 time=287 ms
+64 bytes from 78.199.152.122: icmp_seq=5 ttl=45 time=286 ms
+
+--- 78.199.152.122 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4005ms
+rtt min/avg/max/mdev = 286.068/287.029/289.222/1.193 ms

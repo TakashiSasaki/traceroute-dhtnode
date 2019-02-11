@@ -1,0 +1,10 @@
+PING 89.185.12.251 (89.185.12.251) 56(84) bytes of data.
+64 bytes from 89.185.12.251: icmp_seq=1 ttl=52 time=242 ms
+64 bytes from 89.185.12.251: icmp_seq=2 ttl=52 time=238 ms
+64 bytes from 89.185.12.251: icmp_seq=3 ttl=52 time=238 ms
+64 bytes from 89.185.12.251: icmp_seq=4 ttl=52 time=239 ms
+64 bytes from 89.185.12.251: icmp_seq=5 ttl=52 time=239 ms
+
+--- 89.185.12.251 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4005ms
+rtt min/avg/max/mdev = 238.651/239.705/242.309/1.401 ms

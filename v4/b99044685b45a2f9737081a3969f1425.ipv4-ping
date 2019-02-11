@@ -1,0 +1,10 @@
+PING 64.250.59.102 (64.250.59.102) 56(84) bytes of data.
+64 bytes from 64.250.59.102: icmp_seq=1 ttl=49 time=154 ms
+64 bytes from 64.250.59.102: icmp_seq=2 ttl=49 time=157 ms
+64 bytes from 64.250.59.102: icmp_seq=3 ttl=49 time=153 ms
+64 bytes from 64.250.59.102: icmp_seq=4 ttl=49 time=152 ms
+64 bytes from 64.250.59.102: icmp_seq=5 ttl=49 time=153 ms
+
+--- 64.250.59.102 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4005ms
+rtt min/avg/max/mdev = 152.847/154.412/157.114/1.486 ms
