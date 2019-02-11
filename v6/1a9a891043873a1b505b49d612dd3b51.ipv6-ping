@@ -1,0 +1,40 @@
+PING 2001:bb6:113c:5e58:bd3b:af5a:5784:ff29(2001:bb6:113c:5e58:bd3b:af5a:5784:ff29) 56 data bytes
+From 2001:bb6:113c:5e00:b430:52de:4caf:0 icmp_seq=1 Destination unreachable: Address unreachable
+From 2001:bb6:113c:5e00:b430:52de:4caf:0 icmp_seq=2 Destination unreachable: Address unreachable
+From 2001:bb6:113c:5e00:b430:52de:4caf:0 icmp_seq=3 Destination unreachable: Address unreachable
+From 2001:bb6:113c:5e00:b430:52de:4caf:0 icmp_seq=4 Destination unreachable: Address unreachable
+From 2001:bb6:113c:5e00:b430:52de:4caf:0 icmp_seq=5 Destination unreachable: Address unreachable
+
+--- 2001:bb6:113c:5e58:bd3b:af5a:5784:ff29 ping statistics ---
+5 packets transmitted, 0 received, +5 errors, 100% packet loss, time 4149ms
+
+PING 2001:bb6:113c:5e58:bd3b:af5a:5784:ff29(2001:bb6:113c:5e58:bd3b:af5a:5784:ff29) 56 data bytes
+From 2001:bb6:113c:5e00:b430:52de:4caf:0 icmp_seq=1 Destination unreachable: Address unreachable
+From 2001:bb6:113c:5e00:b430:52de:4caf:0 icmp_seq=2 Destination unreachable: Address unreachable
+From 2001:bb6:113c:5e00:b430:52de:4caf:0 icmp_seq=3 Destination unreachable: Address unreachable
+From 2001:bb6:113c:5e00:b430:52de:4caf:0 icmp_seq=4 Destination unreachable: Address unreachable
+From 2001:bb6:113c:5e00:b430:52de:4caf:0 icmp_seq=5 Destination unreachable: Address unreachable
+
+--- 2001:bb6:113c:5e58:bd3b:af5a:5784:ff29 ping statistics ---
+5 packets transmitted, 0 received, +5 errors, 100% packet loss, time 4150ms
+
+PING 2001:bb6:113c:5e58:bd3b:af5a:5784:ff29(2001:bb6:113c:5e58:bd3b:af5a:5784:ff29) 56 data bytes
+From 2001:bb6:113c:5e00:b430:52de:4caf:0 icmp_seq=1 Destination unreachable: Address unreachable
+From 2001:bb6:113c:5e00:b430:52de:4caf:0 icmp_seq=2 Destination unreachable: Address unreachable
+From 2001:bb6:113c:5e00:b430:52de:4caf:0 icmp_seq=3 Destination unreachable: Address unreachable
+From 2001:bb6:113c:5e00:b430:52de:4caf:0 icmp_seq=4 Destination unreachable: Address unreachable
+From 2001:bb6:113c:5e00:b430:52de:4caf:0 icmp_seq=5 Destination unreachable: Address unreachable
+
+--- 2001:bb6:113c:5e58:bd3b:af5a:5784:ff29 ping statistics ---
+5 packets transmitted, 0 received, +5 errors, 100% packet loss, time 4099ms
+
+PING 2001:bb6:113c:5e58:bd3b:af5a:5784:ff29(2001:bb6:113c:5e58:bd3b:af5a:5784:ff29) 56 data bytes
+From 2001:bb6:113c:5e00:b430:52de:4caf:0 icmp_seq=1 Destination unreachable: Address unreachable
+From 2001:bb6:113c:5e00:b430:52de:4caf:0 icmp_seq=2 Destination unreachable: Address unreachable
+From 2001:bb6:113c:5e00:b430:52de:4caf:0 icmp_seq=3 Destination unreachable: Address unreachable
+From 2001:bb6:113c:5e00:b430:52de:4caf:0 icmp_seq=4 Destination unreachable: Address unreachable
+From 2001:bb6:113c:5e00:b430:52de:4caf:0 icmp_seq=5 Destination unreachable: Address unreachable
+
+--- 2001:bb6:113c:5e58:bd3b:af5a:5784:ff29 ping statistics ---
+5 packets transmitted, 0 received, +5 errors, 100% packet loss, time 4156ms
+

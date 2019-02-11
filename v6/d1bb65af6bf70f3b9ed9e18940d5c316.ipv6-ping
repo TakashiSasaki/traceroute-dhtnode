@@ -1,0 +1,20 @@
+PING 2a02:168:7a29:2:7c1:7b73:6aa1:a09f(2a02:168:7a29:2:7c1:7b73:6aa1:a09f) 56 data bytes
+From 2a02:168:2000:1d:b392:4928:da04:acc4 icmp_seq=1 Destination unreachable: Address unreachable
+From 2a02:168:2000:1d:b392:4928:da04:acc4 icmp_seq=2 Destination unreachable: Address unreachable
+From 2a02:168:2000:1d:b392:4928:da04:acc4 icmp_seq=3 Destination unreachable: Address unreachable
+From 2a02:168:2000:1d:b392:4928:da04:acc4 icmp_seq=4 Destination unreachable: Address unreachable
+From 2a02:168:2000:1d:b392:4928:da04:acc4 icmp_seq=5 Destination unreachable: Address unreachable
+
+--- 2a02:168:7a29:2:7c1:7b73:6aa1:a09f ping statistics ---
+5 packets transmitted, 0 received, +5 errors, 100% packet loss, time 4110ms
+
+PING 2a02:168:7a29:2:7c1:7b73:6aa1:a09f(2a02:168:7a29:2:7c1:7b73:6aa1:a09f) 56 data bytes
+64 bytes from 2a02:168:7a29:2:7c1:7b73:6aa1:a09f: icmp_seq=1 ttl=45 time=288 ms
+64 bytes from 2a02:168:7a29:2:7c1:7b73:6aa1:a09f: icmp_seq=2 ttl=45 time=335 ms
+64 bytes from 2a02:168:7a29:2:7c1:7b73:6aa1:a09f: icmp_seq=3 ttl=45 time=319 ms
+64 bytes from 2a02:168:7a29:2:7c1:7b73:6aa1:a09f: icmp_seq=4 ttl=45 time=284 ms
+64 bytes from 2a02:168:7a29:2:7c1:7b73:6aa1:a09f: icmp_seq=5 ttl=45 time=285 ms
+
+--- 2a02:168:7a29:2:7c1:7b73:6aa1:a09f ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4002ms
+rtt min/avg/max/mdev = 284.996/302.750/335.880/21.064 ms

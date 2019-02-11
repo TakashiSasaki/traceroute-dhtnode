@@ -1,0 +1,39 @@
+PING 2a01:e0a:c:3d90:d1cd:49c4:33f8:5d23(2a01:e0a:c:3d90:d1cd:49c4:33f8:5d23) 56 data bytes
+64 bytes from 2a01:e0a:c:3d90:d1cd:49c4:33f8:5d23: icmp_seq=1 ttl=42 time=284 ms
+64 bytes from 2a01:e0a:c:3d90:d1cd:49c4:33f8:5d23: icmp_seq=2 ttl=42 time=283 ms
+64 bytes from 2a01:e0a:c:3d90:d1cd:49c4:33f8:5d23: icmp_seq=3 ttl=42 time=295 ms
+64 bytes from 2a01:e0a:c:3d90:d1cd:49c4:33f8:5d23: icmp_seq=4 ttl=42 time=284 ms
+64 bytes from 2a01:e0a:c:3d90:d1cd:49c4:33f8:5d23: icmp_seq=5 ttl=42 time=456 ms
+
+--- 2a01:e0a:c:3d90:d1cd:49c4:33f8:5d23 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4004ms
+rtt min/avg/max/mdev = 283.848/320.888/456.798/68.089 ms
+PING 2a01:e0a:c:3d90:d1cd:49c4:33f8:5d23(2a01:e0a:c:3d90:d1cd:49c4:33f8:5d23) 56 data bytes
+From 2a01:e0a:c:3d90::1 icmp_seq=1 Destination unreachable: Address unreachable
+From 2a01:e0a:c:3d90::1 icmp_seq=2 Destination unreachable: Address unreachable
+From 2a01:e0a:c:3d90::1 icmp_seq=3 Destination unreachable: Address unreachable
+From 2a01:e0a:c:3d90::1 icmp_seq=4 Destination unreachable: Address unreachable
+From 2a01:e0a:c:3d90::1 icmp_seq=5 Destination unreachable: Address unreachable
+
+--- 2a01:e0a:c:3d90:d1cd:49c4:33f8:5d23 ping statistics ---
+5 packets transmitted, 0 received, +5 errors, 100% packet loss, time 4088ms
+
+PING 2a01:e0a:c:3d90:d1cd:49c4:33f8:5d23(2a01:e0a:c:3d90:d1cd:49c4:33f8:5d23) 56 data bytes
+From 2a01:e0a:c:3d90::1 icmp_seq=1 Destination unreachable: Address unreachable
+From 2a01:e0a:c:3d90::1 icmp_seq=3 Destination unreachable: Address unreachable
+From 2a01:e0a:c:3d90::1 icmp_seq=4 Destination unreachable: Address unreachable
+From 2a01:e0a:c:3d90::1 icmp_seq=5 Destination unreachable: Address unreachable
+
+--- 2a01:e0a:c:3d90:d1cd:49c4:33f8:5d23 ping statistics ---
+5 packets transmitted, 0 received, +4 errors, 100% packet loss, time 4059ms
+
+PING 2a01:e0a:c:3d90:d1cd:49c4:33f8:5d23(2a01:e0a:c:3d90:d1cd:49c4:33f8:5d23) 56 data bytes
+From 2a01:e0a:c:3d90::1 icmp_seq=1 Destination unreachable: Address unreachable
+From 2a01:e0a:c:3d90::1 icmp_seq=2 Destination unreachable: Address unreachable
+From 2a01:e0a:c:3d90::1 icmp_seq=3 Destination unreachable: Address unreachable
+From 2a01:e0a:c:3d90::1 icmp_seq=4 Destination unreachable: Address unreachable
+From 2a01:e0a:c:3d90::1 icmp_seq=5 Destination unreachable: Address unreachable
+
+--- 2a01:e0a:c:3d90:d1cd:49c4:33f8:5d23 ping statistics ---
+5 packets transmitted, 0 received, +5 errors, 100% packet loss, time 4150ms
+

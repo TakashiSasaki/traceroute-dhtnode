@@ -1,0 +1,30 @@
+PING 2002:b8a2:e263:0:85c8:1d46:fd73:8a3f(2002:b8a2:e263:0:85c8:1d46:fd73:8a3f) 56 data bytes
+64 bytes from 2002:b8a2:e263:0:85c8:1d46:fd73:8a3f: icmp_seq=1 ttl=47 time=203 ms
+64 bytes from 2002:b8a2:e263:0:85c8:1d46:fd73:8a3f: icmp_seq=2 ttl=47 time=203 ms
+64 bytes from 2002:b8a2:e263:0:85c8:1d46:fd73:8a3f: icmp_seq=3 ttl=47 time=210 ms
+64 bytes from 2002:b8a2:e263:0:85c8:1d46:fd73:8a3f: icmp_seq=4 ttl=47 time=207 ms
+64 bytes from 2002:b8a2:e263:0:85c8:1d46:fd73:8a3f: icmp_seq=5 ttl=47 time=207 ms
+
+--- 2002:b8a2:e263:0:85c8:1d46:fd73:8a3f ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4005ms
+rtt min/avg/max/mdev = 203.269/206.223/210.126/2.642 ms
+PING 2002:b8a2:e263:0:85c8:1d46:fd73:8a3f(2002:b8a2:e263:0:85c8:1d46:fd73:8a3f) 56 data bytes
+From 2002:b8a2:e263:: icmp_seq=1 Destination unreachable: Address unreachable
+From 2002:b8a2:e263:: icmp_seq=2 Destination unreachable: Address unreachable
+From 2002:b8a2:e263:: icmp_seq=3 Destination unreachable: Address unreachable
+From 2002:b8a2:e263:: icmp_seq=4 Destination unreachable: Address unreachable
+From 2002:b8a2:e263:: icmp_seq=5 Destination unreachable: Address unreachable
+
+--- 2002:b8a2:e263:0:85c8:1d46:fd73:8a3f ping statistics ---
+5 packets transmitted, 0 received, +5 errors, 100% packet loss, time 4056ms
+
+PING 2002:b8a2:e263:0:85c8:1d46:fd73:8a3f(2002:b8a2:e263:0:85c8:1d46:fd73:8a3f) 56 data bytes
+From 2002:b8a2:e263:: icmp_seq=1 Destination unreachable: Address unreachable
+From 2002:b8a2:e263:: icmp_seq=2 Destination unreachable: Address unreachable
+From 2002:b8a2:e263:: icmp_seq=3 Destination unreachable: Address unreachable
+From 2002:b8a2:e263:: icmp_seq=4 Destination unreachable: Address unreachable
+From 2002:b8a2:e263:: icmp_seq=5 Destination unreachable: Address unreachable
+
+--- 2002:b8a2:e263:0:85c8:1d46:fd73:8a3f ping statistics ---
+5 packets transmitted, 0 received, +5 errors, 100% packet loss, time 4129ms
+

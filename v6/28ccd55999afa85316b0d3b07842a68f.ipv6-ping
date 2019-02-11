@@ -1,0 +1,40 @@
+PING 2604:bbc0:1:962c::106:4012(2604:bbc0:1:962c::106:4012) 56 data bytes
+64 bytes from 2604:bbc0:1:962c::106:4012: icmp_seq=1 ttl=43 time=131 ms
+64 bytes from 2604:bbc0:1:962c::106:4012: icmp_seq=2 ttl=43 time=131 ms
+64 bytes from 2604:bbc0:1:962c::106:4012: icmp_seq=3 ttl=43 time=131 ms
+64 bytes from 2604:bbc0:1:962c::106:4012: icmp_seq=4 ttl=43 time=131 ms
+64 bytes from 2604:bbc0:1:962c::106:4012: icmp_seq=5 ttl=43 time=131 ms
+
+--- 2604:bbc0:1:962c::106:4012 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4005ms
+rtt min/avg/max/mdev = 131.337/131.451/131.689/0.125 ms
+PING 2604:bbc0:1:962c::106:4012(2604:bbc0:1:962c::106:4012) 56 data bytes
+64 bytes from 2604:bbc0:1:962c::106:4012: icmp_seq=1 ttl=43 time=133 ms
+64 bytes from 2604:bbc0:1:962c::106:4012: icmp_seq=2 ttl=43 time=131 ms
+64 bytes from 2604:bbc0:1:962c::106:4012: icmp_seq=3 ttl=43 time=131 ms
+64 bytes from 2604:bbc0:1:962c::106:4012: icmp_seq=4 ttl=43 time=131 ms
+64 bytes from 2604:bbc0:1:962c::106:4012: icmp_seq=5 ttl=43 time=131 ms
+
+--- 2604:bbc0:1:962c::106:4012 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4005ms
+rtt min/avg/max/mdev = 131.231/131.968/133.850/1.000 ms
+PING 2604:bbc0:1:962c::106:4012(2604:bbc0:1:962c::106:4012) 56 data bytes
+64 bytes from 2604:bbc0:1:962c::106:4012: icmp_seq=1 ttl=43 time=132 ms
+64 bytes from 2604:bbc0:1:962c::106:4012: icmp_seq=2 ttl=43 time=131 ms
+64 bytes from 2604:bbc0:1:962c::106:4012: icmp_seq=3 ttl=43 time=131 ms
+64 bytes from 2604:bbc0:1:962c::106:4012: icmp_seq=4 ttl=43 time=131 ms
+64 bytes from 2604:bbc0:1:962c::106:4012: icmp_seq=5 ttl=43 time=131 ms
+
+--- 2604:bbc0:1:962c::106:4012 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4005ms
+rtt min/avg/max/mdev = 131.240/131.799/132.468/0.512 ms
+PING 2604:bbc0:1:962c::106:4012(2604:bbc0:1:962c::106:4012) 56 data bytes
+64 bytes from 2604:bbc0:1:962c::106:4012: icmp_seq=1 ttl=43 time=133 ms
+64 bytes from 2604:bbc0:1:962c::106:4012: icmp_seq=2 ttl=43 time=131 ms
+64 bytes from 2604:bbc0:1:962c::106:4012: icmp_seq=3 ttl=43 time=131 ms
+64 bytes from 2604:bbc0:1:962c::106:4012: icmp_seq=4 ttl=43 time=131 ms
+64 bytes from 2604:bbc0:1:962c::106:4012: icmp_seq=5 ttl=43 time=131 ms
+
+--- 2604:bbc0:1:962c::106:4012 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4006ms
+rtt min/avg/max/mdev = 131.275/131.861/133.203/0.695 ms

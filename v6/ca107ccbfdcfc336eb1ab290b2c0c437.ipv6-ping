@@ -1,0 +1,15 @@
+PING 2601:602:cb00:11ea:d1d1:7645:6722:93c4(2601:602:cb00:11ea:d1d1:7645:6722:93c4) 56 data bytes
+
+--- 2601:602:cb00:11ea:d1d1:7645:6722:93c4 ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4127ms
+
+PING 2601:602:cb00:11ea:d1d1:7645:6722:93c4(2601:602:cb00:11ea:d1d1:7645:6722:93c4) 56 data bytes
+
+--- 2601:602:cb00:11ea:d1d1:7645:6722:93c4 ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4186ms
+
+PING 2601:602:cb00:11ea:d1d1:7645:6722:93c4(2601:602:cb00:11ea:d1d1:7645:6722:93c4) 56 data bytes
+
+--- 2601:602:cb00:11ea:d1d1:7645:6722:93c4 ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4191ms
+

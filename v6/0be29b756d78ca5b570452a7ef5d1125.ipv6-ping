@@ -1,0 +1,40 @@
+PING 2001:41d0:401:3100::2900(2001:41d0:401:3100::2900) 56 data bytes
+64 bytes from 2001:41d0:401:3100::2900: icmp_seq=1 ttl=47 time=264 ms
+64 bytes from 2001:41d0:401:3100::2900: icmp_seq=2 ttl=47 time=262 ms
+64 bytes from 2001:41d0:401:3100::2900: icmp_seq=3 ttl=47 time=261 ms
+64 bytes from 2001:41d0:401:3100::2900: icmp_seq=4 ttl=47 time=261 ms
+64 bytes from 2001:41d0:401:3100::2900: icmp_seq=5 ttl=47 time=262 ms
+
+--- 2001:41d0:401:3100::2900 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4004ms
+rtt min/avg/max/mdev = 261.840/262.590/264.731/1.082 ms
+PING 2001:41d0:401:3100::2900(2001:41d0:401:3100::2900) 56 data bytes
+64 bytes from 2001:41d0:401:3100::2900: icmp_seq=1 ttl=47 time=264 ms
+64 bytes from 2001:41d0:401:3100::2900: icmp_seq=2 ttl=47 time=262 ms
+64 bytes from 2001:41d0:401:3100::2900: icmp_seq=3 ttl=47 time=262 ms
+64 bytes from 2001:41d0:401:3100::2900: icmp_seq=4 ttl=47 time=262 ms
+64 bytes from 2001:41d0:401:3100::2900: icmp_seq=5 ttl=47 time=262 ms
+
+--- 2001:41d0:401:3100::2900 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4005ms
+rtt min/avg/max/mdev = 262.164/262.924/264.543/0.912 ms
+PING 2001:41d0:401:3100::2900(2001:41d0:401:3100::2900) 56 data bytes
+64 bytes from 2001:41d0:401:3100::2900: icmp_seq=1 ttl=47 time=262 ms
+64 bytes from 2001:41d0:401:3100::2900: icmp_seq=2 ttl=47 time=261 ms
+64 bytes from 2001:41d0:401:3100::2900: icmp_seq=3 ttl=47 time=261 ms
+64 bytes from 2001:41d0:401:3100::2900: icmp_seq=4 ttl=47 time=261 ms
+64 bytes from 2001:41d0:401:3100::2900: icmp_seq=5 ttl=47 time=262 ms
+
+--- 2001:41d0:401:3100::2900 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4000ms
+rtt min/avg/max/mdev = 261.697/261.991/262.435/0.648 ms
+PING 2001:41d0:401:3100::2900(2001:41d0:401:3100::2900) 56 data bytes
+64 bytes from 2001:41d0:401:3100::2900: icmp_seq=1 ttl=47 time=262 ms
+64 bytes from 2001:41d0:401:3100::2900: icmp_seq=2 ttl=47 time=261 ms
+64 bytes from 2001:41d0:401:3100::2900: icmp_seq=3 ttl=47 time=262 ms
+64 bytes from 2001:41d0:401:3100::2900: icmp_seq=4 ttl=47 time=262 ms
+64 bytes from 2001:41d0:401:3100::2900: icmp_seq=5 ttl=47 time=262 ms
+
+--- 2001:41d0:401:3100::2900 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4005ms
+rtt min/avg/max/mdev = 261.921/262.284/262.538/0.404 ms

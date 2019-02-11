@@ -1,0 +1,10 @@
+PING 2a01:e34:ec14:b4b0:ed69:9246:2d33:f9b9(2a01:e34:ec14:b4b0:ed69:9246:2d33:f9b9) 56 data bytes
+64 bytes from 2a01:e34:ec14:b4b0:ed69:9246:2d33:f9b9: icmp_seq=1 ttl=43 time=278 ms
+64 bytes from 2a01:e34:ec14:b4b0:ed69:9246:2d33:f9b9: icmp_seq=2 ttl=43 time=312 ms
+64 bytes from 2a01:e34:ec14:b4b0:ed69:9246:2d33:f9b9: icmp_seq=3 ttl=43 time=281 ms
+64 bytes from 2a01:e34:ec14:b4b0:ed69:9246:2d33:f9b9: icmp_seq=4 ttl=43 time=270 ms
+64 bytes from 2a01:e34:ec14:b4b0:ed69:9246:2d33:f9b9: icmp_seq=5 ttl=43 time=275 ms
+
+--- 2a01:e34:ec14:b4b0:ed69:9246:2d33:f9b9 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4004ms
+rtt min/avg/max/mdev = 270.856/283.824/312.409/14.748 ms

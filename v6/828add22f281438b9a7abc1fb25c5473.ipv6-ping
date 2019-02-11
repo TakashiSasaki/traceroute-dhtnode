@@ -1,0 +1,29 @@
+PING 2a05:f6c2:1756:0:d05:90e4:9ddf:775c(2a05:f6c2:1756:0:d05:90e4:9ddf:775c) 56 data bytes
+From 2a05:f6c1:1:1756:: icmp_seq=1 Destination unreachable: Address unreachable
+From 2a05:f6c1:1:1756:: icmp_seq=2 Destination unreachable: Address unreachable
+From 2a05:f6c1:1:1756:: icmp_seq=3 Destination unreachable: Address unreachable
+From 2a05:f6c1:1:1756:: icmp_seq=4 Destination unreachable: Address unreachable
+From 2a05:f6c1:1:1756:: icmp_seq=5 Destination unreachable: Address unreachable
+
+--- 2a05:f6c2:1756:0:d05:90e4:9ddf:775c ping statistics ---
+5 packets transmitted, 0 received, +5 errors, 100% packet loss, time 4129ms
+
+PING 2a05:f6c2:1756:0:d05:90e4:9ddf:775c(2a05:f6c2:1756:0:d05:90e4:9ddf:775c) 56 data bytes
+From 2a01:7e8:1:800::392 icmp_seq=2 Destination unreachable: Address unreachable
+From 2a01:7e8:1:800::392 icmp_seq=3 Destination unreachable: Address unreachable
+
+--- 2a05:f6c2:1756:0:d05:90e4:9ddf:775c ping statistics ---
+5 packets transmitted, 0 received, +2 errors, 100% packet loss, time 4119ms
+
+PING 2a05:f6c2:1756:0:d05:90e4:9ddf:775c(2a05:f6c2:1756:0:d05:90e4:9ddf:775c) 56 data bytes
+From 2a01:7e8:1:800::392 icmp_seq=3 Destination unreachable: Address unreachable
+
+--- 2a05:f6c2:1756:0:d05:90e4:9ddf:775c ping statistics ---
+5 packets transmitted, 0 received, +1 errors, 100% packet loss, time 4194ms
+
+PING 2a05:f6c2:1756:0:d05:90e4:9ddf:775c(2a05:f6c2:1756:0:d05:90e4:9ddf:775c) 56 data bytes
+From 2a01:7e8:1:800::392 icmp_seq=1 Destination unreachable: Address unreachable
+
+--- 2a05:f6c2:1756:0:d05:90e4:9ddf:775c ping statistics ---
+5 packets transmitted, 0 received, +1 errors, 100% packet loss, time 4107ms
+

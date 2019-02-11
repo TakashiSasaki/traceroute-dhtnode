@@ -1,0 +1,39 @@
+PING 2a01:e0a:1aa:2090:8c65:4fd4:b267:ce40(2a01:e0a:1aa:2090:8c65:4fd4:b267:ce40) 56 data bytes
+64 bytes from 2a01:e0a:1aa:2090:8c65:4fd4:b267:ce40: icmp_seq=1 ttl=39 time=269 ms
+64 bytes from 2a01:e0a:1aa:2090:8c65:4fd4:b267:ce40: icmp_seq=2 ttl=39 time=269 ms
+64 bytes from 2a01:e0a:1aa:2090:8c65:4fd4:b267:ce40: icmp_seq=3 ttl=39 time=269 ms
+64 bytes from 2a01:e0a:1aa:2090:8c65:4fd4:b267:ce40: icmp_seq=4 ttl=39 time=269 ms
+64 bytes from 2a01:e0a:1aa:2090:8c65:4fd4:b267:ce40: icmp_seq=5 ttl=39 time=268 ms
+
+--- 2a01:e0a:1aa:2090:8c65:4fd4:b267:ce40 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4001ms
+rtt min/avg/max/mdev = 268.872/269.408/269.876/0.347 ms
+PING 2a01:e0a:1aa:2090:8c65:4fd4:b267:ce40(2a01:e0a:1aa:2090:8c65:4fd4:b267:ce40) 56 data bytes
+64 bytes from 2a01:e0a:1aa:2090:8c65:4fd4:b267:ce40: icmp_seq=1 ttl=39 time=272 ms
+64 bytes from 2a01:e0a:1aa:2090:8c65:4fd4:b267:ce40: icmp_seq=2 ttl=39 time=269 ms
+64 bytes from 2a01:e0a:1aa:2090:8c65:4fd4:b267:ce40: icmp_seq=3 ttl=39 time=268 ms
+64 bytes from 2a01:e0a:1aa:2090:8c65:4fd4:b267:ce40: icmp_seq=4 ttl=39 time=270 ms
+64 bytes from 2a01:e0a:1aa:2090:8c65:4fd4:b267:ce40: icmp_seq=5 ttl=39 time=271 ms
+
+--- 2a01:e0a:1aa:2090:8c65:4fd4:b267:ce40 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4005ms
+rtt min/avg/max/mdev = 268.750/270.403/272.280/1.422 ms
+PING 2a01:e0a:1aa:2090:8c65:4fd4:b267:ce40(2a01:e0a:1aa:2090:8c65:4fd4:b267:ce40) 56 data bytes
+64 bytes from 2a01:e0a:1aa:2090:8c65:4fd4:b267:ce40: icmp_seq=1 ttl=39 time=270 ms
+64 bytes from 2a01:e0a:1aa:2090:8c65:4fd4:b267:ce40: icmp_seq=2 ttl=39 time=269 ms
+64 bytes from 2a01:e0a:1aa:2090:8c65:4fd4:b267:ce40: icmp_seq=3 ttl=39 time=269 ms
+64 bytes from 2a01:e0a:1aa:2090:8c65:4fd4:b267:ce40: icmp_seq=4 ttl=39 time=271 ms
+64 bytes from 2a01:e0a:1aa:2090:8c65:4fd4:b267:ce40: icmp_seq=5 ttl=39 time=268 ms
+
+--- 2a01:e0a:1aa:2090:8c65:4fd4:b267:ce40 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4004ms
+rtt min/avg/max/mdev = 268.709/269.924/271.145/1.013 ms
+PING 2a01:e0a:1aa:2090:8c65:4fd4:b267:ce40(2a01:e0a:1aa:2090:8c65:4fd4:b267:ce40) 56 data bytes
+64 bytes from 2a01:e0a:1aa:2090:8c65:4fd4:b267:ce40: icmp_seq=1 ttl=39 time=271 ms
+64 bytes from 2a01:e0a:1aa:2090:8c65:4fd4:b267:ce40: icmp_seq=2 ttl=39 time=269 ms
+64 bytes from 2a01:e0a:1aa:2090:8c65:4fd4:b267:ce40: icmp_seq=3 ttl=39 time=271 ms
+64 bytes from 2a01:e0a:1aa:2090:8c65:4fd4:b267:ce40: icmp_seq=5 ttl=39 time=269 ms
+
+--- 2a01:e0a:1aa:2090:8c65:4fd4:b267:ce40 ping statistics ---
+5 packets transmitted, 4 received, 20% packet loss, time 4049ms
+rtt min/avg/max/mdev = 269.376/270.630/271.967/1.355 ms

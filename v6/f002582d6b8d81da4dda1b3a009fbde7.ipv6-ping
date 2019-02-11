@@ -1,0 +1,10 @@
+PING 2a00:23c6:4a85:3d01:ecc7:87eb:1e32:4461(2a00:23c6:4a85:3d01:ecc7:87eb:1e32:4461) 56 data bytes
+
+--- 2a00:23c6:4a85:3d01:ecc7:87eb:1e32:4461 ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4137ms
+
+PING 2a00:23c6:4a85:3d01:ecc7:87eb:1e32:4461(2a00:23c6:4a85:3d01:ecc7:87eb:1e32:4461) 56 data bytes
+
+--- 2a00:23c6:4a85:3d01:ecc7:87eb:1e32:4461 ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4191ms
+

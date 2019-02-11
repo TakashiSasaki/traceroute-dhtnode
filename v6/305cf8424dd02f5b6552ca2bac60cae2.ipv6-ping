@@ -1,0 +1,15 @@
+PING 2a00:23c7:681:d800:db0:55:5648:3af9(2a00:23c7:681:d800:db0:55:5648:3af9) 56 data bytes
+
+--- 2a00:23c7:681:d800:db0:55:5648:3af9 ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4126ms
+
+PING 2a00:23c7:681:d800:db0:55:5648:3af9(2a00:23c7:681:d800:db0:55:5648:3af9) 56 data bytes
+
+--- 2a00:23c7:681:d800:db0:55:5648:3af9 ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4138ms
+
+PING 2a00:23c7:681:d800:db0:55:5648:3af9(2a00:23c7:681:d800:db0:55:5648:3af9) 56 data bytes
+
+--- 2a00:23c7:681:d800:db0:55:5648:3af9 ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4175ms
+

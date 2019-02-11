@@ -1,0 +1,10 @@
+PING 2003:c3:ff00:d00:b0fa:4e35:3ced:c27e(2003:c3:ff00:d00:b0fa:4e35:3ced:c27e) 56 data bytes
+
+--- 2003:c3:ff00:d00:b0fa:4e35:3ced:c27e ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4137ms
+
+PING 2003:c3:ff00:d00:b0fa:4e35:3ced:c27e(2003:c3:ff00:d00:b0fa:4e35:3ced:c27e) 56 data bytes
+
+--- 2003:c3:ff00:d00:b0fa:4e35:3ced:c27e ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4193ms
+

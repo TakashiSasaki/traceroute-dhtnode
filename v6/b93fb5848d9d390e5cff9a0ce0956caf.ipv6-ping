@@ -1,0 +1,10 @@
+PING 2001:a61:35dd:9301:d408:5924:72d0:526d(2001:a61:35dd:9301:d408:5924:72d0:526d) 56 data bytes
+
+--- 2001:a61:35dd:9301:d408:5924:72d0:526d ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4169ms
+
+PING 2001:a61:35dd:9301:d408:5924:72d0:526d(2001:a61:35dd:9301:d408:5924:72d0:526d) 56 data bytes
+
+--- 2001:a61:35dd:9301:d408:5924:72d0:526d ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4184ms
+

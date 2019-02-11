@@ -1,0 +1,40 @@
+PING 2a01:e34:ecc3:7230:64b0:1334:f3e:da09(2a01:e34:ecc3:7230:64b0:1334:f3e:da09) 56 data bytes
+64 bytes from 2a01:e34:ecc3:7230:64b0:1334:f3e:da09: icmp_seq=1 ttl=44 time=277 ms
+64 bytes from 2a01:e34:ecc3:7230:64b0:1334:f3e:da09: icmp_seq=2 ttl=44 time=276 ms
+64 bytes from 2a01:e34:ecc3:7230:64b0:1334:f3e:da09: icmp_seq=3 ttl=44 time=276 ms
+64 bytes from 2a01:e34:ecc3:7230:64b0:1334:f3e:da09: icmp_seq=4 ttl=44 time=277 ms
+64 bytes from 2a01:e34:ecc3:7230:64b0:1334:f3e:da09: icmp_seq=5 ttl=44 time=277 ms
+
+--- 2a01:e34:ecc3:7230:64b0:1334:f3e:da09 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4004ms
+rtt min/avg/max/mdev = 276.778/277.138/277.558/0.537 ms
+PING 2a01:e34:ecc3:7230:64b0:1334:f3e:da09(2a01:e34:ecc3:7230:64b0:1334:f3e:da09) 56 data bytes
+64 bytes from 2a01:e34:ecc3:7230:64b0:1334:f3e:da09: icmp_seq=1 ttl=44 time=277 ms
+64 bytes from 2a01:e34:ecc3:7230:64b0:1334:f3e:da09: icmp_seq=2 ttl=44 time=278 ms
+64 bytes from 2a01:e34:ecc3:7230:64b0:1334:f3e:da09: icmp_seq=3 ttl=44 time=278 ms
+64 bytes from 2a01:e34:ecc3:7230:64b0:1334:f3e:da09: icmp_seq=4 ttl=44 time=277 ms
+64 bytes from 2a01:e34:ecc3:7230:64b0:1334:f3e:da09: icmp_seq=5 ttl=44 time=276 ms
+
+--- 2a01:e34:ecc3:7230:64b0:1334:f3e:da09 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4001ms
+rtt min/avg/max/mdev = 276.430/277.820/278.950/0.909 ms
+PING 2a01:e34:ecc3:7230:64b0:1334:f3e:da09(2a01:e34:ecc3:7230:64b0:1334:f3e:da09) 56 data bytes
+64 bytes from 2a01:e34:ecc3:7230:64b0:1334:f3e:da09: icmp_seq=1 ttl=44 time=278 ms
+64 bytes from 2a01:e34:ecc3:7230:64b0:1334:f3e:da09: icmp_seq=2 ttl=44 time=276 ms
+64 bytes from 2a01:e34:ecc3:7230:64b0:1334:f3e:da09: icmp_seq=3 ttl=44 time=276 ms
+64 bytes from 2a01:e34:ecc3:7230:64b0:1334:f3e:da09: icmp_seq=4 ttl=44 time=276 ms
+64 bytes from 2a01:e34:ecc3:7230:64b0:1334:f3e:da09: icmp_seq=5 ttl=44 time=276 ms
+
+--- 2a01:e34:ecc3:7230:64b0:1334:f3e:da09 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4005ms
+rtt min/avg/max/mdev = 276.589/277.049/278.544/1.005 ms
+PING 2a01:e34:ecc3:7230:64b0:1334:f3e:da09(2a01:e34:ecc3:7230:64b0:1334:f3e:da09) 56 data bytes
+64 bytes from 2a01:e34:ecc3:7230:64b0:1334:f3e:da09: icmp_seq=1 ttl=44 time=278 ms
+64 bytes from 2a01:e34:ecc3:7230:64b0:1334:f3e:da09: icmp_seq=2 ttl=44 time=278 ms
+64 bytes from 2a01:e34:ecc3:7230:64b0:1334:f3e:da09: icmp_seq=3 ttl=44 time=277 ms
+64 bytes from 2a01:e34:ecc3:7230:64b0:1334:f3e:da09: icmp_seq=4 ttl=44 time=279 ms
+64 bytes from 2a01:e34:ecc3:7230:64b0:1334:f3e:da09: icmp_seq=5 ttl=44 time=279 ms
+
+--- 2a01:e34:ecc3:7230:64b0:1334:f3e:da09 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4001ms
+rtt min/avg/max/mdev = 277.752/278.462/279.181/0.636 ms

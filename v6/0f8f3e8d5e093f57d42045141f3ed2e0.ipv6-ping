@@ -1,0 +1,15 @@
+PING 2600:1006:b058:5a80:5124:df46:3128:20b7(2600:1006:b058:5a80:5124:df46:3128:20b7) 56 data bytes
+
+--- 2600:1006:b058:5a80:5124:df46:3128:20b7 ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4127ms
+
+PING 2600:1006:b058:5a80:5124:df46:3128:20b7(2600:1006:b058:5a80:5124:df46:3128:20b7) 56 data bytes
+
+--- 2600:1006:b058:5a80:5124:df46:3128:20b7 ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4153ms
+
+PING 2600:1006:b058:5a80:5124:df46:3128:20b7(2600:1006:b058:5a80:5124:df46:3128:20b7) 56 data bytes
+
+--- 2600:1006:b058:5a80:5124:df46:3128:20b7 ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4190ms
+

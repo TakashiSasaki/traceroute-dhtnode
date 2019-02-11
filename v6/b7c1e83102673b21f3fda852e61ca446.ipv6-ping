@@ -1,0 +1,15 @@
+PING 2003:c8:f1f:7200:a2ce:c8ff:fe0e:9d01(2003:c8:f1f:7200:a2ce:c8ff:fe0e:9d01) 56 data bytes
+
+--- 2003:c8:f1f:7200:a2ce:c8ff:fe0e:9d01 ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4128ms
+
+PING 2003:c8:f1f:7200:a2ce:c8ff:fe0e:9d01(2003:c8:f1f:7200:a2ce:c8ff:fe0e:9d01) 56 data bytes
+
+--- 2003:c8:f1f:7200:a2ce:c8ff:fe0e:9d01 ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4134ms
+
+PING 2003:c8:f1f:7200:a2ce:c8ff:fe0e:9d01(2003:c8:f1f:7200:a2ce:c8ff:fe0e:9d01) 56 data bytes
+
+--- 2003:c8:f1f:7200:a2ce:c8ff:fe0e:9d01 ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4160ms
+

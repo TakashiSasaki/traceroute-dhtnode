@@ -1,0 +1,10 @@
+PING 2001:56b:dd45:f000:a81d:a692:9c20:1d4(2001:56b:dd45:f000:a81d:a692:9c20:1d4) 56 data bytes
+
+--- 2001:56b:dd45:f000:a81d:a692:9c20:1d4 ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4158ms
+
+PING 2001:56b:dd45:f000:a81d:a692:9c20:1d4(2001:56b:dd45:f000:a81d:a692:9c20:1d4) 56 data bytes
+
+--- 2001:56b:dd45:f000:a81d:a692:9c20:1d4 ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4176ms
+

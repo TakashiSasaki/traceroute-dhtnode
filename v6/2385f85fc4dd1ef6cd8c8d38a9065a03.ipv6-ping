@@ -1,0 +1,10 @@
+PING 2001:2002:5ae6:1309:e43c:57e9:c4b5:283a(2001:2002:5ae6:1309:e43c:57e9:c4b5:283a) 56 data bytes
+
+--- 2001:2002:5ae6:1309:e43c:57e9:c4b5:283a ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4137ms
+
+PING 2001:2002:5ae6:1309:e43c:57e9:c4b5:283a(2001:2002:5ae6:1309:e43c:57e9:c4b5:283a) 56 data bytes
+
+--- 2001:2002:5ae6:1309:e43c:57e9:c4b5:283a ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4188ms
+

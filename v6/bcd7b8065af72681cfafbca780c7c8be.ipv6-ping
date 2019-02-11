@@ -1,0 +1,10 @@
+PING 2800:810:4b4:3c4::1002(2800:810:4b4:3c4::1002) 56 data bytes
+
+--- 2800:810:4b4:3c4::1002 ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4138ms
+
+PING 2800:810:4b4:3c4::1002(2800:810:4b4:3c4::1002) 56 data bytes
+
+--- 2800:810:4b4:3c4::1002 ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4188ms
+

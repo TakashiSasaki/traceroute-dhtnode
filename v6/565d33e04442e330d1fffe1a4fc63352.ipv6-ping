@@ -1,0 +1,10 @@
+PING 2002:b8a2:e263:0:1807:3858:5fb5:e0b5(2002:b8a2:e263:0:1807:3858:5fb5:e0b5) 56 data bytes
+64 bytes from 2002:b8a2:e263:0:1807:3858:5fb5:e0b5: icmp_seq=1 ttl=47 time=201 ms
+64 bytes from 2002:b8a2:e263:0:1807:3858:5fb5:e0b5: icmp_seq=2 ttl=47 time=198 ms
+64 bytes from 2002:b8a2:e263:0:1807:3858:5fb5:e0b5: icmp_seq=3 ttl=47 time=202 ms
+64 bytes from 2002:b8a2:e263:0:1807:3858:5fb5:e0b5: icmp_seq=4 ttl=47 time=202 ms
+64 bytes from 2002:b8a2:e263:0:1807:3858:5fb5:e0b5: icmp_seq=5 ttl=47 time=202 ms
+
+--- 2002:b8a2:e263:0:1807:3858:5fb5:e0b5 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4004ms
+rtt min/avg/max/mdev = 198.208/201.628/202.973/1.856 ms

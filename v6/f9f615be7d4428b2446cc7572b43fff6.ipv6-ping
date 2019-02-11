@@ -1,0 +1,10 @@
+PING 2601:601:9a7f:ae74:84c7:e5:bcc6:7779(2601:601:9a7f:ae74:84c7:e5:bcc6:7779) 56 data bytes
+
+--- 2601:601:9a7f:ae74:84c7:e5:bcc6:7779 ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4189ms
+
+PING 2601:601:9a7f:ae74:84c7:e5:bcc6:7779(2601:601:9a7f:ae74:84c7:e5:bcc6:7779) 56 data bytes
+
+--- 2601:601:9a7f:ae74:84c7:e5:bcc6:7779 ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4147ms
+

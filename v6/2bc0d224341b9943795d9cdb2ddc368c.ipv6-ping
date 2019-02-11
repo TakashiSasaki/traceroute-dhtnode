@@ -1,0 +1,35 @@
+PING 2a01:e34:efb1:51f0:f9ee:3fd0:2171:860f(2a01:e34:efb1:51f0:f9ee:3fd0:2171:860f) 56 data bytes
+
+--- 2a01:e34:efb1:51f0:f9ee:3fd0:2171:860f ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4157ms
+
+PING 2a01:e34:efb1:51f0:f9ee:3fd0:2171:860f(2a01:e34:efb1:51f0:f9ee:3fd0:2171:860f) 56 data bytes
+From 2a01:e34:efb1:51ff::1 icmp_seq=1 Destination unreachable: Address unreachable
+From 2a01:e34:efb1:51ff::1 icmp_seq=2 Destination unreachable: Address unreachable
+From 2a01:e34:efb1:51ff::1 icmp_seq=3 Destination unreachable: Address unreachable
+From 2a01:e34:efb1:51ff::1 icmp_seq=4 Destination unreachable: Address unreachable
+From 2a01:e34:efb1:51ff::1 icmp_seq=5 Destination unreachable: Address unreachable
+
+--- 2a01:e34:efb1:51f0:f9ee:3fd0:2171:860f ping statistics ---
+5 packets transmitted, 0 received, +5 errors, 100% packet loss, time 4088ms
+
+PING 2a01:e34:efb1:51f0:f9ee:3fd0:2171:860f(2a01:e34:efb1:51f0:f9ee:3fd0:2171:860f) 56 data bytes
+From 2a01:e34:efb1:51ff::1 icmp_seq=1 Destination unreachable: Address unreachable
+From 2a01:e34:efb1:51ff::1 icmp_seq=2 Destination unreachable: Address unreachable
+From 2a01:e34:efb1:51ff::1 icmp_seq=3 Destination unreachable: Address unreachable
+From 2a01:e34:efb1:51ff::1 icmp_seq=4 Destination unreachable: Address unreachable
+From 2a01:e34:efb1:51ff::1 icmp_seq=5 Destination unreachable: Address unreachable
+
+--- 2a01:e34:efb1:51f0:f9ee:3fd0:2171:860f ping statistics ---
+5 packets transmitted, 0 received, +5 errors, 100% packet loss, time 4098ms
+
+PING 2a01:e34:efb1:51f0:f9ee:3fd0:2171:860f(2a01:e34:efb1:51f0:f9ee:3fd0:2171:860f) 56 data bytes
+From 2a01:e34:efb1:51ff::1 icmp_seq=1 Destination unreachable: Address unreachable
+From 2a01:e34:efb1:51ff::1 icmp_seq=2 Destination unreachable: Address unreachable
+From 2a01:e34:efb1:51ff::1 icmp_seq=3 Destination unreachable: Address unreachable
+From 2a01:e34:efb1:51ff::1 icmp_seq=4 Destination unreachable: Address unreachable
+From 2a01:e34:efb1:51ff::1 icmp_seq=5 Destination unreachable: Address unreachable
+
+--- 2a01:e34:efb1:51f0:f9ee:3fd0:2171:860f ping statistics ---
+5 packets transmitted, 0 received, +5 errors, 100% packet loss, time 4152ms
+

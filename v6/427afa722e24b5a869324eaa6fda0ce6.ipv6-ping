@@ -1,0 +1,10 @@
+PING 2003:cc:6f1d:9700:3de5:eacf:9275:296f(2003:cc:6f1d:9700:3de5:eacf:9275:296f) 56 data bytes
+
+--- 2003:cc:6f1d:9700:3de5:eacf:9275:296f ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4181ms
+
+PING 2003:cc:6f1d:9700:3de5:eacf:9275:296f(2003:cc:6f1d:9700:3de5:eacf:9275:296f) 56 data bytes
+
+--- 2003:cc:6f1d:9700:3de5:eacf:9275:296f ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4121ms
+

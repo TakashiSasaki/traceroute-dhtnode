@@ -1,0 +1,40 @@
+PING 2607:fad8:0:1::3(2607:fad8:0:1::3) 56 data bytes
+64 bytes from 2607:fad8:0:1::3: icmp_seq=1 ttl=44 time=189 ms
+64 bytes from 2607:fad8:0:1::3: icmp_seq=2 ttl=44 time=188 ms
+64 bytes from 2607:fad8:0:1::3: icmp_seq=3 ttl=44 time=188 ms
+64 bytes from 2607:fad8:0:1::3: icmp_seq=4 ttl=44 time=188 ms
+64 bytes from 2607:fad8:0:1::3: icmp_seq=5 ttl=44 time=189 ms
+
+--- 2607:fad8:0:1::3 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4004ms
+rtt min/avg/max/mdev = 188.378/188.880/189.191/0.621 ms
+PING 2607:fad8:0:1::3(2607:fad8:0:1::3) 56 data bytes
+64 bytes from 2607:fad8:0:1::3: icmp_seq=1 ttl=44 time=194 ms
+64 bytes from 2607:fad8:0:1::3: icmp_seq=2 ttl=44 time=193 ms
+64 bytes from 2607:fad8:0:1::3: icmp_seq=3 ttl=44 time=193 ms
+64 bytes from 2607:fad8:0:1::3: icmp_seq=4 ttl=44 time=193 ms
+64 bytes from 2607:fad8:0:1::3: icmp_seq=5 ttl=44 time=193 ms
+
+--- 2607:fad8:0:1::3 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4006ms
+rtt min/avg/max/mdev = 193.460/193.825/194.553/0.487 ms
+PING 2607:fad8:0:1::3(2607:fad8:0:1::3) 56 data bytes
+64 bytes from 2607:fad8:0:1::3: icmp_seq=1 ttl=44 time=194 ms
+64 bytes from 2607:fad8:0:1::3: icmp_seq=2 ttl=44 time=193 ms
+64 bytes from 2607:fad8:0:1::3: icmp_seq=3 ttl=44 time=193 ms
+64 bytes from 2607:fad8:0:1::3: icmp_seq=4 ttl=44 time=193 ms
+64 bytes from 2607:fad8:0:1::3: icmp_seq=5 ttl=44 time=193 ms
+
+--- 2607:fad8:0:1::3 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4006ms
+rtt min/avg/max/mdev = 193.246/193.604/194.457/0.708 ms
+PING 2607:fad8:0:1::3(2607:fad8:0:1::3) 56 data bytes
+64 bytes from 2607:fad8:0:1::3: icmp_seq=1 ttl=44 time=193 ms
+64 bytes from 2607:fad8:0:1::3: icmp_seq=2 ttl=44 time=193 ms
+64 bytes from 2607:fad8:0:1::3: icmp_seq=3 ttl=44 time=193 ms
+64 bytes from 2607:fad8:0:1::3: icmp_seq=4 ttl=44 time=193 ms
+64 bytes from 2607:fad8:0:1::3: icmp_seq=5 ttl=44 time=193 ms
+
+--- 2607:fad8:0:1::3 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4005ms
+rtt min/avg/max/mdev = 193.368/193.518/193.806/0.161 ms

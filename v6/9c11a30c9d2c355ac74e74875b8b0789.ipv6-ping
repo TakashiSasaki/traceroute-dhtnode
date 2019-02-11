@@ -1,0 +1,15 @@
+PING 2601:647:8200:97b0:40ce:772f:2e03:dff8(2601:647:8200:97b0:40ce:772f:2e03:dff8) 56 data bytes
+
+--- 2601:647:8200:97b0:40ce:772f:2e03:dff8 ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4126ms
+
+PING 2601:647:8200:97b0:40ce:772f:2e03:dff8(2601:647:8200:97b0:40ce:772f:2e03:dff8) 56 data bytes
+
+--- 2601:647:8200:97b0:40ce:772f:2e03:dff8 ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4138ms
+
+PING 2601:647:8200:97b0:40ce:772f:2e03:dff8(2601:647:8200:97b0:40ce:772f:2e03:dff8) 56 data bytes
+
+--- 2601:647:8200:97b0:40ce:772f:2e03:dff8 ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4151ms
+

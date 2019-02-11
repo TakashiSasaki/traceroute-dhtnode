@@ -1,0 +1,10 @@
+PING 2a02:8388:6b85:1700:c4f1:5e10:e694:4444(2a02:8388:6b85:1700:c4f1:5e10:e694:4444) 56 data bytes
+
+--- 2a02:8388:6b85:1700:c4f1:5e10:e694:4444 ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4124ms
+
+PING 2a02:8388:6b85:1700:c4f1:5e10:e694:4444(2a02:8388:6b85:1700:c4f1:5e10:e694:4444) 56 data bytes
+
+--- 2a02:8388:6b85:1700:c4f1:5e10:e694:4444 ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4157ms
+

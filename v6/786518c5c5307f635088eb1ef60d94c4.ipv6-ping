@@ -1,0 +1,25 @@
+PING 2001:16a2:51ea:d300:424e:36ff:fe5e:73a1(2001:16a2:51ea:d300:424e:36ff:fe5e:73a1) 56 data bytes
+64 bytes from 2001:16a2:51ea:d300:424e:36ff:fe5e:73a1: icmp_seq=1 ttl=38 time=592 ms
+64 bytes from 2001:16a2:51ea:d300:424e:36ff:fe5e:73a1: icmp_seq=2 ttl=38 time=557 ms
+64 bytes from 2001:16a2:51ea:d300:424e:36ff:fe5e:73a1: icmp_seq=3 ttl=38 time=583 ms
+64 bytes from 2001:16a2:51ea:d300:424e:36ff:fe5e:73a1: icmp_seq=4 ttl=38 time=452 ms
+64 bytes from 2001:16a2:51ea:d300:424e:36ff:fe5e:73a1: icmp_seq=5 ttl=38 time=525 ms
+
+--- 2001:16a2:51ea:d300:424e:36ff:fe5e:73a1 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4003ms
+rtt min/avg/max/mdev = 452.264/542.084/592.499/50.613 ms
+PING 2001:16a2:51ea:d300:424e:36ff:fe5e:73a1(2001:16a2:51ea:d300:424e:36ff:fe5e:73a1) 56 data bytes
+
+--- 2001:16a2:51ea:d300:424e:36ff:fe5e:73a1 ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4124ms
+
+PING 2001:16a2:51ea:d300:424e:36ff:fe5e:73a1(2001:16a2:51ea:d300:424e:36ff:fe5e:73a1) 56 data bytes
+
+--- 2001:16a2:51ea:d300:424e:36ff:fe5e:73a1 ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4122ms
+
+PING 2001:16a2:51ea:d300:424e:36ff:fe5e:73a1(2001:16a2:51ea:d300:424e:36ff:fe5e:73a1) 56 data bytes
+
+--- 2001:16a2:51ea:d300:424e:36ff:fe5e:73a1 ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4187ms
+

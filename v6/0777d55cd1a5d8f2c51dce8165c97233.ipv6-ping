@@ -1,0 +1,15 @@
+PING 2001:0:53aa:64c:28c0:dfa8:4dbd:fae0(2001:0:53aa:64c:28c0:dfa8:4dbd:fae0) 56 data bytes
+
+--- 2001:0:53aa:64c:28c0:dfa8:4dbd:fae0 ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4132ms
+
+PING 2001:0:53aa:64c:28c0:dfa8:4dbd:fae0(2001:0:53aa:64c:28c0:dfa8:4dbd:fae0) 56 data bytes
+
+--- 2001:0:53aa:64c:28c0:dfa8:4dbd:fae0 ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4138ms
+
+PING 2001:0:53aa:64c:28c0:dfa8:4dbd:fae0(2001:0:53aa:64c:28c0:dfa8:4dbd:fae0) 56 data bytes
+
+--- 2001:0:53aa:64c:28c0:dfa8:4dbd:fae0 ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4191ms
+

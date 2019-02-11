@@ -1,0 +1,10 @@
+PING 2a02:a03f:3c85:8100:a038:f5a4:e0a9:2f32(2a02:a03f:3c85:8100:a038:f5a4:e0a9:2f32) 56 data bytes
+
+--- 2a02:a03f:3c85:8100:a038:f5a4:e0a9:2f32 ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4137ms
+
+PING 2a02:a03f:3c85:8100:a038:f5a4:e0a9:2f32(2a02:a03f:3c85:8100:a038:f5a4:e0a9:2f32) 56 data bytes
+
+--- 2a02:a03f:3c85:8100:a038:f5a4:e0a9:2f32 ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4188ms
+

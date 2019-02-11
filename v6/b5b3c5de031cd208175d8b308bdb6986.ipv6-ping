@@ -1,0 +1,40 @@
+PING 2606:2e00:8003:13::6e(2606:2e00:8003:13::6e) 56 data bytes
+64 bytes from 2606:2e00:8003:13::6e: icmp_seq=1 ttl=45 time=178 ms
+64 bytes from 2606:2e00:8003:13::6e: icmp_seq=2 ttl=45 time=178 ms
+64 bytes from 2606:2e00:8003:13::6e: icmp_seq=3 ttl=45 time=178 ms
+64 bytes from 2606:2e00:8003:13::6e: icmp_seq=4 ttl=45 time=178 ms
+64 bytes from 2606:2e00:8003:13::6e: icmp_seq=5 ttl=45 time=177 ms
+
+--- 2606:2e00:8003:13::6e ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4006ms
+rtt min/avg/max/mdev = 177.893/178.243/178.668/0.269 ms
+PING 2606:2e00:8003:13::6e(2606:2e00:8003:13::6e) 56 data bytes
+64 bytes from 2606:2e00:8003:13::6e: icmp_seq=1 ttl=45 time=178 ms
+64 bytes from 2606:2e00:8003:13::6e: icmp_seq=2 ttl=45 time=179 ms
+64 bytes from 2606:2e00:8003:13::6e: icmp_seq=3 ttl=45 time=177 ms
+64 bytes from 2606:2e00:8003:13::6e: icmp_seq=4 ttl=45 time=178 ms
+64 bytes from 2606:2e00:8003:13::6e: icmp_seq=5 ttl=45 time=178 ms
+
+--- 2606:2e00:8003:13::6e ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4001ms
+rtt min/avg/max/mdev = 177.857/178.478/179.097/0.561 ms
+PING 2606:2e00:8003:13::6e(2606:2e00:8003:13::6e) 56 data bytes
+64 bytes from 2606:2e00:8003:13::6e: icmp_seq=1 ttl=45 time=180 ms
+64 bytes from 2606:2e00:8003:13::6e: icmp_seq=2 ttl=45 time=177 ms
+64 bytes from 2606:2e00:8003:13::6e: icmp_seq=3 ttl=45 time=178 ms
+64 bytes from 2606:2e00:8003:13::6e: icmp_seq=4 ttl=45 time=178 ms
+64 bytes from 2606:2e00:8003:13::6e: icmp_seq=5 ttl=45 time=178 ms
+
+--- 2606:2e00:8003:13::6e ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4005ms
+rtt min/avg/max/mdev = 177.997/178.527/180.379/1.070 ms
+PING 2606:2e00:8003:13::6e(2606:2e00:8003:13::6e) 56 data bytes
+64 bytes from 2606:2e00:8003:13::6e: icmp_seq=1 ttl=45 time=180 ms
+64 bytes from 2606:2e00:8003:13::6e: icmp_seq=2 ttl=45 time=178 ms
+64 bytes from 2606:2e00:8003:13::6e: icmp_seq=3 ttl=45 time=179 ms
+64 bytes from 2606:2e00:8003:13::6e: icmp_seq=4 ttl=45 time=178 ms
+64 bytes from 2606:2e00:8003:13::6e: icmp_seq=5 ttl=45 time=178 ms
+
+--- 2606:2e00:8003:13::6e ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4002ms
+rtt min/avg/max/mdev = 178.614/179.052/180.107/0.661 ms

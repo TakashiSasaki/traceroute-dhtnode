@@ -1,0 +1,15 @@
+PING 2001:2002:5ae6:1309:7c2a:1262:5d9d:1384(2001:2002:5ae6:1309:7c2a:1262:5d9d:1384) 56 data bytes
+
+--- 2001:2002:5ae6:1309:7c2a:1262:5d9d:1384 ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4128ms
+
+PING 2001:2002:5ae6:1309:7c2a:1262:5d9d:1384(2001:2002:5ae6:1309:7c2a:1262:5d9d:1384) 56 data bytes
+
+--- 2001:2002:5ae6:1309:7c2a:1262:5d9d:1384 ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4137ms
+
+PING 2001:2002:5ae6:1309:7c2a:1262:5d9d:1384(2001:2002:5ae6:1309:7c2a:1262:5d9d:1384) 56 data bytes
+
+--- 2001:2002:5ae6:1309:7c2a:1262:5d9d:1384 ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4189ms
+

@@ -1,0 +1,40 @@
+PING 2607:5300:201:3000::29cd(2607:5300:201:3000::29cd) 56 data bytes
+64 bytes from 2607:5300:201:3000::29cd: icmp_seq=1 ttl=47 time=185 ms
+64 bytes from 2607:5300:201:3000::29cd: icmp_seq=2 ttl=47 time=183 ms
+64 bytes from 2607:5300:201:3000::29cd: icmp_seq=3 ttl=47 time=183 ms
+64 bytes from 2607:5300:201:3000::29cd: icmp_seq=4 ttl=47 time=183 ms
+64 bytes from 2607:5300:201:3000::29cd: icmp_seq=5 ttl=47 time=183 ms
+
+--- 2607:5300:201:3000::29cd ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4005ms
+rtt min/avg/max/mdev = 183.574/184.049/185.095/0.764 ms
+PING 2607:5300:201:3000::29cd(2607:5300:201:3000::29cd) 56 data bytes
+64 bytes from 2607:5300:201:3000::29cd: icmp_seq=1 ttl=47 time=184 ms
+64 bytes from 2607:5300:201:3000::29cd: icmp_seq=2 ttl=47 time=183 ms
+64 bytes from 2607:5300:201:3000::29cd: icmp_seq=3 ttl=47 time=183 ms
+64 bytes from 2607:5300:201:3000::29cd: icmp_seq=4 ttl=47 time=183 ms
+64 bytes from 2607:5300:201:3000::29cd: icmp_seq=5 ttl=47 time=183 ms
+
+--- 2607:5300:201:3000::29cd ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4005ms
+rtt min/avg/max/mdev = 183.307/183.603/184.040/0.265 ms
+PING 2607:5300:201:3000::29cd(2607:5300:201:3000::29cd) 56 data bytes
+64 bytes from 2607:5300:201:3000::29cd: icmp_seq=1 ttl=47 time=183 ms
+64 bytes from 2607:5300:201:3000::29cd: icmp_seq=2 ttl=47 time=183 ms
+64 bytes from 2607:5300:201:3000::29cd: icmp_seq=3 ttl=47 time=182 ms
+64 bytes from 2607:5300:201:3000::29cd: icmp_seq=4 ttl=47 time=182 ms
+64 bytes from 2607:5300:201:3000::29cd: icmp_seq=5 ttl=47 time=183 ms
+
+--- 2607:5300:201:3000::29cd ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4004ms
+rtt min/avg/max/mdev = 182.840/183.104/183.626/0.283 ms
+PING 2607:5300:201:3000::29cd(2607:5300:201:3000::29cd) 56 data bytes
+64 bytes from 2607:5300:201:3000::29cd: icmp_seq=1 ttl=47 time=185 ms
+64 bytes from 2607:5300:201:3000::29cd: icmp_seq=2 ttl=47 time=183 ms
+64 bytes from 2607:5300:201:3000::29cd: icmp_seq=3 ttl=47 time=183 ms
+64 bytes from 2607:5300:201:3000::29cd: icmp_seq=4 ttl=47 time=183 ms
+64 bytes from 2607:5300:201:3000::29cd: icmp_seq=5 ttl=47 time=183 ms
+
+--- 2607:5300:201:3000::29cd ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4006ms
+rtt min/avg/max/mdev = 183.094/183.822/185.616/1.026 ms

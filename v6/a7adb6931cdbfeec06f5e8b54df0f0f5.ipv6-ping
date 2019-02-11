@@ -1,0 +1,30 @@
+PING 2601:249:100:2401:4f8:f1ac:f0ff:a431(2601:249:100:2401:4f8:f1ac:f0ff:a431) 56 data bytes
+64 bytes from 2601:249:100:2401:4f8:f1ac:f0ff:a431: icmp_seq=1 ttl=41 time=302 ms
+64 bytes from 2601:249:100:2401:4f8:f1ac:f0ff:a431: icmp_seq=2 ttl=41 time=313 ms
+64 bytes from 2601:249:100:2401:4f8:f1ac:f0ff:a431: icmp_seq=3 ttl=41 time=223 ms
+64 bytes from 2601:249:100:2401:4f8:f1ac:f0ff:a431: icmp_seq=4 ttl=41 time=248 ms
+64 bytes from 2601:249:100:2401:4f8:f1ac:f0ff:a431: icmp_seq=5 ttl=41 time=278 ms
+
+--- 2601:249:100:2401:4f8:f1ac:f0ff:a431 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4006ms
+rtt min/avg/max/mdev = 223.289/273.247/313.638/33.528 ms
+PING 2601:249:100:2401:4f8:f1ac:f0ff:a431(2601:249:100:2401:4f8:f1ac:f0ff:a431) 56 data bytes
+64 bytes from 2601:249:100:2401:4f8:f1ac:f0ff:a431: icmp_seq=1 ttl=41 time=245 ms
+64 bytes from 2601:249:100:2401:4f8:f1ac:f0ff:a431: icmp_seq=2 ttl=41 time=267 ms
+64 bytes from 2601:249:100:2401:4f8:f1ac:f0ff:a431: icmp_seq=3 ttl=41 time=289 ms
+64 bytes from 2601:249:100:2401:4f8:f1ac:f0ff:a431: icmp_seq=4 ttl=41 time=206 ms
+64 bytes from 2601:249:100:2401:4f8:f1ac:f0ff:a431: icmp_seq=5 ttl=41 time=226 ms
+
+--- 2601:249:100:2401:4f8:f1ac:f0ff:a431 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4004ms
+rtt min/avg/max/mdev = 206.877/247.167/289.611/29.156 ms
+PING 2601:249:100:2401:4f8:f1ac:f0ff:a431(2601:249:100:2401:4f8:f1ac:f0ff:a431) 56 data bytes
+64 bytes from 2601:249:100:2401:4f8:f1ac:f0ff:a431: icmp_seq=1 ttl=41 time=524 ms
+64 bytes from 2601:249:100:2401:4f8:f1ac:f0ff:a431: icmp_seq=2 ttl=41 time=342 ms
+64 bytes from 2601:249:100:2401:4f8:f1ac:f0ff:a431: icmp_seq=3 ttl=41 time=571 ms
+64 bytes from 2601:249:100:2401:4f8:f1ac:f0ff:a431: icmp_seq=4 ttl=41 time=417 ms
+64 bytes from 2601:249:100:2401:4f8:f1ac:f0ff:a431: icmp_seq=5 ttl=41 time=256 ms
+
+--- 2601:249:100:2401:4f8:f1ac:f0ff:a431 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4001ms
+rtt min/avg/max/mdev = 256.357/422.461/571.439/115.414 ms

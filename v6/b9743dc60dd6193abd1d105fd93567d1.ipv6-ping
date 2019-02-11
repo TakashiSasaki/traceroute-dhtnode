@@ -1,0 +1,10 @@
+PING 2a02:ab04:12c4:7900:84de:987e:af83:127b(2a02:ab04:12c4:7900:84de:987e:af83:127b) 56 data bytes
+
+--- 2a02:ab04:12c4:7900:84de:987e:af83:127b ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4131ms
+
+PING 2a02:ab04:12c4:7900:84de:987e:af83:127b(2a02:ab04:12c4:7900:84de:987e:af83:127b) 56 data bytes
+
+--- 2a02:ab04:12c4:7900:84de:987e:af83:127b ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4158ms
+

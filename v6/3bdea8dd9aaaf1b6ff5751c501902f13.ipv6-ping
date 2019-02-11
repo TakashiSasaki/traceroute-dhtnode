@@ -1,0 +1,35 @@
+PING 2601:249:100:2401:7d9d:89fc:3658:d4c9(2601:249:100:2401:7d9d:89fc:3658:d4c9) 56 data bytes
+64 bytes from 2601:249:100:2401:7d9d:89fc:3658:d4c9: icmp_seq=1 ttl=43 time=206 ms
+64 bytes from 2601:249:100:2401:7d9d:89fc:3658:d4c9: icmp_seq=2 ttl=43 time=205 ms
+64 bytes from 2601:249:100:2401:7d9d:89fc:3658:d4c9: icmp_seq=3 ttl=43 time=202 ms
+64 bytes from 2601:249:100:2401:7d9d:89fc:3658:d4c9: icmp_seq=4 ttl=43 time=211 ms
+64 bytes from 2601:249:100:2401:7d9d:89fc:3658:d4c9: icmp_seq=5 ttl=43 time=205 ms
+
+--- 2601:249:100:2401:7d9d:89fc:3658:d4c9 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4005ms
+rtt min/avg/max/mdev = 202.849/206.467/211.159/2.707 ms
+PING 2601:249:100:2401:7d9d:89fc:3658:d4c9(2601:249:100:2401:7d9d:89fc:3658:d4c9) 56 data bytes
+
+--- 2601:249:100:2401:7d9d:89fc:3658:d4c9 ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4193ms
+
+PING 2601:249:100:2401:7d9d:89fc:3658:d4c9(2601:249:100:2401:7d9d:89fc:3658:d4c9) 56 data bytes
+From 2001:558:6033:0:68ce:2ca8:c992:3e5d icmp_seq=1 Destination unreachable: Address unreachable
+From 2001:558:6033:0:68ce:2ca8:c992:3e5d icmp_seq=2 Destination unreachable: Address unreachable
+From 2001:558:6033:0:68ce:2ca8:c992:3e5d icmp_seq=3 Destination unreachable: Address unreachable
+From 2001:558:6033:0:68ce:2ca8:c992:3e5d icmp_seq=4 Destination unreachable: Address unreachable
+From 2001:558:6033:0:68ce:2ca8:c992:3e5d icmp_seq=5 Destination unreachable: Address unreachable
+
+--- 2601:249:100:2401:7d9d:89fc:3658:d4c9 ping statistics ---
+5 packets transmitted, 0 received, +5 errors, 100% packet loss, time 4159ms
+
+PING 2601:249:100:2401:7d9d:89fc:3658:d4c9(2601:249:100:2401:7d9d:89fc:3658:d4c9) 56 data bytes
+From 2001:558:6033:0:68ce:2ca8:c992:3e5d icmp_seq=1 Destination unreachable: Address unreachable
+From 2001:558:6033:0:68ce:2ca8:c992:3e5d icmp_seq=2 Destination unreachable: Address unreachable
+From 2001:558:6033:0:68ce:2ca8:c992:3e5d icmp_seq=3 Destination unreachable: Address unreachable
+From 2001:558:6033:0:68ce:2ca8:c992:3e5d icmp_seq=4 Destination unreachable: Address unreachable
+From 2001:558:6033:0:68ce:2ca8:c992:3e5d icmp_seq=5 Destination unreachable: Address unreachable
+
+--- 2601:249:100:2401:7d9d:89fc:3658:d4c9 ping statistics ---
+5 packets transmitted, 0 received, +5 errors, 100% packet loss, time 4149ms
+

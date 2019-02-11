@@ -1,0 +1,40 @@
+PING 2402:5980::31(2402:5980::31) 56 data bytes
+64 bytes from 2402:5980::31: icmp_seq=1 ttl=53 time=81.1 ms
+64 bytes from 2402:5980::31: icmp_seq=2 ttl=53 time=80.5 ms
+64 bytes from 2402:5980::31: icmp_seq=3 ttl=53 time=80.5 ms
+64 bytes from 2402:5980::31: icmp_seq=4 ttl=53 time=80.5 ms
+64 bytes from 2402:5980::31: icmp_seq=5 ttl=53 time=80.1 ms
+
+--- 2402:5980::31 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4007ms
+rtt min/avg/max/mdev = 80.150/80.603/81.144/0.443 ms
+PING 2402:5980::31(2402:5980::31) 56 data bytes
+64 bytes from 2402:5980::31: icmp_seq=1 ttl=53 time=80.3 ms
+64 bytes from 2402:5980::31: icmp_seq=2 ttl=53 time=80.1 ms
+64 bytes from 2402:5980::31: icmp_seq=3 ttl=53 time=80.6 ms
+64 bytes from 2402:5980::31: icmp_seq=4 ttl=53 time=80.8 ms
+64 bytes from 2402:5980::31: icmp_seq=5 ttl=53 time=80.7 ms
+
+--- 2402:5980::31 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4006ms
+rtt min/avg/max/mdev = 80.189/80.564/80.823/0.237 ms
+PING 2402:5980::31(2402:5980::31) 56 data bytes
+64 bytes from 2402:5980::31: icmp_seq=1 ttl=53 time=83.1 ms
+64 bytes from 2402:5980::31: icmp_seq=2 ttl=53 time=80.2 ms
+64 bytes from 2402:5980::31: icmp_seq=3 ttl=53 time=80.4 ms
+64 bytes from 2402:5980::31: icmp_seq=4 ttl=53 time=80.6 ms
+64 bytes from 2402:5980::31: icmp_seq=5 ttl=53 time=80.6 ms
+
+--- 2402:5980::31 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4005ms
+rtt min/avg/max/mdev = 80.218/81.035/83.124/1.073 ms
+PING 2402:5980::31(2402:5980::31) 56 data bytes
+64 bytes from 2402:5980::31: icmp_seq=1 ttl=53 time=81.2 ms
+64 bytes from 2402:5980::31: icmp_seq=2 ttl=53 time=80.6 ms
+64 bytes from 2402:5980::31: icmp_seq=3 ttl=53 time=80.4 ms
+64 bytes from 2402:5980::31: icmp_seq=4 ttl=53 time=80.6 ms
+64 bytes from 2402:5980::31: icmp_seq=5 ttl=53 time=80.3 ms
+
+--- 2402:5980::31 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4007ms
+rtt min/avg/max/mdev = 80.350/80.680/81.277/0.370 ms

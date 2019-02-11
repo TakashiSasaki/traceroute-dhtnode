@@ -1,0 +1,40 @@
+PING 2a01:9420:1:401:4123:921d:cbaa:7dcc(2a01:9420:1:401:4123:921d:cbaa:7dcc) 56 data bytes
+64 bytes from 2a01:9420:1:401:4123:921d:cbaa:7dcc: icmp_seq=1 ttl=39 time=270 ms
+64 bytes from 2a01:9420:1:401:4123:921d:cbaa:7dcc: icmp_seq=2 ttl=39 time=270 ms
+64 bytes from 2a01:9420:1:401:4123:921d:cbaa:7dcc: icmp_seq=3 ttl=39 time=269 ms
+64 bytes from 2a01:9420:1:401:4123:921d:cbaa:7dcc: icmp_seq=4 ttl=39 time=272 ms
+64 bytes from 2a01:9420:1:401:4123:921d:cbaa:7dcc: icmp_seq=5 ttl=39 time=271 ms
+
+--- 2a01:9420:1:401:4123:921d:cbaa:7dcc ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4000ms
+rtt min/avg/max/mdev = 269.832/270.907/272.920/1.320 ms
+PING 2a01:9420:1:401:4123:921d:cbaa:7dcc(2a01:9420:1:401:4123:921d:cbaa:7dcc) 56 data bytes
+64 bytes from 2a01:9420:1:401:4123:921d:cbaa:7dcc: icmp_seq=1 ttl=39 time=272 ms
+64 bytes from 2a01:9420:1:401:4123:921d:cbaa:7dcc: icmp_seq=2 ttl=39 time=270 ms
+64 bytes from 2a01:9420:1:401:4123:921d:cbaa:7dcc: icmp_seq=3 ttl=39 time=271 ms
+64 bytes from 2a01:9420:1:401:4123:921d:cbaa:7dcc: icmp_seq=4 ttl=39 time=270 ms
+64 bytes from 2a01:9420:1:401:4123:921d:cbaa:7dcc: icmp_seq=5 ttl=39 time=270 ms
+
+--- 2a01:9420:1:401:4123:921d:cbaa:7dcc ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4004ms
+rtt min/avg/max/mdev = 270.449/270.991/272.063/0.737 ms
+PING 2a01:9420:1:401:4123:921d:cbaa:7dcc(2a01:9420:1:401:4123:921d:cbaa:7dcc) 56 data bytes
+64 bytes from 2a01:9420:1:401:4123:921d:cbaa:7dcc: icmp_seq=1 ttl=39 time=273 ms
+64 bytes from 2a01:9420:1:401:4123:921d:cbaa:7dcc: icmp_seq=2 ttl=39 time=269 ms
+64 bytes from 2a01:9420:1:401:4123:921d:cbaa:7dcc: icmp_seq=3 ttl=39 time=270 ms
+64 bytes from 2a01:9420:1:401:4123:921d:cbaa:7dcc: icmp_seq=4 ttl=39 time=269 ms
+64 bytes from 2a01:9420:1:401:4123:921d:cbaa:7dcc: icmp_seq=5 ttl=39 time=271 ms
+
+--- 2a01:9420:1:401:4123:921d:cbaa:7dcc ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4001ms
+rtt min/avg/max/mdev = 269.557/270.900/273.435/1.444 ms
+PING 2a01:9420:1:401:4123:921d:cbaa:7dcc(2a01:9420:1:401:4123:921d:cbaa:7dcc) 56 data bytes
+From 2a01:9420:ff:f0::111 icmp_seq=1 Destination unreachable: Address unreachable
+From 2a01:9420:ff:f0::111 icmp_seq=2 Destination unreachable: Address unreachable
+From 2a01:9420:ff:f0::111 icmp_seq=3 Destination unreachable: Address unreachable
+From 2a01:9420:ff:f0::111 icmp_seq=4 Destination unreachable: Address unreachable
+From 2a01:9420:ff:f0::111 icmp_seq=5 Destination unreachable: Address unreachable
+
+--- 2a01:9420:1:401:4123:921d:cbaa:7dcc ping statistics ---
+5 packets transmitted, 0 received, +5 errors, 100% packet loss, time 4165ms
+

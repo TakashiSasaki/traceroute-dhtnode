@@ -1,0 +1,15 @@
+PING 2405:204:a018:ba6:eca7:3237:7673:8545(2405:204:a018:ba6:eca7:3237:7673:8545) 56 data bytes
+From 2405:204:a018:ba6:fccc:d367:8914:b7e7 icmp_seq=1 Destination unreachable: Address unreachable
+From 2405:204:a018:ba6:fccc:d367:8914:b7e7 icmp_seq=2 Destination unreachable: Address unreachable
+From 2405:204:a018:ba6:fccc:d367:8914:b7e7 icmp_seq=3 Destination unreachable: Address unreachable
+From 2405:204:a018:ba6:fccc:d367:8914:b7e7 icmp_seq=4 Destination unreachable: Address unreachable
+From 2405:204:a018:ba6:fccc:d367:8914:b7e7 icmp_seq=5 Destination unreachable: Address unreachable
+
+--- 2405:204:a018:ba6:eca7:3237:7673:8545 ping statistics ---
+5 packets transmitted, 0 received, +5 errors, 100% packet loss, time 4093ms
+
+PING 2405:204:a018:ba6:eca7:3237:7673:8545(2405:204:a018:ba6:eca7:3237:7673:8545) 56 data bytes
+
+--- 2405:204:a018:ba6:eca7:3237:7673:8545 ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4168ms
+

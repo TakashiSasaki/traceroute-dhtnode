@@ -1,0 +1,15 @@
+PING 2602:306:cd85:11a0:d2dd:af43:db9b:b056(2602:306:cd85:11a0:d2dd:af43:db9b:b056) 56 data bytes
+
+--- 2602:306:cd85:11a0:d2dd:af43:db9b:b056 ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4162ms
+
+PING 2602:306:cd85:11a0:d2dd:af43:db9b:b056(2602:306:cd85:11a0:d2dd:af43:db9b:b056) 56 data bytes
+
+--- 2602:306:cd85:11a0:d2dd:af43:db9b:b056 ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4137ms
+
+PING 2602:306:cd85:11a0:d2dd:af43:db9b:b056(2602:306:cd85:11a0:d2dd:af43:db9b:b056) 56 data bytes
+
+--- 2602:306:cd85:11a0:d2dd:af43:db9b:b056 ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4187ms
+

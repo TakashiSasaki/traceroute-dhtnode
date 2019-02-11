@@ -1,0 +1,15 @@
+PING 2601:985:103:e900:dd4b:7e26:2e05:77cd(2601:985:103:e900:dd4b:7e26:2e05:77cd) 56 data bytes
+
+--- 2601:985:103:e900:dd4b:7e26:2e05:77cd ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4128ms
+
+PING 2601:985:103:e900:dd4b:7e26:2e05:77cd(2601:985:103:e900:dd4b:7e26:2e05:77cd) 56 data bytes
+
+--- 2601:985:103:e900:dd4b:7e26:2e05:77cd ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4126ms
+
+PING 2601:985:103:e900:dd4b:7e26:2e05:77cd(2601:985:103:e900:dd4b:7e26:2e05:77cd) 56 data bytes
+
+--- 2601:985:103:e900:dd4b:7e26:2e05:77cd ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4187ms
+

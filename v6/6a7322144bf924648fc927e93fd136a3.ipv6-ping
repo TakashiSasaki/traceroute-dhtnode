@@ -1,0 +1,10 @@
+PING 2601:249:100:2401:a9e2:4c0f:385f:8224(2601:249:100:2401:a9e2:4c0f:385f:8224) 56 data bytes
+64 bytes from 2601:249:100:2401:a9e2:4c0f:385f:8224: icmp_seq=1 ttl=42 time=192 ms
+64 bytes from 2601:249:100:2401:a9e2:4c0f:385f:8224: icmp_seq=2 ttl=42 time=189 ms
+64 bytes from 2601:249:100:2401:a9e2:4c0f:385f:8224: icmp_seq=3 ttl=42 time=190 ms
+64 bytes from 2601:249:100:2401:a9e2:4c0f:385f:8224: icmp_seq=4 ttl=42 time=199 ms
+64 bytes from 2601:249:100:2401:a9e2:4c0f:385f:8224: icmp_seq=5 ttl=42 time=187 ms
+
+--- 2601:249:100:2401:a9e2:4c0f:385f:8224 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4005ms
+rtt min/avg/max/mdev = 187.497/191.729/199.157/4.022 ms

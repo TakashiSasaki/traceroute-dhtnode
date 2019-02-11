@@ -1,0 +1,40 @@
+PING 2a02:2454:8000:20:c8f:4ec7:cedc:89e5(2a02:2454:8000:20:c8f:4ec7:cedc:89e5) 56 data bytes
+64 bytes from 2a02:2454:8000:20:c8f:4ec7:cedc:89e5: icmp_seq=1 ttl=48 time=288 ms
+64 bytes from 2a02:2454:8000:20:c8f:4ec7:cedc:89e5: icmp_seq=2 ttl=48 time=289 ms
+64 bytes from 2a02:2454:8000:20:c8f:4ec7:cedc:89e5: icmp_seq=3 ttl=48 time=290 ms
+64 bytes from 2a02:2454:8000:20:c8f:4ec7:cedc:89e5: icmp_seq=4 ttl=48 time=290 ms
+64 bytes from 2a02:2454:8000:20:c8f:4ec7:cedc:89e5: icmp_seq=5 ttl=48 time=287 ms
+
+--- 2a02:2454:8000:20:c8f:4ec7:cedc:89e5 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4005ms
+rtt min/avg/max/mdev = 287.217/289.156/290.215/1.144 ms
+PING 2a02:2454:8000:20:c8f:4ec7:cedc:89e5(2a02:2454:8000:20:c8f:4ec7:cedc:89e5) 56 data bytes
+64 bytes from 2a02:2454:8000:20:c8f:4ec7:cedc:89e5: icmp_seq=1 ttl=48 time=287 ms
+64 bytes from 2a02:2454:8000:20:c8f:4ec7:cedc:89e5: icmp_seq=2 ttl=48 time=287 ms
+64 bytes from 2a02:2454:8000:20:c8f:4ec7:cedc:89e5: icmp_seq=3 ttl=48 time=286 ms
+64 bytes from 2a02:2454:8000:20:c8f:4ec7:cedc:89e5: icmp_seq=4 ttl=48 time=290 ms
+64 bytes from 2a02:2454:8000:20:c8f:4ec7:cedc:89e5: icmp_seq=5 ttl=48 time=290 ms
+
+--- 2a02:2454:8000:20:c8f:4ec7:cedc:89e5 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4005ms
+rtt min/avg/max/mdev = 286.387/288.264/290.206/1.561 ms
+PING 2a02:2454:8000:20:c8f:4ec7:cedc:89e5(2a02:2454:8000:20:c8f:4ec7:cedc:89e5) 56 data bytes
+64 bytes from 2a02:2454:8000:20:c8f:4ec7:cedc:89e5: icmp_seq=1 ttl=48 time=294 ms
+64 bytes from 2a02:2454:8000:20:c8f:4ec7:cedc:89e5: icmp_seq=2 ttl=48 time=289 ms
+64 bytes from 2a02:2454:8000:20:c8f:4ec7:cedc:89e5: icmp_seq=3 ttl=48 time=288 ms
+64 bytes from 2a02:2454:8000:20:c8f:4ec7:cedc:89e5: icmp_seq=4 ttl=48 time=287 ms
+64 bytes from 2a02:2454:8000:20:c8f:4ec7:cedc:89e5: icmp_seq=5 ttl=48 time=286 ms
+
+--- 2a02:2454:8000:20:c8f:4ec7:cedc:89e5 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4004ms
+rtt min/avg/max/mdev = 286.801/289.047/294.365/2.852 ms
+PING 2a02:2454:8000:20:c8f:4ec7:cedc:89e5(2a02:2454:8000:20:c8f:4ec7:cedc:89e5) 56 data bytes
+64 bytes from 2a02:2454:8000:20:c8f:4ec7:cedc:89e5: icmp_seq=1 ttl=48 time=287 ms
+64 bytes from 2a02:2454:8000:20:c8f:4ec7:cedc:89e5: icmp_seq=2 ttl=48 time=289 ms
+64 bytes from 2a02:2454:8000:20:c8f:4ec7:cedc:89e5: icmp_seq=3 ttl=48 time=288 ms
+64 bytes from 2a02:2454:8000:20:c8f:4ec7:cedc:89e5: icmp_seq=4 ttl=48 time=286 ms
+64 bytes from 2a02:2454:8000:20:c8f:4ec7:cedc:89e5: icmp_seq=5 ttl=48 time=287 ms
+
+--- 2a02:2454:8000:20:c8f:4ec7:cedc:89e5 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4000ms
+rtt min/avg/max/mdev = 286.975/287.945/289.208/1.059 ms

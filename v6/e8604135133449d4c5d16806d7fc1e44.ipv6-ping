@@ -1,0 +1,10 @@
+PING 2a02:748:b000:17:935f:a1ee:d0d9:a558(2a02:748:b000:17:935f:a1ee:d0d9:a558) 56 data bytes
+64 bytes from 2a02:748:b000:17:935f:a1ee:d0d9:a558: icmp_seq=1 ttl=44 time=181 ms
+64 bytes from 2a02:748:b000:17:935f:a1ee:d0d9:a558: icmp_seq=2 ttl=44 time=181 ms
+64 bytes from 2a02:748:b000:17:935f:a1ee:d0d9:a558: icmp_seq=3 ttl=44 time=180 ms
+64 bytes from 2a02:748:b000:17:935f:a1ee:d0d9:a558: icmp_seq=4 ttl=44 time=180 ms
+64 bytes from 2a02:748:b000:17:935f:a1ee:d0d9:a558: icmp_seq=5 ttl=44 time=180 ms
+
+--- 2a02:748:b000:17:935f:a1ee:d0d9:a558 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4005ms
+rtt min/avg/max/mdev = 180.519/180.961/181.359/0.602 ms

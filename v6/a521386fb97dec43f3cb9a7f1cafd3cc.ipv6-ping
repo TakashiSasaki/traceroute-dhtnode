@@ -1,0 +1,30 @@
+PING 2001:550:1d05:a::a03e(2001:550:1d05:a::a03e) 56 data bytes
+64 bytes from 2001:550:1d05:a::a03e: icmp_seq=1 ttl=46 time=183 ms
+64 bytes from 2001:550:1d05:a::a03e: icmp_seq=2 ttl=46 time=182 ms
+64 bytes from 2001:550:1d05:a::a03e: icmp_seq=3 ttl=46 time=183 ms
+64 bytes from 2001:550:1d05:a::a03e: icmp_seq=4 ttl=46 time=184 ms
+64 bytes from 2001:550:1d05:a::a03e: icmp_seq=5 ttl=46 time=184 ms
+
+--- 2001:550:1d05:a::a03e ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4005ms
+rtt min/avg/max/mdev = 182.321/183.746/184.781/0.880 ms
+PING 2001:550:1d05:a::a03e(2001:550:1d05:a::a03e) 56 data bytes
+64 bytes from 2001:550:1d05:a::a03e: icmp_seq=1 ttl=46 time=183 ms
+64 bytes from 2001:550:1d05:a::a03e: icmp_seq=2 ttl=46 time=182 ms
+64 bytes from 2001:550:1d05:a::a03e: icmp_seq=3 ttl=46 time=182 ms
+64 bytes from 2001:550:1d05:a::a03e: icmp_seq=4 ttl=46 time=182 ms
+64 bytes from 2001:550:1d05:a::a03e: icmp_seq=5 ttl=46 time=182 ms
+
+--- 2001:550:1d05:a::a03e ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4001ms
+rtt min/avg/max/mdev = 182.236/182.614/183.819/0.609 ms
+PING 2001:550:1d05:a::a03e(2001:550:1d05:a::a03e) 56 data bytes
+64 bytes from 2001:550:1d05:a::a03e: icmp_seq=1 ttl=46 time=211 ms
+64 bytes from 2001:550:1d05:a::a03e: icmp_seq=2 ttl=46 time=195 ms
+64 bytes from 2001:550:1d05:a::a03e: icmp_seq=3 ttl=46 time=203 ms
+64 bytes from 2001:550:1d05:a::a03e: icmp_seq=4 ttl=46 time=211 ms
+64 bytes from 2001:550:1d05:a::a03e: icmp_seq=5 ttl=46 time=213 ms
+
+--- 2001:550:1d05:a::a03e ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4005ms
+rtt min/avg/max/mdev = 195.989/207.158/213.230/6.447 ms

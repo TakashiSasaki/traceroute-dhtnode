@@ -1,0 +1,40 @@
+PING 2a01:e35:2f4a:d840:ac63:20be:3f85:5db4(2a01:e35:2f4a:d840:ac63:20be:3f85:5db4) 56 data bytes
+From 2a01:e35:2f4a:d840::1 icmp_seq=1 Destination unreachable: Address unreachable
+From 2a01:e35:2f4a:d840::1 icmp_seq=2 Destination unreachable: Address unreachable
+From 2a01:e35:2f4a:d840::1 icmp_seq=3 Destination unreachable: Address unreachable
+From 2a01:e35:2f4a:d840::1 icmp_seq=4 Destination unreachable: Address unreachable
+From 2a01:e35:2f4a:d840::1 icmp_seq=5 Destination unreachable: Address unreachable
+
+--- 2a01:e35:2f4a:d840:ac63:20be:3f85:5db4 ping statistics ---
+5 packets transmitted, 0 received, +5 errors, 100% packet loss, time 4088ms
+
+PING 2a01:e35:2f4a:d840:ac63:20be:3f85:5db4(2a01:e35:2f4a:d840:ac63:20be:3f85:5db4) 56 data bytes
+From 2a01:e35:2f4a:d840::1 icmp_seq=1 Destination unreachable: Address unreachable
+From 2a01:e35:2f4a:d840::1 icmp_seq=2 Destination unreachable: Address unreachable
+From 2a01:e35:2f4a:d840::1 icmp_seq=3 Destination unreachable: Address unreachable
+From 2a01:e35:2f4a:d840::1 icmp_seq=4 Destination unreachable: Address unreachable
+From 2a01:e35:2f4a:d840::1 icmp_seq=5 Destination unreachable: Address unreachable
+
+--- 2a01:e35:2f4a:d840:ac63:20be:3f85:5db4 ping statistics ---
+5 packets transmitted, 0 received, +5 errors, 100% packet loss, time 4086ms
+
+PING 2a01:e35:2f4a:d840:ac63:20be:3f85:5db4(2a01:e35:2f4a:d840:ac63:20be:3f85:5db4) 56 data bytes
+64 bytes from 2a01:e35:2f4a:d840:ac63:20be:3f85:5db4: icmp_seq=1 ttl=43 time=294 ms
+64 bytes from 2a01:e35:2f4a:d840:ac63:20be:3f85:5db4: icmp_seq=2 ttl=43 time=292 ms
+64 bytes from 2a01:e35:2f4a:d840:ac63:20be:3f85:5db4: icmp_seq=3 ttl=43 time=293 ms
+64 bytes from 2a01:e35:2f4a:d840:ac63:20be:3f85:5db4: icmp_seq=4 ttl=43 time=292 ms
+64 bytes from 2a01:e35:2f4a:d840:ac63:20be:3f85:5db4: icmp_seq=5 ttl=43 time=294 ms
+
+--- 2a01:e35:2f4a:d840:ac63:20be:3f85:5db4 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4005ms
+rtt min/avg/max/mdev = 292.883/293.657/294.751/0.842 ms
+PING 2a01:e35:2f4a:d840:ac63:20be:3f85:5db4(2a01:e35:2f4a:d840:ac63:20be:3f85:5db4) 56 data bytes
+From 2a01:e35:2f4a:d840::1 icmp_seq=1 Destination unreachable: Address unreachable
+From 2a01:e35:2f4a:d840::1 icmp_seq=2 Destination unreachable: Address unreachable
+From 2a01:e35:2f4a:d840::1 icmp_seq=3 Destination unreachable: Address unreachable
+From 2a01:e35:2f4a:d840::1 icmp_seq=4 Destination unreachable: Address unreachable
+From 2a01:e35:2f4a:d840::1 icmp_seq=5 Destination unreachable: Address unreachable
+
+--- 2a01:e35:2f4a:d840:ac63:20be:3f85:5db4 ping statistics ---
+5 packets transmitted, 0 received, +5 errors, 100% packet loss, time 4158ms
+

@@ -1,0 +1,30 @@
+PING 2003:76:6d06:500:94b3:7220:389c:4969(2003:76:6d06:500:94b3:7220:389c:4969) 56 data bytes
+
+--- 2003:76:6d06:500:94b3:7220:389c:4969 ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4168ms
+
+PING 2003:76:6d06:500:94b3:7220:389c:4969(2003:76:6d06:500:94b3:7220:389c:4969) 56 data bytes
+
+--- 2003:76:6d06:500:94b3:7220:389c:4969 ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4147ms
+
+PING 2003:76:6d06:500:94b3:7220:389c:4969(2003:76:6d06:500:94b3:7220:389c:4969) 56 data bytes
+From 2003:0:5a0c:320::1 icmp_seq=1 Destination unreachable: Unknown code 6
+From 2003:0:5a0c:320::1 icmp_seq=2 Destination unreachable: Unknown code 6
+From 2003:0:5a0c:320::1 icmp_seq=3 Destination unreachable: Unknown code 6
+From 2003:0:5a0c:320::1 icmp_seq=4 Destination unreachable: Unknown code 6
+From 2003:0:5a0c:320::1 icmp_seq=5 Destination unreachable: Unknown code 6
+
+--- 2003:76:6d06:500:94b3:7220:389c:4969 ping statistics ---
+5 packets transmitted, 0 received, +5 errors, 100% packet loss, time 4005ms
+
+PING 2003:76:6d06:500:94b3:7220:389c:4969(2003:76:6d06:500:94b3:7220:389c:4969) 56 data bytes
+From 2003:0:5a0c:320::1 icmp_seq=1 Destination unreachable: Unknown code 6
+From 2003:0:5a0c:320::1 icmp_seq=2 Destination unreachable: Unknown code 6
+From 2003:0:5a0c:320::1 icmp_seq=3 Destination unreachable: Unknown code 6
+From 2003:0:5a0c:320::1 icmp_seq=4 Destination unreachable: Unknown code 6
+From 2003:0:5a0c:320::1 icmp_seq=5 Destination unreachable: Unknown code 6
+
+--- 2003:76:6d06:500:94b3:7220:389c:4969 ping statistics ---
+5 packets transmitted, 0 received, +5 errors, 100% packet loss, time 4004ms
+

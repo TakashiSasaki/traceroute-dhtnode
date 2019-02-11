@@ -1,0 +1,10 @@
+PING 2601:444:8200:33ed:a53d:3540:63cc:1a7a(2601:444:8200:33ed:a53d:3540:63cc:1a7a) 56 data bytes
+
+--- 2601:444:8200:33ed:a53d:3540:63cc:1a7a ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4137ms
+
+PING 2601:444:8200:33ed:a53d:3540:63cc:1a7a(2601:444:8200:33ed:a53d:3540:63cc:1a7a) 56 data bytes
+
+--- 2601:444:8200:33ed:a53d:3540:63cc:1a7a ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4141ms
+

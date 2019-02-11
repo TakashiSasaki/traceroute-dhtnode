@@ -1,0 +1,40 @@
+PING 2a03:3b40:268:0:4ecc:6aff:fed8:6075(2a03:3b40:268:0:4ecc:6aff:fed8:6075) 56 data bytes
+64 bytes from 2a03:3b40:268:0:4ecc:6aff:fed8:6075: icmp_seq=1 ttl=37 time=272 ms
+64 bytes from 2a03:3b40:268:0:4ecc:6aff:fed8:6075: icmp_seq=2 ttl=37 time=267 ms
+64 bytes from 2a03:3b40:268:0:4ecc:6aff:fed8:6075: icmp_seq=3 ttl=37 time=269 ms
+64 bytes from 2a03:3b40:268:0:4ecc:6aff:fed8:6075: icmp_seq=4 ttl=37 time=269 ms
+64 bytes from 2a03:3b40:268:0:4ecc:6aff:fed8:6075: icmp_seq=5 ttl=37 time=269 ms
+
+--- 2a03:3b40:268:0:4ecc:6aff:fed8:6075 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4005ms
+rtt min/avg/max/mdev = 267.403/269.774/272.206/1.592 ms
+PING 2a03:3b40:268:0:4ecc:6aff:fed8:6075(2a03:3b40:268:0:4ecc:6aff:fed8:6075) 56 data bytes
+64 bytes from 2a03:3b40:268:0:4ecc:6aff:fed8:6075: icmp_seq=1 ttl=37 time=270 ms
+64 bytes from 2a03:3b40:268:0:4ecc:6aff:fed8:6075: icmp_seq=2 ttl=37 time=274 ms
+64 bytes from 2a03:3b40:268:0:4ecc:6aff:fed8:6075: icmp_seq=3 ttl=37 time=270 ms
+64 bytes from 2a03:3b40:268:0:4ecc:6aff:fed8:6075: icmp_seq=4 ttl=37 time=269 ms
+64 bytes from 2a03:3b40:268:0:4ecc:6aff:fed8:6075: icmp_seq=5 ttl=37 time=273 ms
+
+--- 2a03:3b40:268:0:4ecc:6aff:fed8:6075 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4001ms
+rtt min/avg/max/mdev = 269.164/271.484/274.104/1.916 ms
+PING 2a03:3b40:268:0:4ecc:6aff:fed8:6075(2a03:3b40:268:0:4ecc:6aff:fed8:6075) 56 data bytes
+64 bytes from 2a03:3b40:268:0:4ecc:6aff:fed8:6075: icmp_seq=1 ttl=37 time=270 ms
+64 bytes from 2a03:3b40:268:0:4ecc:6aff:fed8:6075: icmp_seq=2 ttl=37 time=293 ms
+64 bytes from 2a03:3b40:268:0:4ecc:6aff:fed8:6075: icmp_seq=3 ttl=37 time=273 ms
+64 bytes from 2a03:3b40:268:0:4ecc:6aff:fed8:6075: icmp_seq=4 ttl=37 time=267 ms
+64 bytes from 2a03:3b40:268:0:4ecc:6aff:fed8:6075: icmp_seq=5 ttl=37 time=277 ms
+
+--- 2a03:3b40:268:0:4ecc:6aff:fed8:6075 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4004ms
+rtt min/avg/max/mdev = 267.161/276.689/293.667/9.217 ms
+PING 2a03:3b40:268:0:4ecc:6aff:fed8:6075(2a03:3b40:268:0:4ecc:6aff:fed8:6075) 56 data bytes
+64 bytes from 2a03:3b40:268:0:4ecc:6aff:fed8:6075: icmp_seq=1 ttl=37 time=272 ms
+64 bytes from 2a03:3b40:268:0:4ecc:6aff:fed8:6075: icmp_seq=2 ttl=37 time=276 ms
+64 bytes from 2a03:3b40:268:0:4ecc:6aff:fed8:6075: icmp_seq=3 ttl=37 time=268 ms
+64 bytes from 2a03:3b40:268:0:4ecc:6aff:fed8:6075: icmp_seq=4 ttl=37 time=269 ms
+64 bytes from 2a03:3b40:268:0:4ecc:6aff:fed8:6075: icmp_seq=5 ttl=37 time=268 ms
+
+--- 2a03:3b40:268:0:4ecc:6aff:fed8:6075 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4000ms
+rtt min/avg/max/mdev = 268.032/270.869/276.087/3.216 ms

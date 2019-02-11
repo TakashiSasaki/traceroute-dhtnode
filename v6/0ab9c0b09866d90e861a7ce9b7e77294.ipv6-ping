@@ -1,0 +1,10 @@
+PING 2607:fad8:4:6:4e8:49a6:84b4:e1f0(2607:fad8:4:6:4e8:49a6:84b4:e1f0) 56 data bytes
+
+--- 2607:fad8:4:6:4e8:49a6:84b4:e1f0 ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4182ms
+
+PING 2607:fad8:4:6:4e8:49a6:84b4:e1f0(2607:fad8:4:6:4e8:49a6:84b4:e1f0) 56 data bytes
+
+--- 2607:fad8:4:6:4e8:49a6:84b4:e1f0 ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4188ms
+

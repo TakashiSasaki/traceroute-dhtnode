@@ -1,0 +1,15 @@
+PING 2001:5b0:42c7:a988:d4c3:2c0f:b694:19ab(2001:5b0:42c7:a988:d4c3:2c0f:b694:19ab) 56 data bytes
+
+--- 2001:5b0:42c7:a988:d4c3:2c0f:b694:19ab ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4127ms
+
+PING 2001:5b0:42c7:a988:d4c3:2c0f:b694:19ab(2001:5b0:42c7:a988:d4c3:2c0f:b694:19ab) 56 data bytes
+
+--- 2001:5b0:42c7:a988:d4c3:2c0f:b694:19ab ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4135ms
+
+PING 2001:5b0:42c7:a988:d4c3:2c0f:b694:19ab(2001:5b0:42c7:a988:d4c3:2c0f:b694:19ab) 56 data bytes
+
+--- 2001:5b0:42c7:a988:d4c3:2c0f:b694:19ab ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4190ms
+

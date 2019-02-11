@@ -1,0 +1,40 @@
+PING 2001:41d0:303:4814::(2001:41d0:303:4814::) 56 data bytes
+64 bytes from 2001:41d0:303:4814::: icmp_seq=1 ttl=47 time=254 ms
+64 bytes from 2001:41d0:303:4814::: icmp_seq=2 ttl=47 time=254 ms
+64 bytes from 2001:41d0:303:4814::: icmp_seq=3 ttl=47 time=254 ms
+64 bytes from 2001:41d0:303:4814::: icmp_seq=4 ttl=47 time=254 ms
+64 bytes from 2001:41d0:303:4814::: icmp_seq=5 ttl=47 time=254 ms
+
+--- 2001:41d0:303:4814:: ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4005ms
+rtt min/avg/max/mdev = 254.450/254.601/254.720/0.559 ms
+PING 2001:41d0:303:4814::(2001:41d0:303:4814::) 56 data bytes
+64 bytes from 2001:41d0:303:4814::: icmp_seq=1 ttl=47 time=255 ms
+64 bytes from 2001:41d0:303:4814::: icmp_seq=2 ttl=47 time=254 ms
+64 bytes from 2001:41d0:303:4814::: icmp_seq=3 ttl=47 time=254 ms
+64 bytes from 2001:41d0:303:4814::: icmp_seq=4 ttl=47 time=254 ms
+64 bytes from 2001:41d0:303:4814::: icmp_seq=5 ttl=47 time=254 ms
+
+--- 2001:41d0:303:4814:: ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4006ms
+rtt min/avg/max/mdev = 254.451/254.845/255.873/0.526 ms
+PING 2001:41d0:303:4814::(2001:41d0:303:4814::) 56 data bytes
+64 bytes from 2001:41d0:303:4814::: icmp_seq=1 ttl=47 time=254 ms
+64 bytes from 2001:41d0:303:4814::: icmp_seq=2 ttl=47 time=254 ms
+64 bytes from 2001:41d0:303:4814::: icmp_seq=3 ttl=47 time=254 ms
+64 bytes from 2001:41d0:303:4814::: icmp_seq=4 ttl=47 time=254 ms
+64 bytes from 2001:41d0:303:4814::: icmp_seq=5 ttl=47 time=254 ms
+
+--- 2001:41d0:303:4814:: ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4000ms
+rtt min/avg/max/mdev = 254.392/254.650/254.958/0.603 ms
+PING 2001:41d0:303:4814::(2001:41d0:303:4814::) 56 data bytes
+64 bytes from 2001:41d0:303:4814::: icmp_seq=1 ttl=47 time=257 ms
+64 bytes from 2001:41d0:303:4814::: icmp_seq=2 ttl=47 time=254 ms
+64 bytes from 2001:41d0:303:4814::: icmp_seq=3 ttl=47 time=254 ms
+64 bytes from 2001:41d0:303:4814::: icmp_seq=4 ttl=47 time=254 ms
+64 bytes from 2001:41d0:303:4814::: icmp_seq=5 ttl=47 time=254 ms
+
+--- 2001:41d0:303:4814:: ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4006ms
+rtt min/avg/max/mdev = 254.255/255.062/257.191/1.250 ms
