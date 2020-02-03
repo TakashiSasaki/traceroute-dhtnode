@@ -1,8 +1,8 @@
-import opendht as dht
+import opendht
 import time
 import datetime
 
-node = dht.DhtRunner()
+node = opendht.DhtRunner()
 node.run()
 
 Range = 121
