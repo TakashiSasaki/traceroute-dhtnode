@@ -1,0 +1,8 @@
+14:19:07.793850 IP (tos 0x0, ttl 247, id 15837, offset 0, flags [none], proto ICMP (1), length 168)
+    111.118.196.23 > 133.71.3.62: ICMP time exceeded in-transit, length 148
+	IP (tos 0x0, ttl 2, id 15117, offset 0, flags [DF], proto UDP (17), length 540)
+    133.71.3.62.57998 > 103.231.91.115.7: UDP, length 512
+	MPLS extension v2, checksum 0xce55 (correct), length 12
+	  MPLS Stack Entry Object (1), Class-Type: 1, length 8
+	    label 64000, exp 0, [S], ttl 1
+
