@@ -43,7 +43,7 @@ icmp:
 	TMUX= tmux new-session -d -s $@
 	if [ $$? -eq 0 ]; then
 	  echo Created new session $@
-	  tmux send-keys -t $@  "tcpdump -i any -n -v -tt -G 86400 -w $@-%Y-%m-%dT%H:%M:%SZ.pcap icmp" C-m
+	  tmux send-keys -t $@  "tcpdump -i any -n -v -tt -G 86400 -z bzip2 -w $@-%Y-%m-%dT%H:%M:%SZ.pcap icmp" C-m
 	fi
 
 icmp6:
@@ -52,7 +52,7 @@ icmp6:
 	TMUX= tmux new-session -d -s $@
 	if [ $$? -eq 0 ]; then
 	  echo Created new session $@
-	  tmux send-keys -t $@  "tcpdump -i any -n -v -tt -G 86400 -w $@-%Y-%m-%dT%H:%M:%SZ.pcap icmp6" C-m
+	  tmux send-keys -t $@  "tcpdump -i any -n -v -tt -G 86400 -z bzip2 -w $@-%Y-%m-%dT%H:%M:%SZ.pcap icmp6" C-m
 	fi
 
 udp7:
@@ -60,7 +60,7 @@ udp7:
 	TMUX= tmux new-session -d -s $@
 	if [ $$? -eq 0 ]; then
 	  echo Created new session $@
-	  tmux send-keys -t $@  "tcpdump -i any -n -v -tt -G 86400 -w $@-%Y-%m-%dT%H:%M:%SZ.pcap udp port 7" C-m
+	  tmux send-keys -t $@  "tcpdump -i any -n -v -tt -G 86400 -z bzip2 -w $@-%Y-%m-%dT%H:%M:%SZ.pcap udp port 7" C-m
 	fi
 
 udp9:
@@ -68,7 +68,7 @@ udp9:
 	TMUX= tmux new-session -d -s $@
 	if [ $$? -eq 0 ]; then
 	  echo Created new session $@
-	  tmux send-keys -t $@  "tcpdump -i any -n -v -tt -G 86400 -w $@-%Y-%m-%dT%H:%M:%SZ.pcap udp port 9" C-m
+	  tmux send-keys -t $@  "tcpdump -i any -n -v -tt -G 86400 -z bzip2 -w $@-%Y-%m-%dT%H:%M:%SZ.pcap udp port 9" C-m
 	fi
 
 udp53:
@@ -76,7 +76,7 @@ udp53:
 	TMUX= tmux new-session -d -s $@
 	if [ $$? -eq 0 ]; then
 	  echo Created new session $@
-	  tmux send-keys -t $@  "tcpdump -i any -n -v -tt -G 86400 -w $@-%Y-%m-%dT%H:%M:%SZ.pcap udp port 53" C-m
+	  tmux send-keys -t $@  "tcpdump -i any -n -v -tt -G 86400 -z bzip2 -w $@-%Y-%m-%dT%H:%M:%SZ.pcap udp port 53" C-m
 	fi
 
 udp4222:
@@ -84,14 +84,14 @@ udp4222:
 	TMUX= tmux new-session -d -s $@
 	if [ $$? -eq 0 ]; then
 	  echo Created new session $@
-	  tmux send-keys -t $@  "tcpdump -i any -n -v -tt -G 86400 -w $@-%Y-%m-%dT%H:%M:%SZ.pcap udp port 4222" C-m
+	  tmux send-keys -t $@  "tcpdump -i any -n -v -tt -G 86400 -z bzip2 -w $@-%Y-%m-%dT%H:%M:%SZ.pcap udp port 4222" C-m
 	fi
 tcp7:
 	tmux kill-session -t $@
 	TMUX= tmux new-session -d -s $@
 	if [ $$? -eq 0 ]; then
 	  echo Created new session $@
-	  tmux send-keys -t $@  "tcpdump -i any -n -v -tt -G 86400 -w $@-%Y-%m-%dT%H:%M:%SZ.pcap tcp port 7 and 'tcp[13] & 2' != 0" C-m
+	  tmux send-keys -t $@  "tcpdump -i any -n -v -tt -G 86400 -z bzip2 -w $@-%Y-%m-%dT%H:%M:%SZ.pcap tcp port 7 and 'tcp[13] & 2' != 0" C-m
 	fi
 
 tcp9:
@@ -99,7 +99,7 @@ tcp9:
 	TMUX= tmux new-session -d -s $@
 	if [ $$? -eq 0 ]; then
 	  echo Created new session $@
-	  tmux send-keys -t $@  "tcpdump -i any -n -v -tt -G 86400 -w $@-%Y-%m-%dT%H:%M:%SZ.pcap tcp port 9 and 'tcp[13] & 2' != 0" C-m
+	  tmux send-keys -t $@  "tcpdump -i any -n -v -tt -G 86400 -z bzip2 -w $@-%Y-%m-%dT%H:%M:%SZ.pcap tcp port 9 and 'tcp[13] & 2' != 0" C-m
 	fi
 
 tcp80:
@@ -107,7 +107,7 @@ tcp80:
 	TMUX= tmux new-session -d -s $@
 	if [ $$? -eq 0 ]; then
 	  echo Created new session $@
-	  tmux send-keys -t $@  "tcpdump -i any -n -v -tt -G 86400 -w $@-%Y-%m-%dT%H:%M:%SZ.pcap tcp port 80 and 'tcp[13] & 2' != 0" C-m
+	  tmux send-keys -t $@  "tcpdump -i any -n -v -tt -G 86400 -z bzip2 -w $@-%Y-%m-%dT%H:%M:%SZ.pcap tcp port 80 and 'tcp[13] & 2' != 0" C-m
 	fi
 
 tcp443:
@@ -115,7 +115,7 @@ tcp443:
 	TMUX= tmux new-session -d -s $@
 	if [ $$? -eq 0 ]; then
 	  echo Created new session $@
-	  tmux send-keys -t $@  "tcpdump -i any -n -v -tt -G 86400 -w $@-%Y-%m-%dT%H:%M:%SZ.pcap tcp port 443 and 'tcp[13] & 2' != 0" C-m
+	  tmux send-keys -t $@  "tcpdump -i any -n -v -tt -G 86400 -z bzip2 -w $@-%Y-%m-%dT%H:%M:%SZ.pcap tcp port 443 and 'tcp[13] & 2' != 0" C-m
 	fi
 
 tmux-bash-window:
