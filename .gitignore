@@ -2,3 +2,5 @@
 .45a5579ca03b215fcaaf287b2fc68158
 __pycache__/
 dht*.log
+*.dht4
+*.dht6
