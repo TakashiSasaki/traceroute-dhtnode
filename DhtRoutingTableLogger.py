@@ -2,22 +2,35 @@ import opendht
 import time
 import datetime
 
-node = opendht.DhtRunner()
-node.run()
+class Dht():
+    __slots__ = ["node"]
 
-Range = 121
-Sleep = 600
+    def __init__(self, bootstrapHost="bootstrap.ring.cx", bootstrapPort="4222"):
+        self.node = opendht.DhtRunner()
+        print(type(self.node))
+        self.node.run()
+        self.node.bootstrap(bootstrapHost, bootstrapPort)
 
-node.bootstrap("bootstrap.ring.cx", "4222")
+    def save4(self):
+        #now = datetime.datetime.now()
+        dht4 = self.node.getRoutingTablesLog(2)
+        fileName = str(int(time.time())) + ".dht4"
+        with open(fileName, "w") as f:
+          f.writelines(dht4)
 
-for i in range(Range):
-    list = node.getRoutingTablesLog(2)
+    def save6(self):
+        #now = datetime.datetime.now()
+        dht6 = self.node.getRoutingTablesLog(10)
+        fileName = str(int(time.time())) + ".dht6"
+        with open(fileName, "w") as f:
+          f.writelines(dht6)
 
-    now = datetime.datetime.now()
-
-    fileName = "/home/pi/python/exp/OpenDHT/v4/{0:%Y%m%d_%H%M%S}".format(now) + ".txt"
-
-    with open(fileName, "w") as f:
-       f.writelines(list + "\n")
-
-    time.sleep(Sleep)
+if __name__ == "__main__":
+    dht = Dht()
+    time.sleep(10)
+    dht.save4()
+    dht.save6()
+    while True:
+        time.sleep(600)
+        dht.save4()
+        dht.save6()
