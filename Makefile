@@ -35,7 +35,7 @@ dhtnode:
 	fi
 	echo Choose the session by "'tmux choose-session'".
 
-tcpdump: icmp icmp6 udp7 udp9 udp53 tcp7 tcp9 tcp80 tcp443
+tcpdump: icmp icmp6 udp7 udp9 udp53 tcp7 tcp9 tcp80 tcp443 tcp4222
 
 icmp:
 	@
