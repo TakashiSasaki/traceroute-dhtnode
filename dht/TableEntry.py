@@ -7,6 +7,8 @@ sampleTableEntry4 = "Node 7e207169823cfb810e334815d6c30e3054975b96 78.200.117.39
 sampleTableEntry5 = "Node 158ee07d251e1fbc1dd95a8cb0f88d771d838e5a 192.252.140.235:4235 updated: never"
 sampleTableEntry6 = "Node 0b7fb4343df5d0dd526be47ae9f90c7086d04a8d [2607:fad8:4:6:dd0c:1922:7704:6a45]:8422 updated: 595 s ago, replied: 2.39e+03 s ago [good]"
 sampleTableEntry7 = "Node 3c13edb6c848c78e8189fc432f210a58155856de [2001:41d0:403:3398::]:55063 updated: 424 ms ago, replied: 2.4e+03 s ago [good]"
+class TableEntryException(RuntimeError):
+    pass
 
 class TableEntry():
     __slots__ = ["tableEntry", "remains"]
@@ -24,6 +26,7 @@ class TableEntry():
         if self.remains:
             self.matchRemains()
             return lines[1:]
+        raise TableEntryException(lines[0])
 
     def match4(self,line):
         m = re.match("^\s*Node\s([0-9a-f]+)\s([0-9.]+):([0-9]+)\s(.*)$", line)
