@@ -13,17 +13,23 @@ class Dht():
 
     def save4(self):
         #now = datetime.datetime.now()
-        dht4 = self.node.getRoutingTablesLog(2)
         fileName = str(int(time.time())) + ".dht4"
-        with open(fileName, "w") as f:
-          f.writelines(dht4)
+        f = open(fileName, "w")
+        f.write("getNodeId : " + self.node.getNodeId().decode())
+        f.write("\n")
+        dht4 = self.node.getRoutingTablesLog(2)
+        f.writelines(dht4)
+        f.close()
 
     def save6(self):
         #now = datetime.datetime.now()
-        dht6 = self.node.getRoutingTablesLog(10)
         fileName = str(int(time.time())) + ".dht6"
-        with open(fileName, "w") as f:
-          f.writelines(dht6)
+        f = open(fileName, "w")
+        f.write("getNodeId : " + self.node.getNodeId().decode())
+        f.write("\n")
+        dht6 = self.node.getRoutingTablesLog(10)
+        f.writelines(dht6)
+        f.close()
 
 if __name__ == "__main__":
     dht = Dht()
