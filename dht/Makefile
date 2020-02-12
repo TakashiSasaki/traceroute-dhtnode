@@ -1,5 +1,28 @@
 #!/usr/bin/make -f 
 .ONESHELL:
+.PHONY: dht
+
+help:
+	# make help
+	# make dht
+	# make test
+
+test: test-matchTableHeaderLine
+	
+test-matchTableHeaderLine:
+	python3 matchTableHeaderLine.py
+
+test-parseDht4:
+	python3 parseDht4.py 1581476326.dht4
+
+%.json: %.dht4
+	python3 parseDht4.py <$< >$@
+	#
+	
+%.json: %.dht6
+	python3 parseDht6.py <$< >$@
+	#	
+
 dht:
 	@
 	tmux kill-session -t $@
