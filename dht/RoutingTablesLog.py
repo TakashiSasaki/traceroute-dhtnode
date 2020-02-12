@@ -2,24 +2,28 @@
 import datetime,sys,re
 from RoutingTables import RoutingTables
 
-class RoutingTablesLog(RoutingTables):
-    __slots__ = ["awareTimestamp"]
+class RoutingTablesLog():
+    __slots__ = ["awareTimestamp", "routingTables"]
 
     def __init__(self, filename):
-        m = re.match(".*([0-9]+).*", filename)
+        m = re.match("([0-9]+).*", filename)
         if m is None:
-            raise RuntimeError("file name should contain UNIX epoch as a part of it.")
-        awareTimestamp = datetime.datetime.fromtimestamp(int(m[1]), datetime.timezone.utc)
+            raise RuntimeError("file name should begin with UNIX epoch as a part of it.")
+        print(m[1])
+        second = int(m[1])
+        assert(second > 1500000000)
+        self.awareTimestamp = datetime.datetime.fromtimestamp(second, datetime.timezone.utc)
+        assert(self.awareTimestamp.tzinfo is not None)
         f = open(filename, "r")
         lines = f.readlines()
-        routingTables = RoutingTables(lines)
+        self.routingTables = RoutingTables()
+        self.routingTables.read(lines)
 
-        if awareTimestamp:
-            if awareTimestamp.tzinfo is None:
-                raise RuntimeError("timestamp should be aware datetime.datetime object.")
-        RoutingTables.__init__(self, lines)
+    def __dict__(self):
+        return {"awareTimestamp": self.awareTimestamp,
+                "routingTables": self.routingTables}
 
 if __name__ == "__main__":
     routingTablesLog = RoutingTablesLog(sys.argv[1])
-    print(routingTablesLog.nodeId)
+    print(routingTablesLog.__dict__())
 

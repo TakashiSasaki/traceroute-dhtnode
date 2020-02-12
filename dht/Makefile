@@ -7,7 +7,7 @@ help:
 	# make dht
 	# make test
 
-test: test-TableEntry test-TableHeader test-RoutingTables 
+test: test-TableEntry test-TableHeader test-RoutingTables  test-RoutingTablesLog
 
 test-RoutingTable:
 	python3 RoutingTable.py
@@ -17,7 +17,7 @@ test-TableHeader:
 
 test-RoutingTablesLog:
 	python3 RoutingTablesLog.py 1581498637.dht4
-	#python3 RoutingTablesLog.py 1581498637.dht6
+	python3 RoutingTablesLog.py 1581498637.dht6
 
 test-RoutingTables:
 	python3 RoutingTables.py 1581498637.dht4
