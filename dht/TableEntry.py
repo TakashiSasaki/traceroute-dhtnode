@@ -66,9 +66,15 @@ class TableEntry():
     def __dict__(self):
         return self.tableEntry
 
+class TableEntryEncoder(json.JSONEncoder):
+    def default(self, obj):
+        if isinstance(obj, TableEntry):
+            return obj.tableEntry
+        return json.JSONEncoder.default(self, obj)
 
 if __name__ == "__main__":
     tableEntry1 = TableEntry(sampleTableEntry1)
+    print(json.dumps(tableEntry1, indent=2, cls=TableEntryEncoder))
     print(tableEntry1)
     tableEntry2 = TableEntry(sampleTableEntry2)
     print(tableEntry2)
