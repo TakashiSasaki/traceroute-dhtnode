@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-import sys, io, json
+import sys, io, json, re
 import datetime
 from matchTableHeaderLine import matchTableHeaderLine
 from matchTableEntryLine import matchTableEntryLine
@@ -24,20 +24,17 @@ def serialize(o):
     raise TypeError ("Type %s not serializable" % type(o))
 
 class RoutingTables():
-    __slots__ = ["tables", "id", "awareTimestamp"]
-    def __init__(self, lines, id=None, awareTimestamp = None):
-        if id  and isinstance(id, str):
-            raise Error("id should be a string.")
-        self.id = id
-        if awareTimestamp:
-            if awareTimestamp.tzinfo is None:
-                raise Error("timestamp should be aware datetime.datetime object.")
-        self.awareTimestamp = awareTimestamp
-        self.tables= []
-
+    __slots__ = ["tables", "nodeId"]
+    def __init__(self, lines):
+        self.tables = []
         i = 0
         while i < len(lines):
             line = lines[i]
+            m = re.match("\s*getNodeId.*:[^0-9a-f]*([0-9a-f]+).*", line)
+            if m:
+                self.nodeId = m[1]
+                i += 1
+                continue
             o = matchTableHeaderLine(line)
             if o is None:
                 raise RuntimeError("expecting table header line while got : " + line)
