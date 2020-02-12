@@ -7,7 +7,7 @@ help:
 	# make dht
 	# make test
 
-test: test-matchTableEntryLine test-matchTableHeaderLine test-RoutingTables test-RoutingTablesLog
+test: test-TableEntry test-matchTableHeaderLine test-RoutingTables test-RoutingTablesLog
 test-RoutingTablesLog:
 	python3 RoutingTablesLog.py 1581498637.dht4
 	#python3 RoutingTablesLog.py 1581498637.dht6
@@ -18,8 +18,8 @@ test-RoutingTables:
 test-matchTableEntryLine:
 	python3 matchTableEntryLine.py
 	
-test-matchTableHeaderLine:
-	python3 matchTableHeaderLine.py
+test-TableEntry:
+	python3 TableEntry.py
 
 test-parseDht4:
 	python3 parseDht4.py 1581476326.dht4
