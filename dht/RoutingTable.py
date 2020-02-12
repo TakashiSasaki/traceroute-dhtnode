@@ -10,6 +10,7 @@ class RoutingTable():
         self.tableEntries = []
 
     def read(self, lines):
+        assert(isinstance(lines, list))
         lines = self.tableHeader.read(lines)
         while len(lines) > 0:
             try:
@@ -18,8 +19,8 @@ class RoutingTable():
                 self.tableEntries.append(tableEntry)
                 continue
             except TableEntryException as e:
-                print(e)
                 return lines
+        return lines
 
 class RoutingTableEncoder(json.JSONEncoder):
     def default(self, obj):
