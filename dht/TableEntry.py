@@ -68,7 +68,7 @@ class TableEntry():
         if m4 is None:
             self.tableEntry["good"] = None
         else:
-            self.tableEntry["expired"] = True
+            self.tableEntry["good"] = True
 
     def __dict__(self):
         return self.tableEntry
