@@ -5,21 +5,25 @@ sampleTableEntry2 = "Node 78831ce2e065e249e8d82a95d62be8a4b651573d 51.254.39.157
 sampleTableEntry3 = "Node 7c24ea4712daa2d1133490d33b18eaf180c0a1e0 58.176.208.142:5662 updated: 6.47 s ago, replied: 1.06e+03 s ago [good]"
 sampleTableEntry4 = "Node 7e207169823cfb810e334815d6c30e3054975b96 78.200.117.39:8566 updated: 827 s ago"
 sampleTableEntry5 = "Node 158ee07d251e1fbc1dd95a8cb0f88d771d838e5a 192.252.140.235:4235 updated: never"
+sampleTableEntry6 = "Node 0b7fb4343df5d0dd526be47ae9f90c7086d04a8d [2607:fad8:4:6:dd0c:1922:7704:6a45]:8422 updated: 595 s ago, replied: 2.39e+03 s ago [good]"
+sampleTableEntry7 = "Node 3c13edb6c848c78e8189fc432f210a58155856de [2001:41d0:403:3398::]:55063 updated: 424 ms ago, replied: 2.4e+03 s ago [good]"
 
 class TableEntry():
     __slots__ = ["tableEntry", "remains"]
 
-    def __init__(self, line):
+    def __init__(self):
         self.tableEntry = dict()
         self.remains = None
-        self.match4(line)
+
+    def read(self, lines):
+        self.match4(lines[0])
         if self.remains:
             self.matchRemains()
-            return
-        self.match6(line)
+            return lines[1:]
+        self.match6(lines[0])
         if self.remains:
             self.matchRemains()
-            return
+            return lines[1:]
 
     def match4(self,line):
         m = re.match("^\s*Node\s([0-9a-f]+)\s([0-9.]+):([0-9]+)\s(.*)$", line)
@@ -73,12 +77,25 @@ class TableEntryEncoder(json.JSONEncoder):
         return json.JSONEncoder.default(self, obj)
 
 if __name__ == "__main__":
-    tableEntry1 = TableEntry(sampleTableEntry1)
-    print(json.dumps(tableEntry1, indent=2, cls=TableEntryEncoder))
-    print(tableEntry1)
-    tableEntry2 = TableEntry(sampleTableEntry2)
-    print(tableEntry2)
-    tableEntry3 = TableEntry(sampleTableEntry3)
-    print(tableEntry3)
-    tableEntry4 = TableEntry(sampleTableEntry4)
-    print(tableEntry4)
+    tableEntry1 = TableEntry()
+    tableEntry1.read([sampleTableEntry1])
+    print(json.dumps(tableEntry1, cls=TableEntryEncoder))
+    tableEntry2 = TableEntry()
+    tableEntry2.read([sampleTableEntry2])
+    print(json.dumps(tableEntry2, cls=TableEntryEncoder))
+    tableEntry3 = TableEntry()
+    tableEntry3.read([sampleTableEntry3])
+    print(json.dumps(tableEntry3, cls=TableEntryEncoder))
+    tableEntry4 = TableEntry()
+    tableEntry4.read([sampleTableEntry4])
+    print(json.dumps(tableEntry4, cls=TableEntryEncoder))
+    tableEntry5 = TableEntry()
+    tableEntry5.read([sampleTableEntry5])
+    print(json.dumps(tableEntry5, cls=TableEntryEncoder))
+    tableEntry6 = TableEntry()
+    tableEntry6.read([sampleTableEntry6])
+    print(json.dumps(tableEntry6, cls=TableEntryEncoder))
+    tableEntry7 = TableEntry()
+    tableEntry7.read([sampleTableEntry7])
+    print(json.dumps(tableEntry7, cls=TableEntryEncoder))
+
