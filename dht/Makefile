@@ -7,7 +7,10 @@ help:
 	# make dht
 	# make test
 
-test: test-matchTableHeaderLine
+test: test-matchTableEntryLine test-matchTableHeaderLine
+
+test-matchTableEntryLine:
+	python3 matchTableEntryLine.py
 	
 test-matchTableHeaderLine:
 	python3 matchTableHeaderLine.py
