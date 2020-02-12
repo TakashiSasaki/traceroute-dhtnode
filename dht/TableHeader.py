@@ -1,7 +1,9 @@
-sampleTableHeaderLine = "7b00000000000000000000000000000000000000 count: 8 updated: 68.3 s ago"
+sampleTableHeaderLine = "7b00000000000000000000000000000000000000 count: 8 updated: 68.3 s ago\n"
 import re,json
 
 class TableHeaderException(RuntimeError):
+    #def __init__(self, message):
+    #    RuntimeError.__init__(self, message)
     pass
 
 class TableHeader():
@@ -11,6 +13,7 @@ class TableHeader():
         self.tableHeader = None
 
     def read(self, lines):
+        assert(isinstance(lines, list))
         m = re.match("^\s*([0-9a-f]+)\scount:\s([0-9]+)\supdated:\s([0-9.]+)\ss\sago", lines[0])
         if m is None:
             raise TableHeaderException(lines[0])
