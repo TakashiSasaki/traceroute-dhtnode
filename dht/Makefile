@@ -9,6 +9,9 @@ help:
 
 test: test-TableEntry test-TableHeader test-RoutingTables test-RoutingTablesLog
 
+test-RoutingTable:
+	python3 RoutingTable.py
+	
 test-TableHeader:
 	python3 TableHeader.py
 
