@@ -7,7 +7,10 @@ help:
 	# make dht
 	# make test
 
-test: test-matchTableEntryLine test-matchTableHeaderLine
+test: test-matchTableEntryLine test-matchTableHeaderLine test-RoutingTables
+
+test-RoutingTables:
+	python3 RoutingTables.py
 
 test-matchTableEntryLine:
 	python3 matchTableEntryLine.py
