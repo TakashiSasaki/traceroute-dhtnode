@@ -9,6 +9,9 @@ help:
 
 test: test-TableEntry test-TableHeader test-RoutingTables  test-RoutingTablesLog
 
+test-dht:
+	python3 dht.py --dry-run
+
 test-RoutingTable:
 	python3 RoutingTable.py
 	
@@ -42,8 +45,9 @@ dht:
 	tmux kill-session -t $@
 	TMUX= tmux new-session -d -s $@
 	if [ $$? -eq 0 ]; then
+	  -mkdir dht
 	  echo Created new session $@
-	  tmux send-keys -t $@  "python3 dht.py" C-m
+	  tmux send-keys -t $@  "python3 dht.py -c 0 -i 1800 -s dht" C-m
 	fi
 
 test-ipv6:
