@@ -1,0 +1,16 @@
+{
+  "bookmarks": [
+    {
+      "url": "https://www1.example.com",
+      "title": "Title1",
+      "description": "Description1",
+      "datetime": "2020-01-01T11:11:11Z"
+    },
+    {
+      "url": "https://www2.example.com",
+      "title": "Title2",
+      "description": "Description2",
+      "datetime": "2020-02-02T22:22:22Z"
+    }
+  ]
+}
