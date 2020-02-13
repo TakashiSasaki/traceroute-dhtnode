@@ -9,6 +9,10 @@ help:
 
 test: test-TableEntry test-TableHeader test-RoutingTables  test-RoutingTablesLog
 
+test-RoutingTables:
+	python3 RoutingTables.py dht/1581498637.dht4 | jq
+	python3 RoutingTables.py dht/1581498637.dht6 | jq
+
 test-dht:
 	python3 dht.py --dry-run
 
@@ -19,18 +23,15 @@ test-TableHeader:
 	python3 TableHeader.py
 
 test-RoutingTablesLog:
-	python3 RoutingTablesLog.py 1581498637.dht4
-	python3 RoutingTablesLog.py 1581498637.dht6
+	python3 RoutingTablesLog.py dht/1581498637.dht4
+	python3 RoutingTablesLog.py dht/1581498637.dht6
 
-test-RoutingTables:
-	python3 RoutingTables.py 1581498637.dht4
-	python3 RoutingTables.py 1581498637.dht6
 	
 test-TableEntry:
 	python3 TableEntry.py
 
 test-parseDht4:
-	python3 parseDht4.py 1581476326.dht4
+	python3 parseDht4.py dht/1581476326.dht4
 
 %.json: %.dht4
 	python3 parseDht4.py <$< >$@
