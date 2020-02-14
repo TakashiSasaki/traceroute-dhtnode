@@ -8,6 +8,8 @@ help:
 	# make test
 
 test: test-TableEntry test-TableHeader test-RoutingTables  test-RoutingTablesLog
+test-HelloLogger:
+	python3 HelloLogger.py
 
 test-CheckEpoch:
 	python3 CheckEpoch.py
