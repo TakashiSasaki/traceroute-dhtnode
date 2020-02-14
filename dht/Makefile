@@ -9,6 +9,14 @@ help:
 
 test: test-TableEntry test-TableHeader test-RoutingTables  test-RoutingTablesLog
 
+test-CheckEpoch:
+	python3 CheckEpoch.py
+
+test-RoutingTablesLog:
+	cd dht
+	python3 ../RoutingTablesLog.py 1581655166.dht4
+	python3 ../RoutingTablesLog.py 1581655166.dht6
+
 test-RoutingTables:
 	python3 RoutingTables.py dht/1581498637.dht4 | jq
 	python3 RoutingTables.py dht/1581498637.dht6 | jq
@@ -21,10 +29,6 @@ test-RoutingTable:
 	
 test-TableHeader:
 	python3 TableHeader.py
-
-test-RoutingTablesLog:
-	python3 RoutingTablesLog.py dht/1581498637.dht4
-	python3 RoutingTablesLog.py dht/1581498637.dht6
 
 	
 test-TableEntry:
