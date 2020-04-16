@@ -21,20 +21,6 @@ choose:
 	@
 	tmux choose-session
 
-dhtnode: 
-	@
-	tmux kill-session -t $@
-	TMUX= tmux new-session -d -s $@
-	if [ $$? -eq 0 ]; then
-	  echo Created new session $@
-	  echo Running dhtnode with bootstrap.ring.cx as a bootstrap node.
-	  tmux send-keys -t $@ "dhtnode -p 4222 -b bootstrap.ring.cx:4222" C-m
-	  echo Waiting five seconds for initial routing table.
-	  sleep 5
-	  tmux send-keys -t $@ "lr" C-m
-	fi
-	echo Choose the session by "'tmux choose-session'".
-
 tcpdump: icmp icmp6 udp7 udp9 udp53 udp4222 tcp7 tcp9 tcp80 tcp443
 
 icmp:
