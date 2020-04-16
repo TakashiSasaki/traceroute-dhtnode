@@ -3,6 +3,7 @@ set -u
 SESSION_NAME=dhtnode
 tmux kill-session -t $SESSION_NAME
 sett -e
+dhtnode --version
 TMUX= tmux new-session -d -s $SESSION_NAME
 if [ $? -eq 0 ]; then
   echo Created new session $SESSION_NAME
